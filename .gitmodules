@@ -1,15 +1,20 @@
 [submodule "before-our-time-client"]
 	path = before-our-time-client
 	url = git@github.com:delphian/before-our-time-client.git
+	branch = master
 [submodule "before-our-time-models"]
 	path = before-our-time-models
 	url = git@github.com:delphian/before-our-time-models.git
+	branch = master
 [submodule "before-our-time-business"]
 	path = before-our-time-business
 	url = git@github.com:delphian/before-our-time-business.git
+	branch = master
 [submodule "before-our-time-web-api"]
 	path = before-our-time-web-api
 	url = git@github.com:delphian/before-our-time-web-api.git
+	branch = master
 [submodule "before-our-time-repository"]
 	path = before-our-time-repository
 	url = git@github.com:delphian/before-our-time-repository.git
+	branch = master
