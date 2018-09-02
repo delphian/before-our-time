@@ -10,7 +10,3 @@ cd before-our-time-business
 dotnet clean
 dotnet build
 cd ..
-cd before-our-time-web-api
-dotnet clean
-dotnet build
-cd ..
