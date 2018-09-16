@@ -6,10 +6,19 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BeforeOurTime.MobileApp", "before-our-time-client\BeforeOurTime.MobileApp\BeforeOurTime.MobileApp.shproj", "{7AB24A06-B419-48B0-B001-C8754A67B86B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeforeOurTime.MobileApp.Android", "before-our-time-client\BeforeOurTime.MobileApp.Android\BeforeOurTime.MobileApp.Android.csproj", "{BC6AD154-8CAE-4C00-A87B-E12C024FBD67}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B835941F-C2E3-48F4-A7E8-1E044A831036} = {B835941F-C2E3-48F4-A7E8-1E044A831036}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeforeOurTime.MobileApp.iOS", "before-our-time-client\BeforeOurTime.MobileApp.iOS\BeforeOurTime.MobileApp.iOS.csproj", "{F8583021-E7FA-4A54-BE9A-CF251276FA3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B835941F-C2E3-48F4-A7E8-1E044A831036} = {B835941F-C2E3-48F4-A7E8-1E044A831036}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeforeOurTime.MobileApp.UWP", "before-our-time-client\BeforeOurTime.MobileApp.UWP\BeforeOurTime.MobileApp.UWP.csproj", "{990DAC1A-0FEF-4860-9320-ACC9BAE78BD4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B835941F-C2E3-48F4-A7E8-1E044A831036} = {B835941F-C2E3-48F4-A7E8-1E044A831036}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeforeOurTime.Models", "before-our-time-models\BeforeOurTime.Models.csproj", "{08DB5DEF-7656-43AF-BAFD-3C49F61AFCA2}"
 EndProject
