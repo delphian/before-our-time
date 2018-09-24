@@ -10,7 +10,3 @@
 	path = before-our-time-business
 	url = git@github.com:delphian/before-our-time-business.git
 	branch = master
-[submodule "before-our-time-repository"]
-	path = before-our-time-repository
-	url = git@github.com:delphian/before-our-time-repository.git
-	branch = master
