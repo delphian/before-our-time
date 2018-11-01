@@ -15,17 +15,17 @@ rm -Rf obj
 rm -Rf bin
 dotnet clean
 dotnet build
-cd ..
+cd ../..
 cd before-our-time-client/BeforeOurTime.MobileApp.UWP
 rm -Rf obj
 rm -Rf bin
 dotnet clean
 dotnet build
-cd ..
+cd ../..
 cd before-our-time-client/BeforeOurTime.MobileApp.iOS
 rm -Rf obj
 rm -Rf bin
 dotnet clean
 dotnet build
-cd ..
+cd ../..
 
