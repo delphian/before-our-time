@@ -1,0 +1,363 @@
+{
+    "id": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+    "type": 100,
+    "parentId": null,
+    "childrenIds": [
+      "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+      "779a3a47-3048-4528-df3c-08d63af92e75",
+      "d62e0bef-2948-4979-df40-08d63af92e75",
+      "47d86b50-480c-497b-df43-08d63af92e75",
+      "b6cad293-39c7-441f-df46-08d63af92e75"
+    ],
+    "terminalId": null,
+    "data": [
+      {
+        "name": "Brave New World",
+        "defaultLocationId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+        "id": "0f290372-6812-4eba-6f6c-08d63af92e80",
+        "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.GameData",
+        "dataItemId": "f4212bfe-ef65-4632-df2b-08d63af92e75"
+      }
+    ],
+    "children": [
+      {
+        "id": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+        "type": 200,
+        "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+        "childrenIds": [
+          "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
+          "26267c0a-d195-4daa-df3f-08d63af92e75",
+          "f7bd540f-d9a4-4c3d-df49-08d63af92e75",
+          "fd8e18b0-1d17-4bc7-c51c-08d63f95551f"
+        ],
+        "terminalId": null,
+        "data": [
+          {
+            "id": "e370301f-2b91-43a0-9a30-08d63af92e86",
+            "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+            "dataItemId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+            "name": "A Dark Void",
+            "description": "Cool mists and dark shadows shroud everything in this place. Straining your eyes does little to resolve the amorphous blobs that are circulating about. The oppresive silence is occationaly puncuated by a distressed weeping or soft sob. A chill runs through your blood when you realise these forms may have once been human. The smell of rain and rotting wood pains your nose while the occational drip of water tickles the top of skulls both real and imagined. Any attempt to navigate in this damp cavern causes disorientation."
+          }
+        ],
+        "children": [
+          {
+            "id": "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
+            "type": 300,
+            "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+            "childrenIds": [],
+            "terminalId": null,
+            "data": [
+              {
+                "name": "A Bright Light",
+                "description": "The warm glow encircles your feet",
+                "id": "f488b628-3770-4ed7-b03a-08d63c37df4d",
+                "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+                "dataItemId": "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
+                "destinationLocationId": "779a3a47-3048-4528-df3c-08d63af92e75",
+                "time": 0,
+                "effort": 0
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "26267c0a-d195-4daa-df3f-08d63af92e75",
+            "type": 400,
+            "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+            "childrenIds": [],
+            "terminalId": null,
+            "data": [
+              {
+                "id": "1650928c-5bdf-4d85-fc63-08d63af92ede",
+                "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
+                "dataItemId": "26267c0a-d195-4daa-df3f-08d63af92e75",
+                "temporary": true,
+                "name": "Ghost_YVBH",
+                "description": "A brave new player"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f7bd540f-d9a4-4c3d-df49-08d63af92e75",
+            "type": 400,
+            "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+            "childrenIds": [],
+            "terminalId": null,
+            "data": [
+              {
+                "id": "fd8ade9e-9dec-46d6-fc64-08d63af92ede",
+                "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
+                "dataItemId": "f7bd540f-d9a4-4c3d-df49-08d63af92e75",
+                "temporary": true,
+                "name": "Ghost_B5PW",
+                "description": "A brave new player"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "fd8e18b0-1d17-4bc7-c51c-08d63f95551f",
+            "type": 400,
+            "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+            "childrenIds": [],
+            "terminalId": null,
+            "data": [
+              {
+                "id": "ed33ab11-266c-47a9-7d78-08d63f955520",
+                "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
+                "dataItemId": "fd8e18b0-1d17-4bc7-c51c-08d63f95551f",
+                "temporary": true,
+                "name": "Ghost_93MY",
+                "description": "A brave new player"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "779a3a47-3048-4528-df3c-08d63af92e75",
+        "type": 200,
+        "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+        "childrenIds": [
+          "9fae857c-0fc9-4f29-df3d-08d63af92e75",
+          "c85ba6d3-d68f-43fa-df42-08d63af92e75",
+          "4cf67fc0-1bae-445b-df45-08d63af92e75"
+        ],
+        "terminalId": null,
+        "data": [
+          {
+            "id": "76e61c32-98f9-44b7-9a31-08d63af92e86",
+            "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+            "dataItemId": "779a3a47-3048-4528-df3c-08d63af92e75",
+            "name": "Warm Forest Clearing",
+            "description": "A large grassy area has been cleared from the surrounding forest. Only a few small saplings compete with the yellow and blue flowers peppering the green floor. The smell of freshly cut folliage fills the air. The tail of a squirrel makes random and unpredictable appearances through thicker portions of brush."
+          }
+        ],
+        "children": [
+          {
+            "id": "9fae857c-0fc9-4f29-df3d-08d63af92e75",
+            "type": 300,
+            "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
+            "childrenIds": [],
+            "terminalId": null,
+            "data": [
+              {
+                "name": "A Black Darkness",
+                "description": "A cold void encircles your feet",
+                "id": "b3dddaf5-3b28-423c-b039-08d63c37df4d",
+                "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+                "dataItemId": "9fae857c-0fc9-4f29-df3d-08d63af92e75",
+                "destinationLocationId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+                "time": 0,
+                "effort": 0
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "c85ba6d3-d68f-43fa-df42-08d63af92e75",
+            "type": 300,
+            "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
+            "childrenIds": [],
+            "terminalId": null,
+            "data": [
+              {
+                "name": "Rocks and Boulders",
+                "description": "Several large boulders occupy the eastern clearing",
+                "id": "4b38c89b-0bf5-43b7-b03c-08d63c37df4d",
+                "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+                "dataItemId": "c85ba6d3-d68f-43fa-df42-08d63af92e75",
+                "destinationLocationId": "d62e0bef-2948-4979-df40-08d63af92e75",
+                "time": 0,
+                "effort": 0
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4cf67fc0-1bae-445b-df45-08d63af92e75",
+            "type": 300,
+            "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
+            "childrenIds": [],
+            "terminalId": null,
+            "data": [
+              {
+                "name": "Faint Northern Path",
+                "description": "Several felled trees make room for a path to the north",
+                "id": "5f7e8b70-763e-451e-b03e-08d63c37df4d",
+                "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+                "dataItemId": "4cf67fc0-1bae-445b-df45-08d63af92e75",
+                "destinationLocationId": "47d86b50-480c-497b-df43-08d63af92e75",
+                "time": 0,
+                "effort": 0
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "d62e0bef-2948-4979-df40-08d63af92e75",
+        "type": 200,
+        "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+        "childrenIds": [
+          "3298321f-894a-4515-df3a-08d63af92e75",
+          "37da284a-0cbd-4ea5-df41-08d63af92e75"
+        ],
+        "terminalId": null,
+        "data": [
+          {
+            "id": "9b4fa630-0810-4667-9a32-08d63af92e86",
+            "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+            "dataItemId": "d62e0bef-2948-4979-df40-08d63af92e75",
+            "name": "Rocks and Boulders",
+            "description": "Several large boulders and dozens of large stones have been scattered in relative proximity to each other. With patience many small reptiles could be seen scurrying between and under the protective rock."
+          }
+        ],
+        "children": [
+          {
+            "id": "3298321f-894a-4515-df3a-08d63af92e75",
+            "type": 400,
+            "parentId": "d62e0bef-2948-4979-df40-08d63af92e75",
+            "childrenIds": [],
+            "terminalId": null,
+            "data": [
+              {
+                "id": "5dcbe3a1-ce0d-49d8-fc61-08d63af92ede",
+                "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
+                "dataItemId": "3298321f-894a-4515-df3a-08d63af92e75",
+                "temporary": true,
+                "name": "Delphian",
+                "description": "The timid"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "37da284a-0cbd-4ea5-df41-08d63af92e75",
+            "type": 300,
+            "parentId": "d62e0bef-2948-4979-df40-08d63af92e75",
+            "childrenIds": [],
+            "terminalId": null,
+            "data": [
+              {
+                "name": "Forest Clearing",
+                "description": "Westward the grass reigns supreme",
+                "id": "6a07ed3e-d830-4f6d-b03b-08d63c37df4d",
+                "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+                "dataItemId": "37da284a-0cbd-4ea5-df41-08d63af92e75",
+                "destinationLocationId": "779a3a47-3048-4528-df3c-08d63af92e75",
+                "time": 0,
+                "effort": 0
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "47d86b50-480c-497b-df43-08d63af92e75",
+        "type": 200,
+        "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+        "childrenIds": [
+          "e1ce8640-cfcd-4550-df44-08d63af92e75",
+          "66272989-71f1-4246-df48-08d63af92e75"
+        ],
+        "terminalId": null,
+        "data": [
+          {
+            "id": "b95fe6fe-4b2a-4105-9a33-08d63af92e86",
+            "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+            "dataItemId": "47d86b50-480c-497b-df43-08d63af92e75",
+            "name": "Northern Path",
+            "description": "A path leads North and south through the breezy forest. Better described as soil rather than dirt, most of the prints point in the northern direction. Several freshly felled logs lay to the east of the path, awaiting collection by their owner."
+          }
+        ],
+        "children": [
+          {
+            "id": "e1ce8640-cfcd-4550-df44-08d63af92e75",
+            "type": 300,
+            "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
+            "childrenIds": [],
+            "terminalId": null,
+            "data": [
+              {
+                "name": "Open Clearing",
+                "description": "South the path ends with a grassy termination",
+                "id": "86826d0a-3a84-46f4-b03d-08d63c37df4d",
+                "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+                "dataItemId": "e1ce8640-cfcd-4550-df44-08d63af92e75",
+                "destinationLocationId": "779a3a47-3048-4528-df3c-08d63af92e75",
+                "time": 0,
+                "effort": 0
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "66272989-71f1-4246-df48-08d63af92e75",
+            "type": 300,
+            "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
+            "childrenIds": [],
+            "terminalId": null,
+            "data": [
+              {
+                "name": "Path North",
+                "description": "The dirt path winds northward",
+                "id": "252d897e-0aad-4fe3-b040-08d63c37df4d",
+                "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+                "dataItemId": "66272989-71f1-4246-df48-08d63af92e75",
+                "destinationLocationId": "b6cad293-39c7-441f-df46-08d63af92e75",
+                "time": 0,
+                "effort": 0
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "b6cad293-39c7-441f-df46-08d63af92e75",
+        "type": 200,
+        "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+        "childrenIds": [
+          "4d189c8d-cfed-4cb9-df47-08d63af92e75"
+        ],
+        "terminalId": null,
+        "data": [
+          {
+            "id": "232335c2-4678-4c82-9a34-08d63af92e86",
+            "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+            "dataItemId": "b6cad293-39c7-441f-df46-08d63af92e75",
+            "name": "Loggers Path",
+            "description": "Piles of logs bookend each side of the north south path. Desecated tree bits litter the entire area. Flying insects hover silently over rotting tree limbs and dried clumps of leaves. walking on the path is difficult in areas where shovels of sawdust have been thrown."
+          }
+        ],
+        "children": [
+          {
+            "id": "4d189c8d-cfed-4cb9-df47-08d63af92e75",
+            "type": 300,
+            "parentId": "b6cad293-39c7-441f-df46-08d63af92e75",
+            "childrenIds": [],
+            "terminalId": null,
+            "data": [
+              {
+                "name": "Path to the South",
+                "description": "A more orderly path presents itself south",
+                "id": "6dc7668d-f880-4469-b03f-08d63c37df4d",
+                "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+                "dataItemId": "4d189c8d-cfed-4cb9-df47-08d63af92e75",
+                "destinationLocationId": "47d86b50-480c-497b-df43-08d63af92e75",
+                "time": 0,
+                "effort": 0
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
