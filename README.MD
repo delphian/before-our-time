@@ -29,3 +29,6 @@ Use screen on linux to run servers in background
 ### Restore item backup
 * `cat item-backup.json|tr -d "\t\r\n"|clip.exe`
 * `admin item json update {guid} {json}`
+
+### Import an image
+* `gzip image.svg|base64 -w0|clip.exe`
