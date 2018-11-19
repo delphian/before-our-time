@@ -8,8 +8,10 @@
     "d62e0bef-2948-4979-df40-08d63af92e75",
     "47d86b50-480c-497b-df43-08d63af92e75",
     "b6cad293-39c7-441f-df46-08d63af92e75",
-    "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65"
+    "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
+    "6904182a-f7ac-4e49-3b5b-08d64940b4b3"
   ],
+  "properties": {},
   "data": [
     {
       "name": "Brave New World",
@@ -25,11 +27,9 @@
       "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
-        "f7bd540f-d9a4-4c3d-df49-08d63af92e75",
-        "8d4f22b2-2acc-461b-1b78-08d645e4ab65",
-        "da99ad0c-cbd2-4bd3-1b7d-08d645e4ab65"
+        "c7e8d9a5-e7df-464e-df3e-08d63af92e75"
       ],
+      "properties": {},
       "data": [
         {
           "id": "e370301f-2b91-43a0-9a30-08d63af92e86",
@@ -45,6 +45,7 @@
           "type": 300,
           "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
           "childrenIds": [],
+          "properties": {},
           "data": [
             {
               "name": "A Bright Light",
@@ -55,89 +56,6 @@
               "destinationLocationId": "779a3a47-3048-4528-df3c-08d63af92e75",
               "time": 0,
               "effort": 0
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "f7bd540f-d9a4-4c3d-df49-08d63af92e75",
-          "type": 400,
-          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "fd8ade9e-9dec-46d6-fc64-08d63af92ede",
-              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
-              "dataItemId": "f7bd540f-d9a4-4c3d-df49-08d63af92e75",
-              "temporary": true,
-              "name": "Ghost_B5PW",
-              "description": "A brave new player"
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "8d4f22b2-2acc-461b-1b78-08d645e4ab65",
-          "type": 400,
-          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "ba974e80-b3cd-4fe2-1d42-08d645e4ab66",
-              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
-              "dataItemId": "8d4f22b2-2acc-461b-1b78-08d645e4ab65",
-              "temporary": true,
-              "name": "Ghost_C3HF",
-              "description": "A brave new player"
-            },
-            {
-              "id": "00000000-0000-0000-0000-000000000000",
-              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "0a9344a0-573f-490f-a39c-0bf50b0fce77"
-            },
-            {
-              "name": "admin@localhost",
-              "id": "ecf729a4-0200-4039-e788-08d645e44da7",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$m.FVUD15NymiinGhgBaFQeY.JAkC4BzEkrgRpKX.yMA1o9k59t27O",
-              "temporary": false,
-              "admin": true,
-              "characters": []
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "da99ad0c-cbd2-4bd3-1b7d-08d645e4ab65",
-          "type": 400,
-          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "5ba29585-0ea7-4a40-1d44-08d645e4ab66",
-              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
-              "dataItemId": "da99ad0c-cbd2-4bd3-1b7d-08d645e4ab65",
-              "temporary": true,
-              "name": "Ghost_GCYS",
-              "description": "A brave new player"
-            },
-            {
-              "id": "00000000-0000-0000-0000-000000000000",
-              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "fce2638b-656a-4085-b2b0-e6eb84f23967"
-            },
-            {
-              "name": "Account_L5A4",
-              "id": "29a0df84-73f6-49dc-e789-08d645e44da7",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$dGY5Z0Uj3nUS9Fgs4wwzB.EMm70RaPmEjZtyOZRviA7Z1TprKWX2.",
-              "temporary": true,
-              "admin": false,
-              "characters": []
             }
           ],
           "children": []
@@ -153,6 +71,7 @@
         "c85ba6d3-d68f-43fa-df42-08d63af92e75",
         "4cf67fc0-1bae-445b-df45-08d63af92e75"
       ],
+      "properties": {},
       "data": [
         {
           "id": "76e61c32-98f9-44b7-9a31-08d63af92e86",
@@ -168,6 +87,7 @@
           "type": 300,
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
+          "properties": {},
           "data": [
             {
               "name": "A Black Darkness",
@@ -187,6 +107,7 @@
           "type": 300,
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
+          "properties": {},
           "data": [
             {
               "name": "East Boulders",
@@ -206,6 +127,7 @@
           "type": 300,
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
+          "properties": {},
           "data": [
             {
               "name": "Faint Northern Path",
@@ -227,9 +149,9 @@
       "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "3298321f-894a-4515-df3a-08d63af92e75",
         "37da284a-0cbd-4ea5-df41-08d63af92e75"
       ],
+      "properties": {},
       "data": [
         {
           "id": "9b4fa630-0810-4667-9a32-08d63af92e86",
@@ -241,27 +163,11 @@
       ],
       "children": [
         {
-          "id": "3298321f-894a-4515-df3a-08d63af92e75",
-          "type": 400,
-          "parentId": "d62e0bef-2948-4979-df40-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "5dcbe3a1-ce0d-49d8-fc61-08d63af92ede",
-              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
-              "dataItemId": "3298321f-894a-4515-df3a-08d63af92e75",
-              "temporary": true,
-              "name": "Delphian",
-              "description": "The timid"
-            }
-          ],
-          "children": []
-        },
-        {
           "id": "37da284a-0cbd-4ea5-df41-08d63af92e75",
           "type": 300,
           "parentId": "d62e0bef-2948-4979-df40-08d63af92e75",
           "childrenIds": [],
+          "properties": {},
           "data": [
             {
               "name": "West Forest Clearing",
@@ -284,10 +190,9 @@
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "e1ce8640-cfcd-4550-df44-08d63af92e75",
-        "66272989-71f1-4246-df48-08d63af92e75",
-        "72fcff94-3a0f-41a3-1b79-08d645e4ab65",
-        "2fa4ad62-e487-4690-1b7f-08d645e4ab65"
+        "66272989-71f1-4246-df48-08d63af92e75"
       ],
+      "properties": {},
       "data": [
         {
           "id": "b95fe6fe-4b2a-4105-9a33-08d63af92e86",
@@ -303,6 +208,7 @@
           "type": 300,
           "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
           "childrenIds": [],
+          "properties": {},
           "data": [
             {
               "name": "South Open Clearing",
@@ -322,6 +228,7 @@
           "type": 300,
           "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
           "childrenIds": [],
+          "properties": {},
           "data": [
             {
               "name": "Path North",
@@ -332,72 +239,6 @@
               "destinationLocationId": "b6cad293-39c7-441f-df46-08d63af92e75",
               "time": 0,
               "effort": 0
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "72fcff94-3a0f-41a3-1b79-08d645e4ab65",
-          "type": 400,
-          "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "069ac2f2-6f87-48f4-1d43-08d645e4ab66",
-              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
-              "dataItemId": "72fcff94-3a0f-41a3-1b79-08d645e4ab65",
-              "temporary": true,
-              "name": "Ghost_O3W9",
-              "description": "A brave new player"
-            },
-            {
-              "id": "00000000-0000-0000-0000-000000000000",
-              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "cb31d348-b105-47e8-9599-9d9e4c67e7d1"
-            },
-            {
-              "name": "admin@localhost",
-              "id": "ecf729a4-0200-4039-e788-08d645e44da7",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$m.FVUD15NymiinGhgBaFQeY.JAkC4BzEkrgRpKX.yMA1o9k59t27O",
-              "temporary": false,
-              "admin": true,
-              "characters": []
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "2fa4ad62-e487-4690-1b7f-08d645e4ab65",
-          "type": 400,
-          "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "26da64c3-cead-414c-1d46-08d645e4ab66",
-              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
-              "dataItemId": "2fa4ad62-e487-4690-1b7f-08d645e4ab65",
-              "temporary": true,
-              "name": "Ghost_6NQT",
-              "description": "A brave new player"
-            },
-            {
-              "id": "00000000-0000-0000-0000-000000000000",
-              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "f80cca06-e19c-4bd8-84cb-68ec6c4397d6"
-            },
-            {
-              "name": "admin@localhost",
-              "id": "ecf729a4-0200-4039-e788-08d645e44da7",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$m.FVUD15NymiinGhgBaFQeY.JAkC4BzEkrgRpKX.yMA1o9k59t27O",
-              "temporary": false,
-              "admin": true,
-              "characters": []
             }
           ],
           "children": []
@@ -412,6 +253,7 @@
         "4d189c8d-cfed-4cb9-df47-08d63af92e75",
         "f6c788bc-5ed6-4688-1b7c-08d645e4ab65"
       ],
+      "properties": {},
       "data": [
         {
           "id": "232335c2-4678-4c82-9a34-08d63af92e86",
@@ -427,6 +269,7 @@
           "type": 300,
           "parentId": "b6cad293-39c7-441f-df46-08d63af92e75",
           "childrenIds": [],
+          "properties": {},
           "data": [
             {
               "name": "Path to the South",
@@ -446,6 +289,7 @@
           "type": 300,
           "parentId": "b6cad293-39c7-441f-df46-08d63af92e75",
           "childrenIds": [],
+          "properties": {},
           "data": [
             {
               "name": "North Path",
@@ -468,15 +312,16 @@
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "de75c5dd-5698-4194-1b7b-08d645e4ab65",
-        "67ca02c0-d9d8-489c-1b7e-08d645e4ab65"
+        "0597a94a-e188-4af5-3b5d-08d64940b4b3"
       ],
+      "properties": {},
       "data": [
         {
           "id": "aa378991-4544-41d8-f6ad-08d645e6bad6",
           "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
           "dataItemId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "name": "Quiet Loggers Path",
-          "description": "The dirt path has been gouged and marred by the dragging of large logs and pallets. No piles of wood remain here, though some traces of woodwork can be seen."
+          "description": "The dirt path has been gouged and marred by the dragging of large logs and pallets. No piles of wood remain here, though some traces of woodwork can be seen. Few of the abundant leaves make any sound, content to rest against the white smooth bark of youthful growth. Some peculiar arrangement of terrain and wood prevents more than the occasional brush of wind on the skin. Several meters off the path a small black bird peeks out from near the top of a half rotted, once majestic white and tan specimen."
         }
       ],
       "children": [
@@ -485,6 +330,7 @@
           "type": 300,
           "parentId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "childrenIds": [],
+          "properties": {},
           "data": [
             {
               "name": "South Path",
@@ -500,34 +346,125 @@
           "children": []
         },
         {
-          "id": "67ca02c0-d9d8-489c-1b7e-08d645e4ab65",
-          "type": 400,
+          "id": "0597a94a-e188-4af5-3b5d-08d64940b4b3",
+          "type": 300,
           "parentId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "childrenIds": [],
+          "properties": {},
           "data": [
             {
-              "id": "35f163a3-af35-4db0-1d45-08d645e4ab66",
+              "name": "East Ancient",
+              "description": "All attention Eastward must be directed towards a towering corpse of a tree.",
+              "id": "4a963e61-0834-42b5-2a68-08d64c56ce89",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "0597a94a-e188-4af5-3b5d-08d64940b4b3",
+              "destinationLocationId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
+      "type": 200,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "8d4f22b2-2acc-461b-1b78-08d645e4ab65",
+        "cec7dda2-0112-487f-3b5a-08d64940b4b3",
+        "c9ec0148-51cb-475f-3b5c-08d64940b4b3"
+      ],
+      "properties": {},
+      "data": [
+        {
+          "id": "23b469a1-ed20-46db-7a63-08d64c56ce8d",
+          "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+          "dataItemId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
+          "name": "Before the Ancient Majestic",
+          "description": "The tallest tree in the vicinity towers above you. It's white and tan bark peeling slowly away through sun, storm, and damaging of all, time. Incredibly, the bottom 2 meters appear shiny and smooth to the touch. Deep stains of brown mark random points of the base, each no less in size than a human skull. A trial cut has been etched into a portion of the South facing bark. All surrounding grass and flower have been trampled low. Animals must visit often."
+        }
+      ],
+      "children": [
+        {
+          "id": "8d4f22b2-2acc-461b-1b78-08d645e4ab65",
+          "type": 400,
+          "parentId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "id": "ba974e80-b3cd-4fe2-1d42-08d645e4ab66",
               "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
-              "dataItemId": "67ca02c0-d9d8-489c-1b7e-08d645e4ab65",
+              "dataItemId": "8d4f22b2-2acc-461b-1b78-08d645e4ab65",
               "temporary": true,
-              "name": "Ghost_0MIR",
+              "name": "delphian",
               "description": "A brave new player"
             },
             {
               "id": "00000000-0000-0000-0000-000000000000",
               "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
               "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "e7a2cfe6-1806-4488-8b2b-b322ba7648e6"
+              "terminalId": "406d091e-41d2-47e0-a4ae-c0297bc8a111"
             },
             {
-              "name": "Account_B87C",
-              "id": "00a92245-45e5-48a0-e78a-08d645e44da7",
+              "name": "admin@localhost",
+              "id": "ecf729a4-0200-4039-e788-08d645e44da7",
               "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
               "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$3DGrBcs4E7C0Rasff3X0LewdVn9spb.PmysuYxoNWcgIgERfX5DTu",
+              "password": "$2a$10$m.FVUD15NymiinGhgBaFQeY.JAkC4BzEkrgRpKX.yMA1o9k59t27O",
+              "temporary": false,
+              "admin": true,
+              "characters": []
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "cec7dda2-0112-487f-3b5a-08d64940b4b3",
+          "type": 400,
+          "parentId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "id": "6bf3a934-888f-4f32-43dd-08d64940b4ba",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
+              "dataItemId": "cec7dda2-0112-487f-3b5a-08d64940b4b3",
+              "temporary": true,
+              "name": "Rebekah",
+              "description": "A brave new player"
+            },
+            {
+              "name": "Account_R012",
+              "id": "b89fb900-0a40-4c0e-f0a6-08d64848ea1e",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$gJNRU4lfchx8Rr1NG9ynXO95EwYGuNgYPbF1jMzBvZauWEFd/Cp36",
               "temporary": true,
               "admin": false,
               "characters": []
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "c9ec0148-51cb-475f-3b5c-08d64940b4b3",
+          "type": 300,
+          "parentId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "West Quiet Path",
+              "description": "Grass has been regularly trampled toward the west, leading to an even larger cross path.",
+              "id": "81f8ec3d-4e54-4cd5-2a67-08d64c56ce89",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "c9ec0148-51cb-475f-3b5c-08d64940b4b3",
+              "destinationLocationId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
+              "time": 0,
+              "effort": 0
             }
           ],
           "children": []
