@@ -12,7 +12,9 @@
     "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
     "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
     "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
-    "5b1752f3-92d7-48d8-4424-08d64f618c8b"
+    "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+    "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+    "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8"
   ],
   "properties": {},
   "data": [
@@ -73,8 +75,7 @@
         "9fae857c-0fc9-4f29-df3d-08d63af92e75",
         "c85ba6d3-d68f-43fa-df42-08d63af92e75",
         "4cf67fc0-1bae-445b-df45-08d63af92e75",
-        "a55c8206-17dc-4762-441c-08d64f618c8b",
-        "c6e5e55f-5d60-4ebd-4420-08d64f618c8b"
+        "a55c8206-17dc-4762-441c-08d64f618c8b"
       ],
       "properties": {},
       "data": [
@@ -179,44 +180,6 @@
                   "accountId": "f651d0b9-db8b-4ffc-2d2a-08d64f617512",
                   "id": "c511c972-2b47-4325-0c3d-08d64f618c8e",
                   "characterItemId": "a55c8206-17dc-4762-441c-08d64f618c8b"
-                }
-              ]
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-          "type": 400,
-          "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
-          "childrenIds": [],
-          "properties": {
-            "BeforeOurTime.Models.Modules.World.Models.Properties.CharacterProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
-              "temporary": false
-            }
-          },
-          "data": [
-            {
-              "id": "a5cf6d0c-2d33-4baf-ff22-08d64f618c8b",
-              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
-              "dataItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-              "temporary": false,
-              "name": "Egg",
-              "description": "A brave new player"
-            },
-            {
-              "name": "Egg",
-              "id": "c823d33b-04a0-497c-2d2b-08d64f617512",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$WollJBKi1.z9aOM1.ZO31uW28lahjayOZxBby/U7spl5Ka4.rmzpS",
-              "temporary": false,
-              "admin": false,
-              "characters": [
-                {
-                  "accountId": "c823d33b-04a0-497c-2d2b-08d64f617512",
-                  "id": "c301687d-0b63-4619-0c3e-08d64f618c8e",
-                  "characterItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b"
                 }
               ]
             }
@@ -675,8 +638,8 @@
       "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "370031df-3872-4740-441a-08d64f618c8b",
-        "7b9f6a0a-760d-442c-4425-08d64f618c8b"
+        "7b9f6a0a-760d-442c-4425-08d64f618c8b",
+        "b46b572e-85b8-426d-d5a4-08d651ecf1f8"
       ],
       "properties": {},
       "data": [
@@ -690,9 +653,170 @@
       ],
       "children": [
         {
+          "id": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
+          "type": 300,
+          "parentId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "Eastern Decline",
+              "description": "The path declines steeply to the east.",
+              "id": "b34f53fe-f06f-41e1-8b50-08d650320b87",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
+              "destinationLocationId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "b46b572e-85b8-426d-d5a4-08d651ecf1f8",
+          "type": 300,
+          "parentId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "North Climb",
+              "description": "A difficult, but short, trek is required to climb the path north",
+              "id": "d72eec9c-7645-495d-bb5e-08d652511e81",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "b46b572e-85b8-426d-d5a4-08d651ecf1f8",
+              "destinationLocationId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+      "type": 200,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
+        "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
+        "fa0ab044-bc64-4539-d5b7-08d651ecf1f8"
+      ],
+      "properties": {},
+      "data": [
+        {
+          "id": "191ae587-28ef-406a-79d9-08d652511e82",
+          "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+          "dataItemId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+          "name": "Steep Curve",
+          "description": "The path is quite difficult here with a steep incline from south to east. To the east of the path is a a small dip in the ground rich with underbrush of dusty green and dry yellows. In the center of the dip stands a twisting blackened dead tree with curling bark and long limbs stretching outward from it's trunk. Behind the dip and the tree is a large cliff that towers over the surrounding trees and plant life casting everything in shadow. A long jagged boulder rests at the bottom of the cliff a couple feet below a divot in the side as if it fell off ages ago."
+        }
+      ],
+      "children": [
+        {
+          "id": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
+          "type": 400,
+          "parentId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+          "childrenIds": [],
+          "properties": {
+            "BeforeOurTime.Models.Modules.World.Models.Properties.CharacterProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "temporary": false
+            }
+          },
+          "data": [
+            {
+              "id": "a5cf6d0c-2d33-4baf-ff22-08d64f618c8b",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
+              "dataItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
+              "temporary": false,
+              "name": "Egg",
+              "description": "A brave new player"
+            },
+            {
+              "name": "Egg",
+              "id": "c823d33b-04a0-497c-2d2b-08d64f617512",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$WollJBKi1.z9aOM1.ZO31uW28lahjayOZxBby/U7spl5Ka4.rmzpS",
+              "temporary": false,
+              "admin": true,
+              "characters": [
+                {
+                  "accountId": "c823d33b-04a0-497c-2d2b-08d64f617512",
+                  "id": "c301687d-0b63-4619-0c3e-08d64f618c8e",
+                  "characterItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b"
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
+          "type": 300,
+          "parentId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "Southern Decline",
+              "description": "The path continues at a steep decline to the south",
+              "id": "ca23ddbb-70ec-4a91-bb5d-08d652511e81",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
+              "destinationLocationId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "fa0ab044-bc64-4539-d5b7-08d651ecf1f8",
+          "type": 300,
+          "parentId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "East",
+              "description": "The path becomes more accessible to the east",
+              "id": "0bb53d89-f516-433c-bb60-08d652511e81",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "fa0ab044-bc64-4539-d5b7-08d651ecf1f8",
+              "destinationLocationId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+      "type": 200,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "370031df-3872-4740-441a-08d64f618c8b",
+        "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8"
+      ],
+      "properties": {},
+      "data": [
+        {
+          "id": "57a2cea2-f6c3-423a-79da-08d652511e82",
+          "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+          "dataItemId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+          "name": "Gentle Slope",
+          "description": "The path runs clean and smooth from north to west. Further west the slope appears to drop rapidly. A cliff greets you to the south past which you can see a vast Vista of forest and grass. The western path may lead there. The rolling foothills that you stand on continue their gentle rise northward with grass and flowering brush."
+        }
+      ],
+      "children": [
+        {
           "id": "370031df-3872-4740-441a-08d64f618c8b",
           "type": 400,
-          "parentId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+          "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
           "childrenIds": [],
           "properties": {
             "BeforeOurTime.Models.Modules.World.Models.Properties.CharacterProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
@@ -712,7 +836,7 @@
               "id": "00000000-0000-0000-0000-000000000000",
               "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
               "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "e322e2b6-c0dc-4aab-a20b-76952724aec3"
+              "terminalId": "665a8083-c128-424b-9f7d-d989ee6c806b"
             },
             {
               "name": "admin@localhost",
@@ -734,19 +858,19 @@
           "children": []
         },
         {
-          "id": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
+          "id": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
           "type": 300,
-          "parentId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+          "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
           "childrenIds": [],
           "properties": {},
           "data": [
             {
-              "name": "Eastern Decline",
-              "description": "The path declines steeply to the east.",
-              "id": "b34f53fe-f06f-41e1-8b50-08d650320b87",
+              "name": "Western Drop",
+              "description": "Escape back to the real world",
+              "id": "28c5a178-1978-495a-bb5f-08d652511e81",
               "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
-              "dataItemId": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
-              "destinationLocationId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
+              "dataItemId": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
+              "destinationLocationId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
               "time": 0,
               "effort": 0
             }
