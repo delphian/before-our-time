@@ -14,7 +14,13 @@
     "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
     "5b1752f3-92d7-48d8-4424-08d64f618c8b",
     "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
-    "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8"
+    "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+    "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+    "717921f9-0da7-4aef-f4fb-08d653530e72",
+    "c3e91d08-408f-40b1-f4fe-08d653530e72",
+    "c59221af-e906-40ed-f502-08d653530e72",
+    "72ada875-c010-4dc0-f505-08d653530e72",
+    "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7"
   ],
   "properties": {},
   "data": [
@@ -699,7 +705,6 @@
       "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
         "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
         "fa0ab044-bc64-4539-d5b7-08d651ecf1f8"
       ],
@@ -714,44 +719,6 @@
         }
       ],
       "children": [
-        {
-          "id": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-          "type": 400,
-          "parentId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
-          "childrenIds": [],
-          "properties": {
-            "BeforeOurTime.Models.Modules.World.Models.Properties.CharacterProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
-              "temporary": false
-            }
-          },
-          "data": [
-            {
-              "id": "a5cf6d0c-2d33-4baf-ff22-08d64f618c8b",
-              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
-              "dataItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-              "temporary": false,
-              "name": "Egg",
-              "description": "A brave new player"
-            },
-            {
-              "name": "Egg",
-              "id": "c823d33b-04a0-497c-2d2b-08d64f617512",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$WollJBKi1.z9aOM1.ZO31uW28lahjayOZxBby/U7spl5Ka4.rmzpS",
-              "temporary": false,
-              "admin": true,
-              "characters": [
-                {
-                  "accountId": "c823d33b-04a0-497c-2d2b-08d64f617512",
-                  "id": "c301687d-0b63-4619-0c3e-08d64f618c8e",
-                  "characterItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b"
-                }
-              ]
-            }
-          ],
-          "children": []
-        },
         {
           "id": "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
           "type": 300,
@@ -799,8 +766,8 @@
       "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "370031df-3872-4740-441a-08d64f618c8b",
-        "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8"
+        "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
+        "2343dd4a-65bd-4c79-f4fa-08d653530e72"
       ],
       "properties": {},
       "data": [
@@ -814,9 +781,274 @@
       ],
       "children": [
         {
+          "id": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
+          "type": 300,
+          "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "Western Drop",
+              "description": "Escape back to the real world",
+              "id": "28c5a178-1978-495a-bb5f-08d652511e81",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
+              "destinationLocationId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "2343dd4a-65bd-4c79-f4fa-08d653530e72",
+          "type": 300,
+          "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "Northern Plateau",
+              "description": "To the north, inset into the foothills, a large plateau has been cut out",
+              "id": "df35f69a-4f6d-4ef0-9620-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "2343dd4a-65bd-4c79-f4fa-08d653530e72",
+              "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+      "type": 200,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
+        "5e314d71-3150-46fc-f4f9-08d653530e72",
+        "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
+        "d20e7706-5aba-4d42-f500-08d653530e72",
+        "33596aab-6a25-44e7-f504-08d653530e72"
+      ],
+      "properties": {},
+      "data": [
+        {
+          "id": "242d2943-877a-429c-0f5e-08d65353a7bd",
+          "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+          "dataItemId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+          "name": "Foothills Plateaus",
+          "description": "Natural processes have carved out a large plateau half way up the local foothills. To the south falling away into the distance you can see a great forest. The plateau runs east to west, with the terrain continuing it's steady climb northward. Tall yellow grasses cover most of the area, the few bald areas reveal a rich soil fertile for planting and free of large obstacles."
+        }
+      ],
+      "children": [
+        {
+          "id": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
+          "type": 400,
+          "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+          "childrenIds": [],
+          "properties": {
+            "BeforeOurTime.Models.Modules.World.Models.Properties.CharacterProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "temporary": false
+            }
+          },
+          "data": [
+            {
+              "id": "a5cf6d0c-2d33-4baf-ff22-08d64f618c8b",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.CharacterData",
+              "dataItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
+              "temporary": false,
+              "name": "Egg",
+              "description": "A brave new player"
+            },
+            {
+              "name": "Egg",
+              "id": "c823d33b-04a0-497c-2d2b-08d64f617512",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$WollJBKi1.z9aOM1.ZO31uW28lahjayOZxBby/U7spl5Ka4.rmzpS",
+              "temporary": false,
+              "admin": true,
+              "characters": [
+                {
+                  "accountId": "c823d33b-04a0-497c-2d2b-08d64f617512",
+                  "id": "c301687d-0b63-4619-0c3e-08d64f618c8e",
+                  "characterItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b"
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "5e314d71-3150-46fc-f4f9-08d653530e72",
+          "type": 300,
+          "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "Tiny Southern Trail",
+              "description": "A small trail has been beat into the grass slowly winding it's way southward",
+              "id": "fbaa51f8-45ff-44ad-961f-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "5e314d71-3150-46fc-f4f9-08d653530e72",
+              "destinationLocationId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
+          "type": 300,
+          "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "Eastern Plateau",
+              "description": "To the east the plateau continues to support brown grass and shrubery",
+              "id": "26c0ed18-863a-4d66-9622-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
+              "destinationLocationId": "717921f9-0da7-4aef-f4fb-08d653530e72",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "d20e7706-5aba-4d42-f500-08d653530e72",
+          "type": 300,
+          "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "Western Plateau",
+              "description": "The grass and shrubbery lessen to the west as the plateau continues.",
+              "id": "c09751a6-f1fc-40cd-9624-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "d20e7706-5aba-4d42-f500-08d653530e72",
+              "destinationLocationId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "33596aab-6a25-44e7-f504-08d653530e72",
+          "type": 300,
+          "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "Northern Tiny Trail",
+              "description": "The small trail continues northward",
+              "id": "992addeb-f1ed-490c-9626-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "33596aab-6a25-44e7-f504-08d653530e72",
+              "destinationLocationId": "c59221af-e906-40ed-f502-08d653530e72",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "717921f9-0da7-4aef-f4fb-08d653530e72",
+      "type": 200,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "1d637aa3-fec4-4b59-f4fc-08d653530e72",
+        "32e2b3a7-fd49-4804-e9c8-08d655c5c3e7"
+      ],
+      "properties": {},
+      "data": [
+        {
+          "id": "69aec382-4e57-4a6b-0f5f-08d65353a7bd",
+          "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+          "dataItemId": "717921f9-0da7-4aef-f4fb-08d653530e72",
+          "name": "Eastern Plateau",
+          "description": "South, dropping down past the immediate cliff, a youthful forest can be seen. The forest looks pleasant and hospitable. Most of the half dead grass is waist deep here and tickles the back of your hands as you walk through it. In several areas some of the grass has been trampled and beaten down. A few large stones, placed conspicuously, would tend to delineate square sections of soil. One or two lizards can be heard scrambling beneath the grass, attempting to stay far away from travelers like you. The tall grass extends to the east. A tiny trail can be barely discerned to the west."
+        }
+      ],
+      "children": [
+        {
+          "id": "1d637aa3-fec4-4b59-f4fc-08d653530e72",
+          "type": 300,
+          "parentId": "717921f9-0da7-4aef-f4fb-08d653530e72",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "West Foothills Plateaus",
+              "description": "The middle of the plateaus is to the west.",
+              "id": "37bf820c-5131-4722-9621-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "1d637aa3-fec4-4b59-f4fc-08d653530e72",
+              "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "32e2b3a7-fd49-4804-e9c8-08d655c5c3e7",
+          "type": 300,
+          "parentId": "717921f9-0da7-4aef-f4fb-08d653530e72",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "East toward Pond",
+              "description": "A small pond waters thick grass to the east.",
+              "id": "8debc43d-2c14-43e2-9f9f-08d655c5c3ef",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "32e2b3a7-fd49-4804-e9c8-08d655c5c3e7",
+              "destinationLocationId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "c3e91d08-408f-40b1-f4fe-08d653530e72",
+      "type": 200,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "370031df-3872-4740-441a-08d64f618c8b",
+        "638fb02e-abf7-489e-f4ff-08d653530e72",
+        "488b0fdd-3211-4e79-f501-08d653530e72"
+      ],
+      "properties": {},
+      "data": [
+        {
+          "id": "f809407d-b730-49d4-0f60-08d65353a7bd",
+          "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+          "dataItemId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
+          "name": "Western Plateau",
+          "description": "All grass in this area of the plateau has been carefully cleared away. Many large stones have been placed randomly around the field, none larger than what a strong man could carry. While most of the stones are smooth, only a few bare marks of reds and greens. One of the closer stones is currently playing host to a small black beetle, staring up at you with inquisitive antennae."
+        }
+      ],
+      "children": [
+        {
           "id": "370031df-3872-4740-441a-08d64f618c8b",
           "type": 400,
-          "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+          "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
           "childrenIds": [],
           "properties": {
             "BeforeOurTime.Models.Modules.World.Models.Properties.CharacterProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
@@ -836,7 +1068,7 @@
               "id": "00000000-0000-0000-0000-000000000000",
               "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
               "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "665a8083-c128-424b-9f7d-d989ee6c806b"
+              "terminalId": "bfb3a3d6-c9f2-4c09-8492-262c085b2dd7"
             },
             {
               "name": "admin@localhost",
@@ -858,19 +1090,193 @@
           "children": []
         },
         {
-          "id": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
+          "id": "638fb02e-abf7-489e-f4ff-08d653530e72",
           "type": 300,
-          "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+          "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
           "childrenIds": [],
           "properties": {},
           "data": [
             {
-              "name": "Western Drop",
+              "name": "East Foothills Plateaus",
               "description": "Escape back to the real world",
-              "id": "28c5a178-1978-495a-bb5f-08d652511e81",
+              "id": "03ef5c37-d9d1-4289-9623-08d65353a7bc",
               "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
-              "dataItemId": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
-              "destinationLocationId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+              "dataItemId": "638fb02e-abf7-489e-f4ff-08d653530e72",
+              "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "488b0fdd-3211-4e79-f501-08d653530e72",
+          "type": 0,
+          "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
+          "childrenIds": [],
+          "properties": {
+            "BeforeOurTime.Models.Modules.World.Models.Properties.PhysicalItemVM, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "mobile": true
+            },
+            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "name": "Warm Stones",
+              "description": "New description",
+              "icon": null
+            }
+          },
+          "data": [
+            {
+              "id": "9544c4f6-383d-4b99-338a-08d6537d9925",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.PhysicalItemData",
+              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
+              "mobile": true,
+              "weight": 0
+            },
+            {
+              "id": "d4182735-8977-48b8-7111-08d6537d9927",
+              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
+              "name": "Warm Stones",
+              "description": "New description"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "c59221af-e906-40ed-f502-08d653530e72",
+      "type": 200,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "de8acd55-d52d-4f84-f503-08d653530e72",
+        "b9749e11-e760-41bb-f507-08d653530e72"
+      ],
+      "properties": {},
+      "data": [
+        {
+          "id": "898c38a3-9320-487b-0f61-08d65353a7bd",
+          "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+          "dataItemId": "c59221af-e906-40ed-f502-08d653530e72",
+          "name": "Center of Plateau",
+          "description": "The large plateau in the middle of these foothills extends around you in all directions. To the north the plateau halts abruptly against the sudden resurgence of the hillside. Shadows in the face of the hillside could in fact be a cave. No grass remains here, all has been heavily trampled."
+        }
+      ],
+      "children": [
+        {
+          "id": "de8acd55-d52d-4f84-f503-08d653530e72",
+          "type": 300,
+          "parentId": "c59221af-e906-40ed-f502-08d653530e72",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "Southern trail",
+              "description": "A small trail begins to form and runs to the south.",
+              "id": "2b3c27e2-14f9-434e-9625-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "de8acd55-d52d-4f84-f503-08d653530e72",
+              "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "b9749e11-e760-41bb-f507-08d653530e72",
+          "type": 300,
+          "parentId": "c59221af-e906-40ed-f502-08d653530e72",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "North Before the Cave",
+              "description": "To the north shadows on the face of the foothills may in fact be a cave.",
+              "id": "52611918-d3c7-4c69-9628-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "b9749e11-e760-41bb-f507-08d653530e72",
+              "destinationLocationId": "72ada875-c010-4dc0-f505-08d653530e72",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "72ada875-c010-4dc0-f505-08d653530e72",
+      "type": 200,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "19d0a799-9667-4189-f506-08d653530e72"
+      ],
+      "properties": {},
+      "data": [
+        {
+          "id": "e8ff1076-b49a-40ac-0f62-08d65353a7bd",
+          "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+          "dataItemId": "72ada875-c010-4dc0-f505-08d653530e72",
+          "name": "Before the Cave",
+          "description": "The northern foothills rise abruptly in a cliff to tower over the Plateaus. Directly north a large simi-circle of a cave has been formed almost straight back through the rocks and sandstone compromising the cliff face. Some minimalistic wood and sod structures can be seen inside the imediate entrance, before the light grows too faint determine their quantity. Before the Cave is home to a small quiet tribe of people and not a few dogs. Many sit beneath adhoc shelters constructed of bark and grass. Two or three near the shadowy cool entrance appear to be weaving the grass into thin mats. One large male stands close by leaning on a black staff adorned with feathers and bone. His gentle gaze falls on you, friendly, but confident."
+        }
+      ],
+      "children": [
+        {
+          "id": "19d0a799-9667-4189-f506-08d653530e72",
+          "type": 300,
+          "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "Southward Plateau",
+              "description": "Escape back to the real world",
+              "id": "8e163ceb-49f6-4eb0-9627-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "19d0a799-9667-4189-f506-08d653530e72",
+              "destinationLocationId": "c59221af-e906-40ed-f502-08d653530e72",
+              "time": 0,
+              "effort": 0
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
+      "type": 200,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7"
+      ],
+      "properties": {},
+      "data": [
+        {
+          "id": "f2f914e4-a46b-4105-ee70-08d655c5c3f2",
+          "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.LocationData",
+          "dataItemId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
+          "name": "Cliffside Pond",
+          "description": "A small shallow pond has formed right against the southern cliff. Though only a tree length across it still manages to support several schools of fish and other small aquatics. The water is fresh and clean, continually fed from a stream entering from the north while the excess spills gently over the southern rocks down to the green and blue forest below."
+        }
+      ],
+      "children": [
+        {
+          "id": "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7",
+          "type": 300,
+          "parentId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
+          "childrenIds": [],
+          "properties": {},
+          "data": [
+            {
+              "name": "West Grassy Plateau",
+              "description": "The water feeds well all the grass extending to the west.",
+              "id": "4ab1a758-b95b-4d96-9f9e-08d655c5c3ef",
+              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.ExitData",
+              "dataItemId": "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7",
+              "destinationLocationId": "717921f9-0da7-4aef-f4fb-08d653530e72",
               "time": 0,
               "effort": 0
             }
