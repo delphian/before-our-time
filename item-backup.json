@@ -20,7 +20,9 @@
     "c3e91d08-408f-40b1-f4fe-08d653530e72",
     "c59221af-e906-40ed-f502-08d653530e72",
     "72ada875-c010-4dc0-f505-08d653530e72",
-    "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7"
+    "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
+    "3bff263c-1f9b-4d53-f9de-08d658b1c85d",
+    "a747ddef-55ec-4879-b80d-08d658b7315f"
   ],
   "properties": {},
   "data": [
@@ -40,14 +42,27 @@
       "childrenIds": [
         "c7e8d9a5-e7df-464e-df3e-08d63af92e75"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "A Dark Void",
+          "description": "Cool mists and dark shadows shroud everything in this place. Straining your eyes does little to resolve the amorphous blobs that are circulating about. The oppresive silence is occationaly puncuated by a distressed weeping or soft sob. A chill runs through your blood when you realise these forms may have once been human. The smell of rain and rotting wood pains your nose while the occational drip of water tickles the top of skulls both real and imagined. Any attempt to navigate in this damp cavern causes disorientation.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "e370301f-2b91-43a0-9a30-08d63af92e86",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "91f4a03f-8cb8-467c-df2c-08d63af92e75"
+        },
+        {
+          "id": "fe57f02b-337f-4674-816b-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
           "name": "A Dark Void",
-          "description": "Cool mists and dark shadows shroud everything in this place. Straining your eyes does little to resolve the amorphous blobs that are circulating about. The oppresive silence is occationaly puncuated by a distressed weeping or soft sob. A chill runs through your blood when you realise these forms may have once been human. The smell of rain and rotting wood pains your nose while the occational drip of water tickles the top of skulls both real and imagined. Any attempt to navigate in this damp cavern causes disorientation."
+          "description": "Cool mists and dark shadows shroud everything in this place. Straining your eyes does little to resolve the amorphous blobs that are circulating about. The oppresive silence is occationaly puncuated by a distressed weeping or soft sob. A chill runs through your blood when you realise these forms may have once been human. The smell of rain and rotting wood pains your nose while the occational drip of water tickles the top of skulls both real and imagined. Any attempt to navigate in this damp cavern causes disorientation.",
+          "icon": null
         }
       ],
       "children": [
@@ -57,7 +72,12 @@
           "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "779a3a47-3048-4528-df3c-08d63af92e75",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "A Bright Light",
               "description": "The warm glow encircles your feet",
               "icon": null
@@ -74,7 +94,7 @@
             },
             {
               "id": "9cfd3718-6af0-4c8a-f4c2-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
               "name": "A Bright Light",
               "description": "The warm glow encircles your feet",
@@ -95,14 +115,27 @@
         "4cf67fc0-1bae-445b-df45-08d63af92e75",
         "a55c8206-17dc-4762-441c-08d64f618c8b"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Warm Forest Clearing",
+          "description": "A large grassy area has been cleared from the surrounding forest. Only a few small saplings compete with the yellow and blue flowers peppering the green floor. The smell of freshly cut folliage fills the air. The tail of a squirrel makes random and unpredictable appearances through thicker portions of brush.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "76e61c32-98f9-44b7-9a31-08d63af92e86",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "779a3a47-3048-4528-df3c-08d63af92e75"
+        },
+        {
+          "id": "afa6cdd8-10d8-4ea5-816c-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "name": "Warm Forest Clearing",
-          "description": "A large grassy area has been cleared from the surrounding forest. Only a few small saplings compete with the yellow and blue flowers peppering the green floor. The smell of freshly cut folliage fills the air. The tail of a squirrel makes random and unpredictable appearances through thicker portions of brush."
+          "description": "A large grassy area has been cleared from the surrounding forest. Only a few small saplings compete with the yellow and blue flowers peppering the green floor. The smell of freshly cut folliage fills the air. The tail of a squirrel makes random and unpredictable appearances through thicker portions of brush.",
+          "icon": null
         }
       ],
       "children": [
@@ -112,7 +145,12 @@
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "A Black Darkness",
               "description": "A cold void encircles your feet",
               "icon": null
@@ -129,7 +167,7 @@
             },
             {
               "id": "88912494-af13-4283-f4c1-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "9fae857c-0fc9-4f29-df3d-08d63af92e75",
               "name": "A Black Darkness",
               "description": "A cold void encircles your feet",
@@ -144,7 +182,12 @@
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "d62e0bef-2948-4979-df40-08d63af92e75",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "East Boulders",
               "description": "Several large boulders occupy the eastern clearing",
               "icon": null
@@ -161,7 +204,7 @@
             },
             {
               "id": "1102121c-2d5b-4e8c-f4c4-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "c85ba6d3-d68f-43fa-df42-08d63af92e75",
               "name": "East Boulders",
               "description": "Several large boulders occupy the eastern clearing",
@@ -176,7 +219,12 @@
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "47d86b50-480c-497b-df43-08d63af92e75",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Faint Northern Path",
               "description": "Several felled trees make room for a path to the north",
               "icon": null
@@ -193,7 +241,7 @@
             },
             {
               "id": "9c4283d3-e00b-451d-f4c6-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "4cf67fc0-1bae-445b-df45-08d63af92e75",
               "name": "Faint Northern Path",
               "description": "Several felled trees make room for a path to the north",
@@ -233,14 +281,27 @@
       "childrenIds": [
         "37da284a-0cbd-4ea5-df41-08d63af92e75"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Rocks and Boulders",
+          "description": "Several large boulders and dozens of large stones have been scattered in relative proximity to each other. With patience many small reptiles could be seen scurrying between and under the protective rock.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "9b4fa630-0810-4667-9a32-08d63af92e86",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "d62e0bef-2948-4979-df40-08d63af92e75"
+        },
+        {
+          "id": "3166425e-0125-4053-816d-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "d62e0bef-2948-4979-df40-08d63af92e75",
           "name": "Rocks and Boulders",
-          "description": "Several large boulders and dozens of large stones have been scattered in relative proximity to each other. With patience many small reptiles could be seen scurrying between and under the protective rock."
+          "description": "Several large boulders and dozens of large stones have been scattered in relative proximity to each other. With patience many small reptiles could be seen scurrying between and under the protective rock.",
+          "icon": null
         }
       ],
       "children": [
@@ -250,7 +311,12 @@
           "parentId": "d62e0bef-2948-4979-df40-08d63af92e75",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "779a3a47-3048-4528-df3c-08d63af92e75",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "West Forest Clearing",
               "description": "Westward the grass reigns supreme",
               "icon": null
@@ -267,7 +333,7 @@
             },
             {
               "id": "7f9ee1ed-0706-4d5f-f4c3-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "37da284a-0cbd-4ea5-df41-08d63af92e75",
               "name": "West Forest Clearing",
               "description": "Westward the grass reigns supreme",
@@ -286,14 +352,27 @@
         "e1ce8640-cfcd-4550-df44-08d63af92e75",
         "66272989-71f1-4246-df48-08d63af92e75"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Northern Path",
+          "description": "A path leads North and south through the breezy forest. Better described as soil rather than dirt, most of the prints point in the northern direction. Several freshly felled logs lay to the east of the path, awaiting collection by their owner.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "b95fe6fe-4b2a-4105-9a33-08d63af92e86",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "47d86b50-480c-497b-df43-08d63af92e75"
+        },
+        {
+          "id": "34a027f5-d36e-46a6-816e-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "47d86b50-480c-497b-df43-08d63af92e75",
           "name": "Northern Path",
-          "description": "A path leads North and south through the breezy forest. Better described as soil rather than dirt, most of the prints point in the northern direction. Several freshly felled logs lay to the east of the path, awaiting collection by their owner."
+          "description": "A path leads North and south through the breezy forest. Better described as soil rather than dirt, most of the prints point in the northern direction. Several freshly felled logs lay to the east of the path, awaiting collection by their owner.",
+          "icon": null
         }
       ],
       "children": [
@@ -303,7 +382,12 @@
           "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "779a3a47-3048-4528-df3c-08d63af92e75",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "South Open Clearing",
               "description": "South the path ends with a grassy termination",
               "icon": null
@@ -320,7 +404,7 @@
             },
             {
               "id": "84fbbea4-b115-4eb5-f4c5-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "e1ce8640-cfcd-4550-df44-08d63af92e75",
               "name": "South Open Clearing",
               "description": "South the path ends with a grassy termination",
@@ -335,7 +419,12 @@
           "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "b6cad293-39c7-441f-df46-08d63af92e75",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Path North",
               "description": "The dirt path winds northward",
               "icon": null
@@ -352,7 +441,7 @@
             },
             {
               "id": "c190ea0c-d959-43e1-f4c8-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "66272989-71f1-4246-df48-08d63af92e75",
               "name": "Path North",
               "description": "The dirt path winds northward",
@@ -371,14 +460,27 @@
         "4d189c8d-cfed-4cb9-df47-08d63af92e75",
         "f6c788bc-5ed6-4688-1b7c-08d645e4ab65"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Loggers Path",
+          "description": "Piles of logs bookend each side of the north south path. Desecated tree bits litter the entire area. Flying insects hover silently over rotting tree limbs and dried clumps of leaves. walking on the path is difficult in areas where shovels of sawdust have been thrown.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "232335c2-4678-4c82-9a34-08d63af92e86",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "b6cad293-39c7-441f-df46-08d63af92e75"
+        },
+        {
+          "id": "003ff1f0-e032-4116-816f-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "b6cad293-39c7-441f-df46-08d63af92e75",
           "name": "Loggers Path",
-          "description": "Piles of logs bookend each side of the north south path. Desecated tree bits litter the entire area. Flying insects hover silently over rotting tree limbs and dried clumps of leaves. walking on the path is difficult in areas where shovels of sawdust have been thrown."
+          "description": "Piles of logs bookend each side of the north south path. Desecated tree bits litter the entire area. Flying insects hover silently over rotting tree limbs and dried clumps of leaves. walking on the path is difficult in areas where shovels of sawdust have been thrown.",
+          "icon": null
         }
       ],
       "children": [
@@ -388,7 +490,12 @@
           "parentId": "b6cad293-39c7-441f-df46-08d63af92e75",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "47d86b50-480c-497b-df43-08d63af92e75",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Path to the South",
               "description": "A more orderly path presents itself south",
               "icon": null
@@ -405,7 +512,7 @@
             },
             {
               "id": "9f45bda2-6a37-4b05-f4c7-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "4d189c8d-cfed-4cb9-df47-08d63af92e75",
               "name": "Path to the South",
               "description": "A more orderly path presents itself south",
@@ -420,7 +527,12 @@
           "parentId": "b6cad293-39c7-441f-df46-08d63af92e75",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "North Path",
               "description": "The paint is still wet on this sign",
               "icon": null
@@ -437,7 +549,7 @@
             },
             {
               "id": "0a13ca27-1ac1-4325-f4ca-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "f6c788bc-5ed6-4688-1b7c-08d645e4ab65",
               "name": "North Path",
               "description": "The paint is still wet on this sign",
@@ -457,14 +569,27 @@
         "0597a94a-e188-4af5-3b5d-08d64940b4b3",
         "a2303b98-7396-4325-441f-08d64f618c8b"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Quiet Loggers Path",
+          "description": "The dirt path has been gouged and marred by the dragging of large logs and pallets. No piles of wood remain here, though some traces of woodwork can be seen. Few of the abundant leaves make any sound, content to rest against the white smooth bark of youthful growth. Some peculiar arrangement of terrain and wood prevents more than the occasional brush of wind on the skin. Several meters off the path a small black bird peeks out from near the top of a half rotted, once majestic white and tan specimen.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "aa378991-4544-41d8-f6ad-08d645e6bad6",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65"
+        },
+        {
+          "id": "03a40135-e967-4e2d-8170-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "name": "Quiet Loggers Path",
-          "description": "The dirt path has been gouged and marred by the dragging of large logs and pallets. No piles of wood remain here, though some traces of woodwork can be seen. Few of the abundant leaves make any sound, content to rest against the white smooth bark of youthful growth. Some peculiar arrangement of terrain and wood prevents more than the occasional brush of wind on the skin. Several meters off the path a small black bird peeks out from near the top of a half rotted, once majestic white and tan specimen."
+          "description": "The dirt path has been gouged and marred by the dragging of large logs and pallets. No piles of wood remain here, though some traces of woodwork can be seen. Few of the abundant leaves make any sound, content to rest against the white smooth bark of youthful growth. Some peculiar arrangement of terrain and wood prevents more than the occasional brush of wind on the skin. Several meters off the path a small black bird peeks out from near the top of a half rotted, once majestic white and tan specimen.",
+          "icon": null
         }
       ],
       "children": [
@@ -474,7 +599,12 @@
           "parentId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "b6cad293-39c7-441f-df46-08d63af92e75",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "South Path",
               "description": "Escape back to the real world",
               "icon": null
@@ -491,7 +621,7 @@
             },
             {
               "id": "8ac64ab0-58c6-430b-f4c9-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "de75c5dd-5698-4194-1b7b-08d645e4ab65",
               "name": "South Path",
               "description": "Escape back to the real world",
@@ -506,7 +636,12 @@
           "parentId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "East Ancient",
               "description": "All attention Eastward must be directed towards a towering corpse of a tree.",
               "icon": null
@@ -523,7 +658,7 @@
             },
             {
               "id": "080cebfb-6abe-4784-f4cc-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "0597a94a-e188-4af5-3b5d-08d64940b4b3",
               "name": "East Ancient",
               "description": "All attention Eastward must be directed towards a towering corpse of a tree.",
@@ -538,7 +673,12 @@
           "parentId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "North Path",
               "description": "Soil and leaves mark the path north as it begins to climb slightly upward",
               "icon": null
@@ -555,7 +695,7 @@
             },
             {
               "id": "63ce2ce0-79bb-493e-f4ce-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "a2303b98-7396-4325-441f-08d64f618c8b",
               "name": "North Path",
               "description": "Soil and leaves mark the path north as it begins to climb slightly upward",
@@ -574,14 +714,27 @@
         "c9ec0148-51cb-475f-3b5c-08d64940b4b3",
         "fe0bd2d9-3d58-4cd1-441b-08d64f618c8b"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Before the Ancient Majestic",
+          "description": "The tallest tree in the vicinity towers above you. It's white and tan bark peeling slowly away through sun, storm, and damaging of all, time. Incredibly, the bottom 2 meters appear shiny and smooth to the touch. Deep stains of brown mark random points of the base, each no less in size than a human skull. A trial cut has been etched into a portion of the South facing bark. All surrounding grass and flower have been trampled low. Animals must visit often.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "23b469a1-ed20-46db-7a63-08d64c56ce8d",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3"
+        },
+        {
+          "id": "ab6c3993-2c66-4765-8171-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
           "name": "Before the Ancient Majestic",
-          "description": "The tallest tree in the vicinity towers above you. It's white and tan bark peeling slowly away through sun, storm, and damaging of all, time. Incredibly, the bottom 2 meters appear shiny and smooth to the touch. Deep stains of brown mark random points of the base, each no less in size than a human skull. A trial cut has been etched into a portion of the South facing bark. All surrounding grass and flower have been trampled low. Animals must visit often."
+          "description": "The tallest tree in the vicinity towers above you. It's white and tan bark peeling slowly away through sun, storm, and damaging of all, time. Incredibly, the bottom 2 meters appear shiny and smooth to the touch. Deep stains of brown mark random points of the base, each no less in size than a human skull. A trial cut has been etched into a portion of the South facing bark. All surrounding grass and flower have been trampled low. Animals must visit often.",
+          "icon": null
         }
       ],
       "children": [
@@ -591,7 +744,12 @@
           "parentId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "West Quiet Path",
               "description": "Grass has been regularly trampled toward the west, leading to an even larger cross path.",
               "icon": null
@@ -608,7 +766,7 @@
             },
             {
               "id": "79a46c67-dae5-4b5e-f4cb-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "c9ec0148-51cb-475f-3b5c-08d64940b4b3",
               "name": "West Quiet Path",
               "description": "Grass has been regularly trampled toward the west, leading to an even larger cross path.",
@@ -649,14 +807,27 @@
         "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
         "c194d2d2-5242-442b-4423-08d64f618c8b"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Gently Rising Path",
+          "description": "A dirt path winds north and south through dense trees. The ground slopes gently up northward toward some unknown objective hidden by the dense trees and underbrush. Tiny pebbles litter the shaded forest floor on each side of the path. No leaves can be found on the path itself, many small dried crevasse testify of washing away any debris aggressive enough to block the way. Your skin slightly flushes due to the heat and humidity. A few small forest creatures are causing a disturbance somewhere unseen to the east.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "9dc3ab16-f4c9-4a7a-6516-08d650320b88",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b"
+        },
+        {
+          "id": "73bcff54-2c5a-4176-8172-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
           "name": "Gently Rising Path",
-          "description": "A dirt path winds north and south through dense trees. The ground slopes gently up northward toward some unknown objective hidden by the dense trees and underbrush. Tiny pebbles litter the shaded forest floor on each side of the path. No leaves can be found on the path itself, many small dried crevasse testify of washing away any debris aggressive enough to block the way. Your skin slightly flushes due to the heat and humidity. A few small forest creatures are causing a disturbance somewhere unseen to the east."
+          "description": "A dirt path winds north and south through dense trees. The ground slopes gently up northward toward some unknown objective hidden by the dense trees and underbrush. Tiny pebbles litter the shaded forest floor on each side of the path. No leaves can be found on the path itself, many small dried crevasse testify of washing away any debris aggressive enough to block the way. Your skin slightly flushes due to the heat and humidity. A few small forest creatures are causing a disturbance somewhere unseen to the east.",
+          "icon": null
         }
       ],
       "children": [
@@ -666,7 +837,12 @@
           "parentId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Southern Path",
               "description": "The forest is less dense to the south.",
               "icon": null
@@ -683,7 +859,7 @@
             },
             {
               "id": "081ee1ca-0dbb-44f3-f4cd-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
               "name": "Southern Path",
               "description": "The forest is less dense to the south.",
@@ -698,7 +874,12 @@
           "parentId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Northern Rise",
               "description": "To the north the trail begins to rise more aggressively.",
               "icon": null
@@ -715,7 +896,7 @@
             },
             {
               "id": "3f9a68cc-4d34-4ace-f4d0-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "c194d2d2-5242-442b-4423-08d64f618c8b",
               "name": "Northern Rise",
               "description": "To the north the trail begins to rise more aggressively.",
@@ -734,14 +915,27 @@
         "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
         "1cc5c873-c24d-4369-4426-08d64f618c8b"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Rising Path",
+          "description": "A broken and weathered path rises to the west and falls more gently south. The rich soil has been rent apart by some recent rain storm, making walking on either side somewhat difficult. The deep shadows from the dark canopy above hides the danger of smaller tears and mounds of heaved dirt directly before you. Large collections of leaves and rotting wood have piled up on the eastern edge of this trail, the smell is bearable but unpleasant.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "de0c15e6-0229-4f23-6517-08d650320b88",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b"
+        },
+        {
+          "id": "082bb655-b81f-4fcc-8173-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
           "name": "Rising Path",
-          "description": "A broken and weathered path rises to the west and falls more gently south. The rich soil has been rent apart by some recent rain storm, making walking on either side somewhat difficult. The deep shadows from the dark canopy above hides the danger of smaller tears and mounds of heaved dirt directly before you. Large collections of leaves and rotting wood have piled up on the eastern edge of this trail, the smell is bearable but unpleasant."
+          "description": "A broken and weathered path rises to the west and falls more gently south. The rich soil has been rent apart by some recent rain storm, making walking on either side somewhat difficult. The deep shadows from the dark canopy above hides the danger of smaller tears and mounds of heaved dirt directly before you. Large collections of leaves and rotting wood have piled up on the eastern edge of this trail, the smell is bearable but unpleasant.",
+          "icon": null
         }
       ],
       "children": [
@@ -751,7 +945,12 @@
           "parentId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Southern Decline",
               "description": "South the decline appears more gentle.",
               "icon": null
@@ -768,7 +967,7 @@
             },
             {
               "id": "8582c8e8-9cf7-41a9-f4cf-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
               "name": "Southern Decline",
               "description": "South the decline appears more gentle.",
@@ -783,7 +982,12 @@
           "parentId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "West Incline",
               "description": "The path inclines steeply to the west",
               "icon": null
@@ -800,7 +1004,7 @@
             },
             {
               "id": "4ff15975-981c-48a7-f4d2-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "1cc5c873-c24d-4369-4426-08d64f618c8b",
               "name": "West Incline",
               "description": "The path inclines steeply to the west",
@@ -819,14 +1023,27 @@
         "7b9f6a0a-760d-442c-4425-08d64f618c8b",
         "b46b572e-85b8-426d-d5a4-08d651ecf1f8"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "A Steep Path",
+          "description": "The path bends in a steep curve upward from east to north. The forest is thin here at the base of the foothills. Winds and rain rolling down from above have weathered the northern face of many trees. Small chips of bark are strewn across the path and about all the grounds in the area. A cool and persistent breeze brings the faint smell of smoke from the north above. A nest of beetles have made a home in a fallen trunk hollowed from years of their feasting.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "b5cb6959-e1cb-4075-6518-08d650320b88",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "5b1752f3-92d7-48d8-4424-08d64f618c8b"
+        },
+        {
+          "id": "64a94bc4-dfae-44b1-8174-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
           "name": "A Steep Path",
-          "description": "The path bends in a steep curve upward from east to north. The forest is thin here at the base of the foothills. Winds and rain rolling down from above have weathered the northern face of many trees. Small chips of bark are strewn across the path and about all the grounds in the area. A cool and persistent breeze brings the faint smell of smoke from the north above. A nest of beetles have made a home in a fallen trunk hollowed from years of their feasting."
+          "description": "The path bends in a steep curve upward from east to north. The forest is thin here at the base of the foothills. Winds and rain rolling down from above have weathered the northern face of many trees. Small chips of bark are strewn across the path and about all the grounds in the area. A cool and persistent breeze brings the faint smell of smoke from the north above. A nest of beetles have made a home in a fallen trunk hollowed from years of their feasting.",
+          "icon": null
         }
       ],
       "children": [
@@ -836,7 +1053,12 @@
           "parentId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Eastern Decline",
               "description": "The path declines steeply to the east.",
               "icon": null
@@ -853,7 +1075,7 @@
             },
             {
               "id": "d41a6975-7e2e-4355-f4d1-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
               "name": "Eastern Decline",
               "description": "The path declines steeply to the east.",
@@ -868,7 +1090,12 @@
           "parentId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "North Climb",
               "description": "A difficult, but short, trek is required to climb the path north",
               "icon": null
@@ -885,7 +1112,7 @@
             },
             {
               "id": "560e0200-6867-473d-f4d4-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "b46b572e-85b8-426d-d5a4-08d651ecf1f8",
               "name": "North Climb",
               "description": "A difficult, but short, trek is required to climb the path north",
@@ -904,14 +1131,27 @@
         "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
         "fa0ab044-bc64-4539-d5b7-08d651ecf1f8"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Steep Curve",
+          "description": "The path is quite difficult here with a steep incline from south to east. To the east of the path is a a small dip in the ground rich with underbrush of dusty green and dry yellows. In the center of the dip stands a twisting blackened dead tree with curling bark and long limbs stretching outward from it's trunk. Behind the dip and the tree is a large cliff that towers over the surrounding trees and plant life casting everything in shadow. A long jagged boulder rests at the bottom of the cliff a couple feet below a divot in the side as if it fell off ages ago.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "191ae587-28ef-406a-79d9-08d652511e82",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8"
+        },
+        {
+          "id": "ac31845b-77b3-4238-8175-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
           "name": "Steep Curve",
-          "description": "The path is quite difficult here with a steep incline from south to east. To the east of the path is a a small dip in the ground rich with underbrush of dusty green and dry yellows. In the center of the dip stands a twisting blackened dead tree with curling bark and long limbs stretching outward from it's trunk. Behind the dip and the tree is a large cliff that towers over the surrounding trees and plant life casting everything in shadow. A long jagged boulder rests at the bottom of the cliff a couple feet below a divot in the side as if it fell off ages ago."
+          "description": "The path is quite difficult here with a steep incline from south to east. To the east of the path is a a small dip in the ground rich with underbrush of dusty green and dry yellows. In the center of the dip stands a twisting blackened dead tree with curling bark and long limbs stretching outward from it's trunk. Behind the dip and the tree is a large cliff that towers over the surrounding trees and plant life casting everything in shadow. A long jagged boulder rests at the bottom of the cliff a couple feet below a divot in the side as if it fell off ages ago.",
+          "icon": null
         }
       ],
       "children": [
@@ -921,7 +1161,12 @@
           "parentId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Southern Decline",
               "description": "The path continues at a steep decline to the south",
               "icon": null
@@ -938,7 +1183,7 @@
             },
             {
               "id": "f24c014b-b647-4ecc-f4d3-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
               "name": "Southern Decline",
               "description": "The path continues at a steep decline to the south",
@@ -953,7 +1198,12 @@
           "parentId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "East",
               "description": "The path becomes more accessible to the east",
               "icon": null
@@ -970,7 +1220,7 @@
             },
             {
               "id": "dc6ea47f-4f49-435a-f4d6-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "fa0ab044-bc64-4539-d5b7-08d651ecf1f8",
               "name": "East",
               "description": "The path becomes more accessible to the east",
@@ -989,14 +1239,27 @@
         "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
         "2343dd4a-65bd-4c79-f4fa-08d653530e72"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Gentle Slope",
+          "description": "The path runs clean and smooth from north to west. Further west the slope appears to drop rapidly. A cliff greets you to the south past which you can see a vast Vista of forest and grass. The western path may lead there. The rolling foothills that you stand on continue their gentle rise northward with grass and flowering brush.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "57a2cea2-f6c3-423a-79da-08d652511e82",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8"
+        },
+        {
+          "id": "fc386227-3f91-4b4c-8176-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
           "name": "Gentle Slope",
-          "description": "The path runs clean and smooth from north to west. Further west the slope appears to drop rapidly. A cliff greets you to the south past which you can see a vast Vista of forest and grass. The western path may lead there. The rolling foothills that you stand on continue their gentle rise northward with grass and flowering brush."
+          "description": "The path runs clean and smooth from north to west. Further west the slope appears to drop rapidly. A cliff greets you to the south past which you can see a vast Vista of forest and grass. The western path may lead there. The rolling foothills that you stand on continue their gentle rise northward with grass and flowering brush.",
+          "icon": null
         }
       ],
       "children": [
@@ -1006,7 +1269,12 @@
           "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Western Drop",
               "description": "Escape back to the real world",
               "icon": null
@@ -1023,7 +1291,7 @@
             },
             {
               "id": "f08282a5-bd91-4226-f4d5-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
               "name": "Western Drop",
               "description": "Escape back to the real world",
@@ -1038,7 +1306,12 @@
           "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Northern Plateau",
               "description": "To the north, inset into the foothills, a large plateau has been cut out",
               "icon": null
@@ -1055,7 +1328,7 @@
             },
             {
               "id": "84e5f33e-ff21-4152-f4d8-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "2343dd4a-65bd-4c79-f4fa-08d653530e72",
               "name": "Northern Plateau",
               "description": "To the north, inset into the foothills, a large plateau has been cut out",
@@ -1075,16 +1348,30 @@
         "5e314d71-3150-46fc-f4f9-08d653530e72",
         "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
         "d20e7706-5aba-4d42-f500-08d653530e72",
-        "33596aab-6a25-44e7-f504-08d653530e72"
+        "33596aab-6a25-44e7-f504-08d653530e72",
+        "fbce87de-3d90-4e4a-f9e0-08d658b1c85d"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Foothills Plateaus",
+          "description": "Natural processes have carved out a large plateau half way up the local foothills. To the south falling away into the distance you can see a great forest. The plateau runs east to west, with the terrain continuing it's steady climb northward. Tall yellow grasses cover most of the area, the few bald areas reveal a rich soil fertile for planting and free of large obstacles.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "242d2943-877a-429c-0f5e-08d65353a7bd",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "cbc3783a-9595-4fe0-f4f8-08d653530e72"
+        },
+        {
+          "id": "a32928b2-60a1-4e09-8177-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "name": "Foothills Plateaus",
-          "description": "Natural processes have carved out a large plateau half way up the local foothills. To the south falling away into the distance you can see a great forest. The plateau runs east to west, with the terrain continuing it's steady climb northward. Tall yellow grasses cover most of the area, the few bald areas reveal a rich soil fertile for planting and free of large obstacles."
+          "description": "Natural processes have carved out a large plateau half way up the local foothills. To the south falling away into the distance you can see a great forest. The plateau runs east to west, with the terrain continuing it's steady climb northward. Tall yellow grasses cover most of the area, the few bald areas reveal a rich soil fertile for planting and free of large obstacles.",
+          "icon": null
         }
       ],
       "children": [
@@ -1116,7 +1403,12 @@
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Tiny Southern Trail",
               "description": "A small trail has been beat into the grass slowly winding it's way southward",
               "icon": null
@@ -1133,7 +1425,7 @@
             },
             {
               "id": "c94743bf-e94a-4c45-f4d7-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "5e314d71-3150-46fc-f4f9-08d653530e72",
               "name": "Tiny Southern Trail",
               "description": "A small trail has been beat into the grass slowly winding it's way southward",
@@ -1148,7 +1440,12 @@
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "717921f9-0da7-4aef-f4fb-08d653530e72",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Eastern Plateau",
               "description": "To the east the plateau continues to support brown grass and shrubery",
               "icon": null
@@ -1165,7 +1462,7 @@
             },
             {
               "id": "f742d3fd-6593-44d0-f4da-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
               "name": "Eastern Plateau",
               "description": "To the east the plateau continues to support brown grass and shrubery",
@@ -1180,7 +1477,12 @@
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Western Plateau",
               "description": "The grass and shrubbery lessen to the west as the plateau continues.",
               "icon": null
@@ -1197,7 +1499,7 @@
             },
             {
               "id": "86ae3052-4194-47ad-f4dc-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "d20e7706-5aba-4d42-f500-08d653530e72",
               "name": "Western Plateau",
               "description": "The grass and shrubbery lessen to the west as the plateau continues.",
@@ -1212,7 +1514,12 @@
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "c59221af-e906-40ed-f502-08d653530e72",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Northern Tiny Trail",
               "description": "The small trail continues northward",
               "icon": null
@@ -1229,10 +1536,47 @@
             },
             {
               "id": "d89eae2e-6a00-4892-f4de-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "33596aab-6a25-44e7-f504-08d653530e72",
               "name": "Northern Tiny Trail",
               "description": "The small trail continues northward",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "fbce87de-3d90-4e4a-f9e0-08d658b1c85d",
+          "type": 300,
+          "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+          "childrenIds": [],
+          "properties": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "3bff263c-1f9b-4d53-f9de-08d658b1c85d",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "name": "A New Exit",
+              "description": "The paint is still wet on this sign",
+              "icon": null
+            }
+          },
+          "data": [
+            {
+              "id": "bc048e84-2cdd-4eac-8238-08d658b1c871",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "fbce87de-3d90-4e4a-f9e0-08d658b1c85d",
+              "destinationLocationId": "3bff263c-1f9b-4d53-f9de-08d658b1c85d",
+              "time": 0,
+              "effort": 0
+            },
+            {
+              "id": "9c0c095e-2932-4bfe-0869-08d658b1c874",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "fbce87de-3d90-4e4a-f9e0-08d658b1c85d",
+              "name": "A New Exit",
+              "description": "The paint is still wet on this sign",
               "icon": null
             }
           ],
@@ -1248,14 +1592,27 @@
         "1d637aa3-fec4-4b59-f4fc-08d653530e72",
         "32e2b3a7-fd49-4804-e9c8-08d655c5c3e7"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Eastern Plateau",
+          "description": "South, dropping down past the immediate cliff, a youthful forest can be seen. The forest looks pleasant and hospitable. Most of the half dead grass is waist deep here and tickles the back of your hands as you walk through it. In several areas some of the grass has been trampled and beaten down. A few large stones, placed conspicuously, would tend to delineate square sections of soil. One or two lizards can be heard scrambling beneath the grass, attempting to stay far away from travelers like you. The tall grass extends to the east. A tiny trail can be barely discerned to the west.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "69aec382-4e57-4a6b-0f5f-08d65353a7bd",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "717921f9-0da7-4aef-f4fb-08d653530e72"
+        },
+        {
+          "id": "732ceaa6-b1aa-4f8f-8178-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "717921f9-0da7-4aef-f4fb-08d653530e72",
           "name": "Eastern Plateau",
-          "description": "South, dropping down past the immediate cliff, a youthful forest can be seen. The forest looks pleasant and hospitable. Most of the half dead grass is waist deep here and tickles the back of your hands as you walk through it. In several areas some of the grass has been trampled and beaten down. A few large stones, placed conspicuously, would tend to delineate square sections of soil. One or two lizards can be heard scrambling beneath the grass, attempting to stay far away from travelers like you. The tall grass extends to the east. A tiny trail can be barely discerned to the west."
+          "description": "South, dropping down past the immediate cliff, a youthful forest can be seen. The forest looks pleasant and hospitable. Most of the half dead grass is waist deep here and tickles the back of your hands as you walk through it. In several areas some of the grass has been trampled and beaten down. A few large stones, placed conspicuously, would tend to delineate square sections of soil. One or two lizards can be heard scrambling beneath the grass, attempting to stay far away from travelers like you. The tall grass extends to the east. A tiny trail can be barely discerned to the west.",
+          "icon": null
         }
       ],
       "children": [
@@ -1265,7 +1622,12 @@
           "parentId": "717921f9-0da7-4aef-f4fb-08d653530e72",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "West Foothills Plateaus",
               "description": "The middle of the plateaus is to the west.",
               "icon": null
@@ -1282,7 +1644,7 @@
             },
             {
               "id": "d5bee4ca-6f37-4008-f4d9-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "1d637aa3-fec4-4b59-f4fc-08d653530e72",
               "name": "West Foothills Plateaus",
               "description": "The middle of the plateaus is to the west.",
@@ -1297,7 +1659,12 @@
           "parentId": "717921f9-0da7-4aef-f4fb-08d653530e72",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "East toward Pond",
               "description": "A small pond waters thick grass to the east.",
               "icon": null
@@ -1314,7 +1681,7 @@
             },
             {
               "id": "88ffccb0-c67c-4b0a-f4e2-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "32e2b3a7-fd49-4804-e9c8-08d655c5c3e7",
               "name": "East toward Pond",
               "description": "A small pond waters thick grass to the east.",
@@ -1334,14 +1701,27 @@
         "638fb02e-abf7-489e-f4ff-08d653530e72",
         "488b0fdd-3211-4e79-f501-08d653530e72"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Western Plateau",
+          "description": "All grass in this area of the plateau has been carefully cleared away. Many large stones have been placed randomly around the field, none larger than what a strong man could carry. While most of the stones are smooth, only a few bare marks of reds and greens. One of the closer stones is currently playing host to a small black beetle, staring up at you with inquisitive antennae.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "f809407d-b730-49d4-0f60-08d65353a7bd",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "c3e91d08-408f-40b1-f4fe-08d653530e72"
+        },
+        {
+          "id": "20ea0493-979b-49e5-8179-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
           "name": "Western Plateau",
-          "description": "All grass in this area of the plateau has been carefully cleared away. Many large stones have been placed randomly around the field, none larger than what a strong man could carry. While most of the stones are smooth, only a few bare marks of reds and greens. One of the closer stones is currently playing host to a small black beetle, staring up at you with inquisitive antennae."
+          "description": "All grass in this area of the plateau has been carefully cleared away. Many large stones have been placed randomly around the field, none larger than what a strong man could carry. While most of the stones are smooth, only a few bare marks of reds and greens. One of the closer stones is currently playing host to a small black beetle, staring up at you with inquisitive antennae.",
+          "icon": null
         }
       ],
       "children": [
@@ -1373,7 +1753,12 @@
           "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "East Foothills Plateaus",
               "description": "Escape back to the real world",
               "icon": null
@@ -1390,7 +1775,7 @@
             },
             {
               "id": "6836b80a-1713-4508-f4db-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "638fb02e-abf7-489e-f4ff-08d653530e72",
               "name": "East Foothills Plateaus",
               "description": "Escape back to the real world",
@@ -1408,7 +1793,7 @@
             "BeforeOurTime.Models.Modules.World.Models.Properties.PhysicalItemVM, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "mobile": true
             },
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Warm Stones",
               "description": "New description",
               "icon": null
@@ -1424,7 +1809,7 @@
             },
             {
               "id": "d4182735-8977-48b8-7111-08d6537d9927",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
               "name": "Warm Stones",
               "description": "New description",
@@ -1443,14 +1828,27 @@
         "de8acd55-d52d-4f84-f503-08d653530e72",
         "b9749e11-e760-41bb-f507-08d653530e72"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Center of Plateau",
+          "description": "The large plateau in the middle of these foothills extends around you in all directions. To the north the plateau halts abruptly against the sudden resurgence of the hillside. Shadows in the face of the hillside could in fact be a cave. No grass remains here, all has been heavily trampled.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "898c38a3-9320-487b-0f61-08d65353a7bd",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "c59221af-e906-40ed-f502-08d653530e72"
+        },
+        {
+          "id": "8cd9fcd0-f19e-4691-817a-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "c59221af-e906-40ed-f502-08d653530e72",
           "name": "Center of Plateau",
-          "description": "The large plateau in the middle of these foothills extends around you in all directions. To the north the plateau halts abruptly against the sudden resurgence of the hillside. Shadows in the face of the hillside could in fact be a cave. No grass remains here, all has been heavily trampled."
+          "description": "The large plateau in the middle of these foothills extends around you in all directions. To the north the plateau halts abruptly against the sudden resurgence of the hillside. Shadows in the face of the hillside could in fact be a cave. No grass remains here, all has been heavily trampled.",
+          "icon": null
         }
       ],
       "children": [
@@ -1460,7 +1858,12 @@
           "parentId": "c59221af-e906-40ed-f502-08d653530e72",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Southern trail",
               "description": "A small trail begins to form and runs to the south.",
               "icon": null
@@ -1477,7 +1880,7 @@
             },
             {
               "id": "5259acbe-3b81-40f7-f4dd-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "de8acd55-d52d-4f84-f503-08d653530e72",
               "name": "Southern trail",
               "description": "A small trail begins to form and runs to the south.",
@@ -1492,7 +1895,12 @@
           "parentId": "c59221af-e906-40ed-f502-08d653530e72",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "72ada875-c010-4dc0-f505-08d653530e72",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "North Before the Cave",
               "description": "To the north shadows on the face of the foothills may in fact be a cave.",
               "icon": null
@@ -1509,7 +1917,7 @@
             },
             {
               "id": "eda24e53-c9c1-416f-f4e0-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "b9749e11-e760-41bb-f507-08d653530e72",
               "name": "North Before the Cave",
               "description": "To the north shadows on the face of the foothills may in fact be a cave.",
@@ -1526,16 +1934,30 @@
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "19d0a799-9667-4189-f506-08d653530e72",
-        "dbef7d9f-1bd1-4b71-f4eb-08d658acce12"
+        "dbef7d9f-1bd1-4b71-f4eb-08d658acce12",
+        "e3b8561d-9337-4785-b80f-08d658b7315f"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Before the Cave",
+          "description": "The northern foothills rise abruptly in a cliff to tower over the Plateaus. Directly north a large simi-circle of a cave has been formed almost straight back through the rocks and sandstone compromising the cliff face. Some minimalistic wood and sod structures can be seen inside the imediate entrance, before the light grows too faint determine their quantity. Before the Cave is home to a small quiet tribe of people and not a few dogs. Many sit beneath adhoc shelters constructed of bark and grass. Two or three near the shadowy cool entrance appear to be weaving the grass into thin mats. One large male stands close by leaning on a black staff adorned with feathers and bone. His gentle gaze falls on you, friendly, but confident.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "e8ff1076-b49a-40ac-0f62-08d65353a7bd",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "72ada875-c010-4dc0-f505-08d653530e72"
+        },
+        {
+          "id": "dbf69e8f-bb56-4807-817b-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "72ada875-c010-4dc0-f505-08d653530e72",
           "name": "Before the Cave",
-          "description": "The northern foothills rise abruptly in a cliff to tower over the Plateaus. Directly north a large simi-circle of a cave has been formed almost straight back through the rocks and sandstone compromising the cliff face. Some minimalistic wood and sod structures can be seen inside the imediate entrance, before the light grows too faint determine their quantity. Before the Cave is home to a small quiet tribe of people and not a few dogs. Many sit beneath adhoc shelters constructed of bark and grass. Two or three near the shadowy cool entrance appear to be weaving the grass into thin mats. One large male stands close by leaning on a black staff adorned with feathers and bone. His gentle gaze falls on you, friendly, but confident."
+          "description": "The northern foothills rise abruptly in a cliff to tower over the Plateaus. Directly north a large simi-circle of a cave has been formed almost straight back through the rocks and sandstone compromising the cliff face. Some minimalistic wood and sod structures can be seen inside the imediate entrance, before the light grows too faint determine their quantity. Before the Cave is home to a small quiet tribe of people and not a few dogs. Many sit beneath adhoc shelters constructed of bark and grass. Two or three near the shadowy cool entrance appear to be weaving the grass into thin mats. One large male stands close by leaning on a black staff adorned with feathers and bone. His gentle gaze falls on you, friendly, but confident.",
+          "icon": null
         }
       ],
       "children": [
@@ -1545,7 +1967,12 @@
           "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "c59221af-e906-40ed-f502-08d653530e72",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "Southward Plateau",
               "description": "Escape back to the real world",
               "icon": null
@@ -1562,7 +1989,7 @@
             },
             {
               "id": "299a81f5-308d-46e5-f4df-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "19d0a799-9667-4189-f506-08d653530e72",
               "name": "Southward Plateau",
               "description": "Escape back to the real world",
@@ -1594,7 +2021,7 @@
               "id": "00000000-0000-0000-0000-000000000000",
               "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
               "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "931f0231-2f0e-4547-88ce-08dbe3f9fcca"
+              "terminalId": "3fcd7e70-62be-4428-9b4f-22dd641576db"
             },
             {
               "name": "admin@localhost",
@@ -1614,6 +2041,43 @@
             }
           ],
           "children": []
+        },
+        {
+          "id": "e3b8561d-9337-4785-b80f-08d658b7315f",
+          "type": 300,
+          "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
+          "childrenIds": [],
+          "properties": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "a747ddef-55ec-4879-b80d-08d658b7315f",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "name": "A New Exit",
+              "description": "The paint is still wet on this sign",
+              "icon": null
+            }
+          },
+          "data": [
+            {
+              "id": "9159e9a0-44d3-44a2-7b2d-08d658b73165",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "e3b8561d-9337-4785-b80f-08d658b7315f",
+              "destinationLocationId": "a747ddef-55ec-4879-b80d-08d658b7315f",
+              "time": 0,
+              "effort": 0
+            },
+            {
+              "id": "0435c2f5-4617-45eb-92e7-08d658b73167",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "e3b8561d-9337-4785-b80f-08d658b7315f",
+              "name": "A New Exit",
+              "description": "The paint is still wet on this sign",
+              "icon": null
+            }
+          ],
+          "children": []
         }
       ]
     },
@@ -1624,14 +2088,27 @@
       "childrenIds": [
         "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7"
       ],
-      "properties": {},
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "Cliffside Pond",
+          "description": "A small shallow pond has formed right against the southern cliff. Though only a tree length across it still manages to support several schools of fish and other small aquatics. The water is fresh and clean, continually fed from a stream entering from the north while the excess spills gently over the southern rocks down to the green and blue forest below.",
+          "icon": null
+        }
+      },
       "data": [
         {
           "id": "f2f914e4-a46b-4105-ee70-08d655c5c3f2",
           "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7"
+        },
+        {
+          "id": "12298c08-bb8a-44fe-817c-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
           "name": "Cliffside Pond",
-          "description": "A small shallow pond has formed right against the southern cliff. Though only a tree length across it still manages to support several schools of fish and other small aquatics. The water is fresh and clean, continually fed from a stream entering from the north while the excess spills gently over the southern rocks down to the green and blue forest below."
+          "description": "A small shallow pond has formed right against the southern cliff. Though only a tree length across it still manages to support several schools of fish and other small aquatics. The water is fresh and clean, continually fed from a stream entering from the north while the excess spills gently over the southern rocks down to the green and blue forest below.",
+          "icon": null
         }
       ],
       "children": [
@@ -1641,7 +2118,12 @@
           "parentId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
           "childrenIds": [],
           "properties": {
-            "BeforeOurTime.Models.Modules.Core.Models.Properties.VisibleProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "717921f9-0da7-4aef-f4fb-08d653530e72",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
               "name": "West Grassy Plateau",
               "description": "The water feeds well all the grass extending to the west.",
               "icon": null
@@ -1658,10 +2140,150 @@
             },
             {
               "id": "95981c7e-4971-4dc6-f4e1-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.Models.Data.VisibleItemData",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7",
               "name": "West Grassy Plateau",
               "description": "The water feeds well all the grass extending to the west.",
+              "icon": null
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "3bff263c-1f9b-4d53-f9de-08d658b1c85d",
+      "type": 200,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "07c398a0-c26e-42ec-f9df-08d658b1c85d"
+      ],
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "A New Location",
+          "description": "Someone has barfed C# code and SQL statements all over the place. It's quite disgusting.",
+          "icon": null
+        }
+      },
+      "data": [
+        {
+          "id": "ee046807-2e40-475c-5416-08d658b1c875",
+          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "3bff263c-1f9b-4d53-f9de-08d658b1c85d"
+        },
+        {
+          "id": "af8750f3-e418-4a80-0868-08d658b1c874",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+          "dataItemId": "3bff263c-1f9b-4d53-f9de-08d658b1c85d",
+          "name": "A New Location",
+          "description": "Someone has barfed C# code and SQL statements all over the place. It's quite disgusting.",
+          "icon": null
+        }
+      ],
+      "children": [
+        {
+          "id": "07c398a0-c26e-42ec-f9df-08d658b1c85d",
+          "type": 300,
+          "parentId": "3bff263c-1f9b-4d53-f9de-08d658b1c85d",
+          "childrenIds": [],
+          "properties": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "name": "A Return Path",
+              "description": "Escape back to the real world",
+              "icon": null
+            }
+          },
+          "data": [
+            {
+              "id": "dfc92fc6-cd16-4dbb-8237-08d658b1c871",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "07c398a0-c26e-42ec-f9df-08d658b1c85d",
+              "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "time": 0,
+              "effort": 0
+            },
+            {
+              "id": "beeec746-31fa-4cae-0867-08d658b1c874",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "07c398a0-c26e-42ec-f9df-08d658b1c85d",
+              "name": "A Return Path",
+              "description": "Escape back to the real world",
+              "icon": null
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "a747ddef-55ec-4879-b80d-08d658b7315f",
+      "type": 200,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "e3fcbe9a-9f2c-439d-b80e-08d658b7315f"
+      ],
+      "properties": {
+        "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {},
+        "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "name": "A New Location",
+          "description": "Someone has barfed C# code and SQL statements all over the place. It's quite disgusting.",
+          "icon": null
+        }
+      },
+      "data": [
+        {
+          "id": "b0ade31f-765f-4b20-ff56-08d658b73168",
+          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "a747ddef-55ec-4879-b80d-08d658b7315f"
+        },
+        {
+          "id": "09415289-0494-459b-92e6-08d658b73167",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+          "dataItemId": "a747ddef-55ec-4879-b80d-08d658b7315f",
+          "name": "A New Location",
+          "description": "Someone has barfed C# code and SQL statements all over the place. It's quite disgusting.",
+          "icon": null
+        }
+      ],
+      "children": [
+        {
+          "id": "e3fcbe9a-9f2c-439d-b80e-08d658b7315f",
+          "type": 300,
+          "parentId": "a747ddef-55ec-4879-b80d-08d658b7315f",
+          "childrenIds": [],
+          "properties": {
+            "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "destinationId": "72ada875-c010-4dc0-f505-08d653530e72",
+              "effort": 0,
+              "time": 0
+            },
+            "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemProperty, BeforeOurTime.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+              "name": "A Return Path",
+              "description": "Escape back to the real world",
+              "icon": null
+            }
+          },
+          "data": [
+            {
+              "id": "23597adc-b7f0-4905-7b2c-08d658b73165",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "e3fcbe9a-9f2c-439d-b80e-08d658b7315f",
+              "destinationLocationId": "72ada875-c010-4dc0-f505-08d653530e72",
+              "time": 0,
+              "effort": 0
+            },
+            {
+              "id": "3dec20ee-3806-4df6-92e5-08d658b73167",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "e3fcbe9a-9f2c-439d-b80e-08d658b7315f",
+              "name": "A Return Path",
+              "description": "Escape back to the real world",
               "icon": null
             }
           ],
