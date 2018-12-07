@@ -1358,7 +1358,7 @@
           "data": [
             {
               "id": "9544c4f6-383d-4b99-338a-08d6537d9925",
-              "dataType": "BeforeOurTime.Models.Modules.World.Models.Data.PhysicalItemData",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
               "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
               "mobile": true,
               "weight": 0
