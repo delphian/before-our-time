@@ -1,6 +1,5 @@
 {
   "id": "f4212bfe-ef65-4632-df2b-08d63af92e75",
-  "type": 100,
   "parentId": null,
   "childrenIds": [
     "91f4a03f-8cb8-467c-df2c-08d63af92e75",
@@ -43,11 +42,12 @@
   "children": [
     {
       "id": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
-        "83b7d1dc-2582-4ebf-fd58-08d65a54a9f0"
+        "83b7d1dc-2582-4ebf-fd58-08d65a54a9f0",
+        "e063c2bb-2d0b-41ea-f651-08d65bfdceb4",
+        "578199bd-1aa7-48fc-ade3-08d65cb67530"
       ],
       "data": [
         {
@@ -67,7 +67,6 @@
       "children": [
         {
           "id": "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
-          "type": 300,
           "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -92,7 +91,6 @@
         },
         {
           "id": "83b7d1dc-2582-4ebf-fd58-08d65a54a9f0",
-          "type": 400,
           "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -112,12 +110,71 @@
             }
           ],
           "children": []
+        },
+        {
+          "id": "e063c2bb-2d0b-41ea-f651-08d65bfdceb4",
+          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "1d3e0825-8394-49b1-a4c3-08d65bfdceb5",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
+              "dataItemId": "e063c2bb-2d0b-41ea-f651-08d65bfdceb4",
+              "temporary": true
+            },
+            {
+              "id": "dd5e545e-cb3d-47bc-2f5a-08d65bfdce89",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "e063c2bb-2d0b-41ea-f651-08d65bfdceb4",
+              "name": "Ghost_ZNLN",
+              "description": "A brave new player",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "578199bd-1aa7-48fc-ade3-08d65cb67530",
+          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "35432d9f-e2fc-4dd7-1d48-08d65cb67533",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
+              "dataItemId": "578199bd-1aa7-48fc-ade3-08d65cb67530",
+              "temporary": true
+            },
+            {
+              "id": "302fd70e-9487-4e3d-7512-08d65cb67534",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "578199bd-1aa7-48fc-ade3-08d65cb67530",
+              "name": "Ghost_23OK",
+              "description": "A brave new player",
+              "icon": null
+            },
+            {
+              "name": "Account_EAY6",
+              "id": "0d892903-82cf-40ca-d8a8-08d65cb6739a",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$XrZ1esK40vhaJdGRaB9POe4aD8OYpsBxSEOao3hexUGkCNueYBAuK",
+              "temporary": true,
+              "admin": false,
+              "characters": [
+                {
+                  "accountId": "0d892903-82cf-40ca-d8a8-08d65cb6739a",
+                  "id": "753efa9f-93b5-40e7-9ba7-08d65cb67535",
+                  "characterItemId": "578199bd-1aa7-48fc-ade3-08d65cb67530"
+                }
+              ]
+            }
+          ],
+          "children": []
         }
       ]
     },
     {
       "id": "779a3a47-3048-4528-df3c-08d63af92e75",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "9fae857c-0fc9-4f29-df3d-08d63af92e75",
@@ -143,7 +200,6 @@
       "children": [
         {
           "id": "9fae857c-0fc9-4f29-df3d-08d63af92e75",
-          "type": 300,
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -168,7 +224,6 @@
         },
         {
           "id": "c85ba6d3-d68f-43fa-df42-08d63af92e75",
-          "type": 300,
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -193,7 +248,6 @@
         },
         {
           "id": "4cf67fc0-1bae-445b-df45-08d63af92e75",
-          "type": 300,
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -218,7 +272,6 @@
         },
         {
           "id": "a55c8206-17dc-4762-441c-08d64f618c8b",
-          "type": 400,
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -259,7 +312,6 @@
     },
     {
       "id": "d62e0bef-2948-4979-df40-08d63af92e75",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "37da284a-0cbd-4ea5-df41-08d63af92e75"
@@ -282,7 +334,6 @@
       "children": [
         {
           "id": "37da284a-0cbd-4ea5-df41-08d63af92e75",
-          "type": 300,
           "parentId": "d62e0bef-2948-4979-df40-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -309,7 +360,6 @@
     },
     {
       "id": "47d86b50-480c-497b-df43-08d63af92e75",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "e1ce8640-cfcd-4550-df44-08d63af92e75",
@@ -333,7 +383,6 @@
       "children": [
         {
           "id": "e1ce8640-cfcd-4550-df44-08d63af92e75",
-          "type": 300,
           "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -358,7 +407,6 @@
         },
         {
           "id": "66272989-71f1-4246-df48-08d63af92e75",
-          "type": 300,
           "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -385,7 +433,6 @@
     },
     {
       "id": "b6cad293-39c7-441f-df46-08d63af92e75",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "4d189c8d-cfed-4cb9-df47-08d63af92e75",
@@ -409,7 +456,6 @@
       "children": [
         {
           "id": "4d189c8d-cfed-4cb9-df47-08d63af92e75",
-          "type": 300,
           "parentId": "b6cad293-39c7-441f-df46-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -434,7 +480,6 @@
         },
         {
           "id": "f6c788bc-5ed6-4688-1b7c-08d645e4ab65",
-          "type": 300,
           "parentId": "b6cad293-39c7-441f-df46-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -461,7 +506,6 @@
     },
     {
       "id": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "de75c5dd-5698-4194-1b7b-08d645e4ab65",
@@ -486,7 +530,6 @@
       "children": [
         {
           "id": "de75c5dd-5698-4194-1b7b-08d645e4ab65",
-          "type": 300,
           "parentId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "childrenIds": [],
           "data": [
@@ -511,7 +554,6 @@
         },
         {
           "id": "0597a94a-e188-4af5-3b5d-08d64940b4b3",
-          "type": 300,
           "parentId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "childrenIds": [],
           "data": [
@@ -536,7 +578,6 @@
         },
         {
           "id": "a2303b98-7396-4325-441f-08d64f618c8b",
-          "type": 300,
           "parentId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "childrenIds": [],
           "data": [
@@ -563,7 +604,6 @@
     },
     {
       "id": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "c9ec0148-51cb-475f-3b5c-08d64940b4b3",
@@ -587,7 +627,6 @@
       "children": [
         {
           "id": "c9ec0148-51cb-475f-3b5c-08d64940b4b3",
-          "type": 300,
           "parentId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
           "childrenIds": [],
           "data": [
@@ -612,7 +651,6 @@
         },
         {
           "id": "fe0bd2d9-3d58-4cd1-441b-08d64f618c8b",
-          "type": 400,
           "parentId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
           "childrenIds": [],
           "data": [
@@ -653,7 +691,6 @@
     },
     {
       "id": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
@@ -677,7 +714,6 @@
       "children": [
         {
           "id": "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
-          "type": 300,
           "parentId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
           "childrenIds": [],
           "data": [
@@ -702,7 +738,6 @@
         },
         {
           "id": "c194d2d2-5242-442b-4423-08d64f618c8b",
-          "type": 300,
           "parentId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
           "childrenIds": [],
           "data": [
@@ -729,7 +764,6 @@
     },
     {
       "id": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
@@ -753,7 +787,6 @@
       "children": [
         {
           "id": "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
-          "type": 300,
           "parentId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
           "childrenIds": [],
           "data": [
@@ -778,7 +811,6 @@
         },
         {
           "id": "1cc5c873-c24d-4369-4426-08d64f618c8b",
-          "type": 300,
           "parentId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
           "childrenIds": [],
           "data": [
@@ -805,7 +837,6 @@
     },
     {
       "id": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "7b9f6a0a-760d-442c-4425-08d64f618c8b",
@@ -829,7 +860,6 @@
       "children": [
         {
           "id": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
-          "type": 300,
           "parentId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
           "childrenIds": [],
           "data": [
@@ -854,7 +884,6 @@
         },
         {
           "id": "b46b572e-85b8-426d-d5a4-08d651ecf1f8",
-          "type": 300,
           "parentId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
           "childrenIds": [],
           "data": [
@@ -881,7 +910,6 @@
     },
     {
       "id": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
@@ -905,7 +933,6 @@
       "children": [
         {
           "id": "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
-          "type": 300,
           "parentId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
           "childrenIds": [],
           "data": [
@@ -930,7 +957,6 @@
         },
         {
           "id": "fa0ab044-bc64-4539-d5b7-08d651ecf1f8",
-          "type": 300,
           "parentId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
           "childrenIds": [],
           "data": [
@@ -957,7 +983,6 @@
     },
     {
       "id": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
@@ -981,7 +1006,6 @@
       "children": [
         {
           "id": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
-          "type": 300,
           "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
           "childrenIds": [],
           "data": [
@@ -1006,7 +1030,6 @@
         },
         {
           "id": "2343dd4a-65bd-4c79-f4fa-08d653530e72",
-          "type": 300,
           "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
           "childrenIds": [],
           "data": [
@@ -1033,7 +1056,6 @@
     },
     {
       "id": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
@@ -1061,7 +1083,6 @@
       "children": [
         {
           "id": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-          "type": 400,
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1100,7 +1121,6 @@
         },
         {
           "id": "5e314d71-3150-46fc-f4f9-08d653530e72",
-          "type": 300,
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1125,7 +1145,6 @@
         },
         {
           "id": "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
-          "type": 300,
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1150,7 +1169,6 @@
         },
         {
           "id": "d20e7706-5aba-4d42-f500-08d653530e72",
-          "type": 300,
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1175,7 +1193,6 @@
         },
         {
           "id": "33596aab-6a25-44e7-f504-08d653530e72",
-          "type": 300,
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1200,7 +1217,6 @@
         },
         {
           "id": "fbce87de-3d90-4e4a-f9e0-08d658b1c85d",
-          "type": 300,
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1227,7 +1243,6 @@
     },
     {
       "id": "717921f9-0da7-4aef-f4fb-08d653530e72",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "1d637aa3-fec4-4b59-f4fc-08d653530e72",
@@ -1251,7 +1266,6 @@
       "children": [
         {
           "id": "1d637aa3-fec4-4b59-f4fc-08d653530e72",
-          "type": 300,
           "parentId": "717921f9-0da7-4aef-f4fb-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1276,7 +1290,6 @@
         },
         {
           "id": "32e2b3a7-fd49-4804-e9c8-08d655c5c3e7",
-          "type": 300,
           "parentId": "717921f9-0da7-4aef-f4fb-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1303,9 +1316,9 @@
     },
     {
       "id": "c3e91d08-408f-40b1-f4fe-08d653530e72",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
+        "370031df-3872-4740-441a-08d64f618c8b",
         "638fb02e-abf7-489e-f4ff-08d653530e72",
         "488b0fdd-3211-4e79-f501-08d653530e72"
       ],
@@ -1326,163 +1339,8 @@
       ],
       "children": [
         {
-          "id": "638fb02e-abf7-489e-f4ff-08d653530e72",
-          "type": 300,
-          "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "03ef5c37-d9d1-4289-9623-08d65353a7bc",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "638fb02e-abf7-489e-f4ff-08d653530e72",
-              "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
-              "time": 0,
-              "effort": 0
-            },
-            {
-              "id": "6836b80a-1713-4508-f4db-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "638fb02e-abf7-489e-f4ff-08d653530e72",
-              "name": "East Foothills Plateaus",
-              "description": "Escape back to the real world",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "488b0fdd-3211-4e79-f501-08d653530e72",
-          "type": 0,
-          "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "9544c4f6-383d-4b99-338a-08d6537d9925",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
-              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
-              "mobile": true,
-              "weight": 0
-            },
-            {
-              "id": "d4182735-8977-48b8-7111-08d6537d9927",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
-              "name": "Warm Stones",
-              "description": "New description",
-              "icon": null
-            }
-          ],
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "c59221af-e906-40ed-f502-08d653530e72",
-      "type": 200,
-      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
-      "childrenIds": [
-        "de8acd55-d52d-4f84-f503-08d653530e72",
-        "b9749e11-e760-41bb-f507-08d653530e72"
-      ],
-      "data": [
-        {
-          "id": "898c38a3-9320-487b-0f61-08d65353a7bd",
-          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
-          "dataItemId": "c59221af-e906-40ed-f502-08d653530e72"
-        },
-        {
-          "id": "8cd9fcd0-f19e-4691-817a-08d658bba3ba",
-          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-          "dataItemId": "c59221af-e906-40ed-f502-08d653530e72",
-          "name": "Center of Plateau",
-          "description": "The large plateau in the middle of these foothills extends around you in all directions. To the north the plateau halts abruptly against the sudden resurgence of the hillside. Shadows in the face of the hillside could in fact be a cave. No grass remains here, all has been heavily trampled.",
-          "icon": null
-        }
-      ],
-      "children": [
-        {
-          "id": "de8acd55-d52d-4f84-f503-08d653530e72",
-          "type": 300,
-          "parentId": "c59221af-e906-40ed-f502-08d653530e72",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "2b3c27e2-14f9-434e-9625-08d65353a7bc",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "de8acd55-d52d-4f84-f503-08d653530e72",
-              "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
-              "time": 0,
-              "effort": 0
-            },
-            {
-              "id": "5259acbe-3b81-40f7-f4dd-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "de8acd55-d52d-4f84-f503-08d653530e72",
-              "name": "Southern trail",
-              "description": "A small trail begins to form and runs to the south.",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "b9749e11-e760-41bb-f507-08d653530e72",
-          "type": 300,
-          "parentId": "c59221af-e906-40ed-f502-08d653530e72",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "52611918-d3c7-4c69-9628-08d65353a7bc",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "b9749e11-e760-41bb-f507-08d653530e72",
-              "destinationLocationId": "72ada875-c010-4dc0-f505-08d653530e72",
-              "time": 0,
-              "effort": 0
-            },
-            {
-              "id": "eda24e53-c9c1-416f-f4e0-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "b9749e11-e760-41bb-f507-08d653530e72",
-              "name": "North Before the Cave",
-              "description": "To the north shadows on the face of the foothills may in fact be a cave.",
-              "icon": null
-            }
-          ],
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "72ada875-c010-4dc0-f505-08d653530e72",
-      "type": 200,
-      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
-      "childrenIds": [
-        "370031df-3872-4740-441a-08d64f618c8b",
-        "19d0a799-9667-4189-f506-08d653530e72",
-        "dbef7d9f-1bd1-4b71-f4eb-08d658acce12",
-        "e3b8561d-9337-4785-b80f-08d658b7315f",
-        "5dfe653b-1fe7-4eb4-f34a-08d658d5db1d"
-      ],
-      "data": [
-        {
-          "id": "e8ff1076-b49a-40ac-0f62-08d65353a7bd",
-          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
-          "dataItemId": "72ada875-c010-4dc0-f505-08d653530e72"
-        },
-        {
-          "id": "dbf69e8f-bb56-4807-817b-08d658bba3ba",
-          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-          "dataItemId": "72ada875-c010-4dc0-f505-08d653530e72",
-          "name": "Before the Cave",
-          "description": "The northern foothills rise abruptly in a cliff to tower over the Plateaus. Directly north a large simi-circle of a cave has been formed almost straight back through the rocks and sandstone compromising the cliff face. Some minimalistic wood and sod structures can be seen inside the imediate entrance, before the light grows too faint determine their quantity. Before the Cave is home to a small quiet tribe of people and not a few dogs. Many sit beneath adhoc shelters constructed of bark and grass. Two or three near the shadowy cool entrance appear to be weaving the grass into thin mats. One large male stands close by leaning on a black staff adorned with feathers and bone. His gentle gaze falls on you, friendly, but confident.",
-          "icon": null
-        }
-      ],
-      "children": [
-        {
           "id": "370031df-3872-4740-441a-08d64f618c8b",
-          "type": 400,
-          "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
+          "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
           "childrenIds": [],
           "data": [
             {
@@ -1495,7 +1353,7 @@
               "id": "00000000-0000-0000-0000-000000000000",
               "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
               "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "5caeb596-f064-4b8b-8c34-bdba749fa0cf"
+              "terminalId": "afddf1b8-5bf3-43a4-9fc2-bc41de55c9ef"
             },
             {
               "id": "8d0239a0-9edd-4585-80b4-08d65a7100f2",
@@ -1525,8 +1383,154 @@
           "children": []
         },
         {
+          "id": "638fb02e-abf7-489e-f4ff-08d653530e72",
+          "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "03ef5c37-d9d1-4289-9623-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "638fb02e-abf7-489e-f4ff-08d653530e72",
+              "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "time": 0,
+              "effort": 0
+            },
+            {
+              "id": "6836b80a-1713-4508-f4db-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "638fb02e-abf7-489e-f4ff-08d653530e72",
+              "name": "East Foothills Plateaus",
+              "description": "Escape back to the real world",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "488b0fdd-3211-4e79-f501-08d653530e72",
+          "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "9544c4f6-383d-4b99-338a-08d6537d9925",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
+              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
+              "mobile": true,
+              "weight": 0
+            },
+            {
+              "id": "d4182735-8977-48b8-7111-08d6537d9927",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
+              "name": "Warm Stone Pile",
+              "description": "New description",
+              "icon": null
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "c59221af-e906-40ed-f502-08d653530e72",
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "de8acd55-d52d-4f84-f503-08d653530e72",
+        "b9749e11-e760-41bb-f507-08d653530e72"
+      ],
+      "data": [
+        {
+          "id": "898c38a3-9320-487b-0f61-08d65353a7bd",
+          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "c59221af-e906-40ed-f502-08d653530e72"
+        },
+        {
+          "id": "8cd9fcd0-f19e-4691-817a-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+          "dataItemId": "c59221af-e906-40ed-f502-08d653530e72",
+          "name": "Center of Plateau",
+          "description": "The large plateau in the middle of these foothills extends around you in all directions. To the north the plateau halts abruptly against the sudden resurgence of the hillside. Shadows in the face of the hillside could in fact be a cave. No grass remains here, all has been heavily trampled.",
+          "icon": null
+        }
+      ],
+      "children": [
+        {
+          "id": "de8acd55-d52d-4f84-f503-08d653530e72",
+          "parentId": "c59221af-e906-40ed-f502-08d653530e72",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "2b3c27e2-14f9-434e-9625-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "de8acd55-d52d-4f84-f503-08d653530e72",
+              "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "time": 0,
+              "effort": 0
+            },
+            {
+              "id": "5259acbe-3b81-40f7-f4dd-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "de8acd55-d52d-4f84-f503-08d653530e72",
+              "name": "Southern trail",
+              "description": "A small trail begins to form and runs to the south.",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "b9749e11-e760-41bb-f507-08d653530e72",
+          "parentId": "c59221af-e906-40ed-f502-08d653530e72",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "52611918-d3c7-4c69-9628-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "b9749e11-e760-41bb-f507-08d653530e72",
+              "destinationLocationId": "72ada875-c010-4dc0-f505-08d653530e72",
+              "time": 0,
+              "effort": 0
+            },
+            {
+              "id": "eda24e53-c9c1-416f-f4e0-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "b9749e11-e760-41bb-f507-08d653530e72",
+              "name": "North Before the Cave",
+              "description": "To the north shadows on the face of the foothills may in fact be a cave.",
+              "icon": null
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "72ada875-c010-4dc0-f505-08d653530e72",
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "19d0a799-9667-4189-f506-08d653530e72",
+        "dbef7d9f-1bd1-4b71-f4eb-08d658acce12",
+        "e3b8561d-9337-4785-b80f-08d658b7315f",
+        "5dfe653b-1fe7-4eb4-f34a-08d658d5db1d"
+      ],
+      "data": [
+        {
+          "id": "e8ff1076-b49a-40ac-0f62-08d65353a7bd",
+          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "72ada875-c010-4dc0-f505-08d653530e72"
+        },
+        {
+          "id": "dbf69e8f-bb56-4807-817b-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+          "dataItemId": "72ada875-c010-4dc0-f505-08d653530e72",
+          "name": "Before the Cave",
+          "description": "The northern foothills rise abruptly in a cliff to tower over the Plateaus. Directly north a large simi-circle of a cave has been formed almost straight back through the rocks and sandstone compromising the cliff face. Some minimalistic wood and sod structures can be seen inside the imediate entrance, before the light grows too faint determine their quantity. Before the Cave is home to a small quiet tribe of people and not a few dogs. Many sit beneath adhoc shelters constructed of bark and grass. Two or three near the shadowy cool entrance appear to be weaving the grass into thin mats. One large male stands close by leaning on a black staff adorned with feathers and bone. His gentle gaze falls on you, friendly, but confident.",
+          "icon": null
+        }
+      ],
+      "children": [
+        {
           "id": "19d0a799-9667-4189-f506-08d653530e72",
-          "type": 300,
           "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1551,7 +1555,6 @@
         },
         {
           "id": "dbef7d9f-1bd1-4b71-f4eb-08d658acce12",
-          "type": 400,
           "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1574,7 +1577,6 @@
         },
         {
           "id": "e3b8561d-9337-4785-b80f-08d658b7315f",
-          "type": 300,
           "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1599,7 +1601,6 @@
         },
         {
           "id": "5dfe653b-1fe7-4eb4-f34a-08d658d5db1d",
-          "type": 400,
           "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1624,7 +1625,6 @@
     },
     {
       "id": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7"
@@ -1647,7 +1647,6 @@
       "children": [
         {
           "id": "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7",
-          "type": 300,
           "parentId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
           "childrenIds": [],
           "data": [
@@ -1674,7 +1673,6 @@
     },
     {
       "id": "3bff263c-1f9b-4d53-f9de-08d658b1c85d",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "07c398a0-c26e-42ec-f9df-08d658b1c85d"
@@ -1697,7 +1695,6 @@
       "children": [
         {
           "id": "07c398a0-c26e-42ec-f9df-08d658b1c85d",
-          "type": 300,
           "parentId": "3bff263c-1f9b-4d53-f9de-08d658b1c85d",
           "childrenIds": [],
           "data": [
@@ -1724,7 +1721,6 @@
     },
     {
       "id": "a747ddef-55ec-4879-b80d-08d658b7315f",
-      "type": 200,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "e3fcbe9a-9f2c-439d-b80e-08d658b7315f"
@@ -1747,7 +1743,6 @@
       "children": [
         {
           "id": "e3fcbe9a-9f2c-439d-b80e-08d658b7315f",
-          "type": 300,
           "parentId": "a747ddef-55ec-4879-b80d-08d658b7315f",
           "childrenIds": [],
           "data": [
