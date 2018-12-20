@@ -47,7 +47,8 @@
         "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
         "83b7d1dc-2582-4ebf-fd58-08d65a54a9f0",
         "e063c2bb-2d0b-41ea-f651-08d65bfdceb4",
-        "578199bd-1aa7-48fc-ade3-08d65cb67530"
+        "578199bd-1aa7-48fc-ade3-08d65cb67530",
+        "4c802c47-2687-49fa-f225-08d65dade319"
       ],
       "data": [
         {
@@ -167,6 +168,28 @@
                   "characterItemId": "578199bd-1aa7-48fc-ade3-08d65cb67530"
                 }
               ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "4c802c47-2687-49fa-f225-08d65dade319",
+          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "3a99d399-f710-4fd6-a145-08d65dade31a",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
+              "dataItemId": "4c802c47-2687-49fa-f225-08d65dade319",
+              "temporary": true
+            },
+            {
+              "id": "6cc7c3cb-f2f2-4741-72fd-08d65dade2ef",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "4c802c47-2687-49fa-f225-08d65dade319",
+              "name": "Ghost_5YT1",
+              "description": "A brave new player",
+              "icon": null
             }
           ],
           "children": []
@@ -314,7 +337,8 @@
       "id": "d62e0bef-2948-4979-df40-08d63af92e75",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "37da284a-0cbd-4ea5-df41-08d63af92e75"
+        "37da284a-0cbd-4ea5-df41-08d63af92e75",
+        "370031df-3872-4740-441a-08d64f618c8b"
       ],
       "data": [
         {
@@ -352,6 +376,50 @@
               "name": "West Forest Clearing",
               "description": "Westward the grass reigns supreme",
               "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "370031df-3872-4740-441a-08d64f618c8b",
+          "parentId": "d62e0bef-2948-4979-df40-08d63af92e75",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "fc527159-b823-44d3-ff1f-08d64f618c8b",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
+              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
+              "temporary": false
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "terminalId": "0474a3c3-da1c-4132-a4d1-dbfcba74a6f7"
+            },
+            {
+              "id": "8d0239a0-9edd-4585-80b4-08d65a7100f2",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
+              "name": "delphian",
+              "description": "A brave new player",
+              "icon": null
+            },
+            {
+              "name": "admin@localhost",
+              "id": "bdf42de8-1504-47e1-2d28-08d64f617512",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$AlI/JiYuonX9Or2VCS5Z7eXjY3D.Fw7LeBNW/K2UpwDU5BHcPcd4i",
+              "temporary": false,
+              "admin": true,
+              "characters": [
+                {
+                  "accountId": "bdf42de8-1504-47e1-2d28-08d64f617512",
+                  "id": "c1e68721-d295-4c67-0c3b-08d64f618c8e",
+                  "characterItemId": "370031df-3872-4740-441a-08d64f618c8b"
+                }
+              ]
             }
           ],
           "children": []
@@ -1058,7 +1126,6 @@
       "id": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
         "5e314d71-3150-46fc-f4f9-08d653530e72",
         "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
         "d20e7706-5aba-4d42-f500-08d653530e72",
@@ -1081,44 +1148,6 @@
         }
       ],
       "children": [
-        {
-          "id": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-          "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "a5cf6d0c-2d33-4baf-ff22-08d64f618c8b",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-              "temporary": false
-            },
-            {
-              "id": "a93c474a-3d73-4f5e-80b7-08d65a7100f2",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-              "name": "Egg",
-              "description": "A brave new player",
-              "icon": null
-            },
-            {
-              "name": "Egg",
-              "id": "c823d33b-04a0-497c-2d2b-08d64f617512",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$WollJBKi1.z9aOM1.ZO31uW28lahjayOZxBby/U7spl5Ka4.rmzpS",
-              "temporary": false,
-              "admin": true,
-              "characters": [
-                {
-                  "accountId": "c823d33b-04a0-497c-2d2b-08d64f617512",
-                  "id": "c301687d-0b63-4619-0c3e-08d64f618c8e",
-                  "characterItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b"
-                }
-              ]
-            }
-          ],
-          "children": []
-        },
         {
           "id": "5e314d71-3150-46fc-f4f9-08d653530e72",
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
@@ -1318,9 +1347,8 @@
       "id": "c3e91d08-408f-40b1-f4fe-08d653530e72",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "370031df-3872-4740-441a-08d64f618c8b",
-        "638fb02e-abf7-489e-f4ff-08d653530e72",
-        "488b0fdd-3211-4e79-f501-08d653530e72"
+        "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
+        "638fb02e-abf7-489e-f4ff-08d653530e72"
       ],
       "data": [
         {
@@ -1339,43 +1367,37 @@
       ],
       "children": [
         {
-          "id": "370031df-3872-4740-441a-08d64f618c8b",
+          "id": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
           "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
           "childrenIds": [],
           "data": [
             {
-              "id": "fc527159-b823-44d3-ff1f-08d64f618c8b",
+              "id": "a5cf6d0c-2d33-4baf-ff22-08d64f618c8b",
               "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
+              "dataItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
               "temporary": false
             },
             {
-              "id": "00000000-0000-0000-0000-000000000000",
-              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "afddf1b8-5bf3-43a4-9fc2-bc41de55c9ef"
-            },
-            {
-              "id": "8d0239a0-9edd-4585-80b4-08d65a7100f2",
+              "id": "a93c474a-3d73-4f5e-80b7-08d65a7100f2",
               "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
-              "name": "delphian",
+              "dataItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
+              "name": "Egg",
               "description": "A brave new player",
               "icon": null
             },
             {
-              "name": "admin@localhost",
-              "id": "bdf42de8-1504-47e1-2d28-08d64f617512",
+              "name": "Egg",
+              "id": "c823d33b-04a0-497c-2d2b-08d64f617512",
               "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
               "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$AlI/JiYuonX9Or2VCS5Z7eXjY3D.Fw7LeBNW/K2UpwDU5BHcPcd4i",
+              "password": "$2a$10$WollJBKi1.z9aOM1.ZO31uW28lahjayOZxBby/U7spl5Ka4.rmzpS",
               "temporary": false,
               "admin": true,
               "characters": [
                 {
-                  "accountId": "bdf42de8-1504-47e1-2d28-08d64f617512",
-                  "id": "c1e68721-d295-4c67-0c3b-08d64f618c8e",
-                  "characterItemId": "370031df-3872-4740-441a-08d64f618c8b"
+                  "accountId": "c823d33b-04a0-497c-2d2b-08d64f617512",
+                  "id": "c301687d-0b63-4619-0c3e-08d64f618c8e",
+                  "characterItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b"
                 }
               ]
             }
@@ -1401,29 +1423,6 @@
               "dataItemId": "638fb02e-abf7-489e-f4ff-08d653530e72",
               "name": "East Foothills Plateaus",
               "description": "Escape back to the real world",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "488b0fdd-3211-4e79-f501-08d653530e72",
-          "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "9544c4f6-383d-4b99-338a-08d6537d9925",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
-              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
-              "mobile": true,
-              "weight": 0
-            },
-            {
-              "id": "d4182735-8977-48b8-7111-08d6537d9927",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
-              "name": "Warm Stone Pile",
-              "description": "New description",
               "icon": null
             }
           ],
@@ -1627,6 +1626,7 @@
       "id": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
+        "488b0fdd-3211-4e79-f501-08d653530e72",
         "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7"
       ],
       "data": [
@@ -1645,6 +1645,29 @@
         }
       ],
       "children": [
+        {
+          "id": "488b0fdd-3211-4e79-f501-08d653530e72",
+          "parentId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "9544c4f6-383d-4b99-338a-08d6537d9925",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
+              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
+              "mobile": true,
+              "weight": 0
+            },
+            {
+              "id": "d4182735-8977-48b8-7111-08d6537d9927",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
+              "name": "Warm Stone Pile",
+              "description": "New description",
+              "icon": "7f26701c-3cc1-4c18-9378-7f923c5e9f44"
+            }
+          ],
+          "children": []
+        },
         {
           "id": "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7",
           "parentId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
