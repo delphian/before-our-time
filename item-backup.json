@@ -48,7 +48,8 @@
         "83b7d1dc-2582-4ebf-fd58-08d65a54a9f0",
         "e063c2bb-2d0b-41ea-f651-08d65bfdceb4",
         "578199bd-1aa7-48fc-ade3-08d65cb67530",
-        "4c802c47-2687-49fa-f225-08d65dade319"
+        "4c802c47-2687-49fa-f225-08d65dade319",
+        "53c7d909-3974-4232-4d07-08d66641eb69"
       ],
       "data": [
         {
@@ -77,7 +78,8 @@
               "dataItemId": "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
               "destinationLocationId": "779a3a47-3048-4528-df3c-08d63af92e75",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 0
             },
             {
               "id": "9cfd3718-6af0-4c8a-f4c2-08d658ad5228",
@@ -143,13 +145,13 @@
               "id": "35432d9f-e2fc-4dd7-1d48-08d65cb67533",
               "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
               "dataItemId": "578199bd-1aa7-48fc-ade3-08d65cb67530",
-              "temporary": true
+              "temporary": false
             },
             {
               "id": "302fd70e-9487-4e3d-7512-08d65cb67534",
               "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "578199bd-1aa7-48fc-ade3-08d65cb67530",
-              "name": "Ghost_23OK",
+              "name": "The D1sabl3r",
               "description": "A brave new player",
               "icon": null
             },
@@ -188,6 +190,28 @@
               "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "4c802c47-2687-49fa-f225-08d65dade319",
               "name": "Ghost_5YT1",
+              "description": "A brave new player",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "53c7d909-3974-4232-4d07-08d66641eb69",
+          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "6ddb8548-b7b6-4c85-154c-08d66641eb6a",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
+              "dataItemId": "53c7d909-3974-4232-4d07-08d66641eb69",
+              "temporary": true
+            },
+            {
+              "id": "c45b7b47-bb65-4adb-c426-08d66641eb3d",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "53c7d909-3974-4232-4d07-08d66641eb69",
+              "name": "Ghost_PKNP",
               "description": "A brave new player",
               "icon": null
             }
@@ -232,7 +256,8 @@
               "dataItemId": "9fae857c-0fc9-4f29-df3d-08d63af92e75",
               "destinationLocationId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 0
             },
             {
               "id": "88912494-af13-4283-f4c1-08d658ad5228",
@@ -256,7 +281,8 @@
               "dataItemId": "c85ba6d3-d68f-43fa-df42-08d63af92e75",
               "destinationLocationId": "d62e0bef-2948-4979-df40-08d63af92e75",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 3
             },
             {
               "id": "1102121c-2d5b-4e8c-f4c4-08d658ad5228",
@@ -280,7 +306,8 @@
               "dataItemId": "4cf67fc0-1bae-445b-df45-08d63af92e75",
               "destinationLocationId": "47d86b50-480c-497b-df43-08d63af92e75",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 1
             },
             {
               "id": "9c4283d3-e00b-451d-f4c6-08d658ad5228",
@@ -337,8 +364,7 @@
       "id": "d62e0bef-2948-4979-df40-08d63af92e75",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "37da284a-0cbd-4ea5-df41-08d63af92e75",
-        "370031df-3872-4740-441a-08d64f618c8b"
+        "37da284a-0cbd-4ea5-df41-08d63af92e75"
       ],
       "data": [
         {
@@ -367,7 +393,8 @@
               "dataItemId": "37da284a-0cbd-4ea5-df41-08d63af92e75",
               "destinationLocationId": "779a3a47-3048-4528-df3c-08d63af92e75",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 4
             },
             {
               "id": "7f9ee1ed-0706-4d5f-f4c3-08d658ad5228",
@@ -376,50 +403,6 @@
               "name": "West Forest Clearing",
               "description": "Westward the grass reigns supreme",
               "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "370031df-3872-4740-441a-08d64f618c8b",
-          "parentId": "d62e0bef-2948-4979-df40-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "fc527159-b823-44d3-ff1f-08d64f618c8b",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
-              "temporary": false
-            },
-            {
-              "id": "00000000-0000-0000-0000-000000000000",
-              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "0474a3c3-da1c-4132-a4d1-dbfcba74a6f7"
-            },
-            {
-              "id": "8d0239a0-9edd-4585-80b4-08d65a7100f2",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
-              "name": "delphian",
-              "description": "A brave new player",
-              "icon": null
-            },
-            {
-              "name": "admin@localhost",
-              "id": "bdf42de8-1504-47e1-2d28-08d64f617512",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$AlI/JiYuonX9Or2VCS5Z7eXjY3D.Fw7LeBNW/K2UpwDU5BHcPcd4i",
-              "temporary": false,
-              "admin": true,
-              "characters": [
-                {
-                  "accountId": "bdf42de8-1504-47e1-2d28-08d64f617512",
-                  "id": "c1e68721-d295-4c67-0c3b-08d64f618c8e",
-                  "characterItemId": "370031df-3872-4740-441a-08d64f618c8b"
-                }
-              ]
             }
           ],
           "children": []
@@ -460,7 +443,8 @@
               "dataItemId": "e1ce8640-cfcd-4550-df44-08d63af92e75",
               "destinationLocationId": "779a3a47-3048-4528-df3c-08d63af92e75",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 2
             },
             {
               "id": "84fbbea4-b115-4eb5-f4c5-08d658ad5228",
@@ -484,7 +468,8 @@
               "dataItemId": "66272989-71f1-4246-df48-08d63af92e75",
               "destinationLocationId": "b6cad293-39c7-441f-df46-08d63af92e75",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 1
             },
             {
               "id": "c190ea0c-d959-43e1-f4c8-08d658ad5228",
@@ -533,7 +518,8 @@
               "dataItemId": "4d189c8d-cfed-4cb9-df47-08d63af92e75",
               "destinationLocationId": "47d86b50-480c-497b-df43-08d63af92e75",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 2
             },
             {
               "id": "9f45bda2-6a37-4b05-f4c7-08d658ad5228",
@@ -557,7 +543,8 @@
               "dataItemId": "f6c788bc-5ed6-4688-1b7c-08d645e4ab65",
               "destinationLocationId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 1
             },
             {
               "id": "0a13ca27-1ac1-4325-f4ca-08d658ad5228",
@@ -607,7 +594,8 @@
               "dataItemId": "de75c5dd-5698-4194-1b7b-08d645e4ab65",
               "destinationLocationId": "b6cad293-39c7-441f-df46-08d63af92e75",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 2
             },
             {
               "id": "8ac64ab0-58c6-430b-f4c9-08d658ad5228",
@@ -631,7 +619,8 @@
               "dataItemId": "0597a94a-e188-4af5-3b5d-08d64940b4b3",
               "destinationLocationId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 3
             },
             {
               "id": "080cebfb-6abe-4784-f4cc-08d658ad5228",
@@ -655,7 +644,8 @@
               "dataItemId": "a2303b98-7396-4325-441f-08d64f618c8b",
               "destinationLocationId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 1
             },
             {
               "id": "63ce2ce0-79bb-493e-f4ce-08d658ad5228",
@@ -704,7 +694,8 @@
               "dataItemId": "c9ec0148-51cb-475f-3b5c-08d64940b4b3",
               "destinationLocationId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 4
             },
             {
               "id": "79a46c67-dae5-4b5e-f4cb-08d658ad5228",
@@ -791,7 +782,8 @@
               "dataItemId": "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
               "destinationLocationId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 2
             },
             {
               "id": "081ee1ca-0dbb-44f3-f4cd-08d658ad5228",
@@ -815,7 +807,8 @@
               "dataItemId": "c194d2d2-5242-442b-4423-08d64f618c8b",
               "destinationLocationId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 1
             },
             {
               "id": "3f9a68cc-4d34-4ace-f4d0-08d658ad5228",
@@ -834,6 +827,7 @@
       "id": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
+        "370031df-3872-4740-441a-08d64f618c8b",
         "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
         "1cc5c873-c24d-4369-4426-08d64f618c8b"
       ],
@@ -854,6 +848,50 @@
       ],
       "children": [
         {
+          "id": "370031df-3872-4740-441a-08d64f618c8b",
+          "parentId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "fc527159-b823-44d3-ff1f-08d64f618c8b",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
+              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
+              "temporary": false
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "terminalId": "6d289279-92f3-460e-944f-b6fead4d786e"
+            },
+            {
+              "id": "8d0239a0-9edd-4585-80b4-08d65a7100f2",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
+              "name": "delphian",
+              "description": "A brave new player",
+              "icon": null
+            },
+            {
+              "name": "admin@localhost",
+              "id": "bdf42de8-1504-47e1-2d28-08d64f617512",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$AlI/JiYuonX9Or2VCS5Z7eXjY3D.Fw7LeBNW/K2UpwDU5BHcPcd4i",
+              "temporary": false,
+              "admin": true,
+              "characters": [
+                {
+                  "accountId": "bdf42de8-1504-47e1-2d28-08d64f617512",
+                  "id": "c1e68721-d295-4c67-0c3b-08d64f618c8e",
+                  "characterItemId": "370031df-3872-4740-441a-08d64f618c8b"
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
           "id": "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
           "parentId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
           "childrenIds": [],
@@ -864,7 +902,8 @@
               "dataItemId": "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
               "destinationLocationId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 2
             },
             {
               "id": "8582c8e8-9cf7-41a9-f4cf-08d658ad5228",
@@ -888,7 +927,8 @@
               "dataItemId": "1cc5c873-c24d-4369-4426-08d64f618c8b",
               "destinationLocationId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 4
             },
             {
               "id": "4ff15975-981c-48a7-f4d2-08d658ad5228",
@@ -937,7 +977,8 @@
               "dataItemId": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
               "destinationLocationId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 3
             },
             {
               "id": "d41a6975-7e2e-4355-f4d1-08d658ad5228",
@@ -961,7 +1002,8 @@
               "dataItemId": "b46b572e-85b8-426d-d5a4-08d651ecf1f8",
               "destinationLocationId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 1
             },
             {
               "id": "560e0200-6867-473d-f4d4-08d658ad5228",
@@ -1010,7 +1052,8 @@
               "dataItemId": "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
               "destinationLocationId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 2
             },
             {
               "id": "f24c014b-b647-4ecc-f4d3-08d658ad5228",
@@ -1034,7 +1077,8 @@
               "dataItemId": "fa0ab044-bc64-4539-d5b7-08d651ecf1f8",
               "destinationLocationId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 3
             },
             {
               "id": "dc6ea47f-4f49-435a-f4d6-08d658ad5228",
@@ -1083,7 +1127,8 @@
               "dataItemId": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
               "destinationLocationId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 4
             },
             {
               "id": "f08282a5-bd91-4226-f4d5-08d658ad5228",
@@ -1107,7 +1152,8 @@
               "dataItemId": "2343dd4a-65bd-4c79-f4fa-08d653530e72",
               "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 1
             },
             {
               "id": "84e5f33e-ff21-4152-f4d8-08d658ad5228",
@@ -1129,8 +1175,7 @@
         "5e314d71-3150-46fc-f4f9-08d653530e72",
         "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
         "d20e7706-5aba-4d42-f500-08d653530e72",
-        "33596aab-6a25-44e7-f504-08d653530e72",
-        "fbce87de-3d90-4e4a-f9e0-08d658b1c85d"
+        "33596aab-6a25-44e7-f504-08d653530e72"
       ],
       "data": [
         {
@@ -1159,7 +1204,8 @@
               "dataItemId": "5e314d71-3150-46fc-f4f9-08d653530e72",
               "destinationLocationId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 2
             },
             {
               "id": "c94743bf-e94a-4c45-f4d7-08d658ad5228",
@@ -1183,7 +1229,8 @@
               "dataItemId": "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
               "destinationLocationId": "717921f9-0da7-4aef-f4fb-08d653530e72",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 3
             },
             {
               "id": "f742d3fd-6593-44d0-f4da-08d658ad5228",
@@ -1207,7 +1254,8 @@
               "dataItemId": "d20e7706-5aba-4d42-f500-08d653530e72",
               "destinationLocationId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 4
             },
             {
               "id": "86ae3052-4194-47ad-f4dc-08d658ad5228",
@@ -1231,7 +1279,8 @@
               "dataItemId": "33596aab-6a25-44e7-f504-08d653530e72",
               "destinationLocationId": "c59221af-e906-40ed-f502-08d653530e72",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 1
             },
             {
               "id": "d89eae2e-6a00-4892-f4de-08d658ad5228",
@@ -1239,30 +1288,6 @@
               "dataItemId": "33596aab-6a25-44e7-f504-08d653530e72",
               "name": "Northern Tiny Trail",
               "description": "The small trail continues northward",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "fbce87de-3d90-4e4a-f9e0-08d658b1c85d",
-          "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "bc048e84-2cdd-4eac-8238-08d658b1c871",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "fbce87de-3d90-4e4a-f9e0-08d658b1c85d",
-              "destinationLocationId": "3bff263c-1f9b-4d53-f9de-08d658b1c85d",
-              "time": 0,
-              "effort": 0
-            },
-            {
-              "id": "9c0c095e-2932-4bfe-0869-08d658b1c874",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "fbce87de-3d90-4e4a-f9e0-08d658b1c85d",
-              "name": "A New Exit",
-              "description": "The paint is still wet on this sign",
               "icon": null
             }
           ],
@@ -1304,7 +1329,8 @@
               "dataItemId": "1d637aa3-fec4-4b59-f4fc-08d653530e72",
               "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 4
             },
             {
               "id": "d5bee4ca-6f37-4008-f4d9-08d658ad5228",
@@ -1328,7 +1354,8 @@
               "dataItemId": "32e2b3a7-fd49-4804-e9c8-08d655c5c3e7",
               "destinationLocationId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 3
             },
             {
               "id": "88ffccb0-c67c-4b0a-f4e2-08d658ad5228",
@@ -1415,7 +1442,8 @@
               "dataItemId": "638fb02e-abf7-489e-f4ff-08d653530e72",
               "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 3
             },
             {
               "id": "6836b80a-1713-4508-f4db-08d658ad5228",
@@ -1464,7 +1492,8 @@
               "dataItemId": "de8acd55-d52d-4f84-f503-08d653530e72",
               "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 2
             },
             {
               "id": "5259acbe-3b81-40f7-f4dd-08d658ad5228",
@@ -1488,7 +1517,8 @@
               "dataItemId": "b9749e11-e760-41bb-f507-08d653530e72",
               "destinationLocationId": "72ada875-c010-4dc0-f505-08d653530e72",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 1
             },
             {
               "id": "eda24e53-c9c1-416f-f4e0-08d658ad5228",
@@ -1539,7 +1569,8 @@
               "dataItemId": "19d0a799-9667-4189-f506-08d653530e72",
               "destinationLocationId": "c59221af-e906-40ed-f502-08d653530e72",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 2
             },
             {
               "id": "299a81f5-308d-46e5-f4df-08d658ad5228",
@@ -1585,7 +1616,8 @@
               "dataItemId": "e3b8561d-9337-4785-b80f-08d658b7315f",
               "destinationLocationId": "a747ddef-55ec-4879-b80d-08d658b7315f",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 0
             },
             {
               "id": "0435c2f5-4617-45eb-92e7-08d658b73167",
@@ -1679,7 +1711,8 @@
               "dataItemId": "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7",
               "destinationLocationId": "717921f9-0da7-4aef-f4fb-08d653530e72",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 4
             },
             {
               "id": "95981c7e-4971-4dc6-f4e1-08d658ad5228",
@@ -1727,7 +1760,8 @@
               "dataItemId": "07c398a0-c26e-42ec-f9df-08d658b1c85d",
               "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 0
             },
             {
               "id": "beeec746-31fa-4cae-0867-08d658b1c874",
@@ -1775,7 +1809,8 @@
               "dataItemId": "e3fcbe9a-9f2c-439d-b80e-08d658b7315f",
               "destinationLocationId": "72ada875-c010-4dc0-f505-08d653530e72",
               "time": 0,
-              "effort": 0
+              "effort": 0,
+              "direction": 0
             },
             {
               "id": "3dec20ee-3806-4df6-92e5-08d658b73167",
