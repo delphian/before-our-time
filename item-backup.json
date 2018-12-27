@@ -21,7 +21,9 @@
     "72ada875-c010-4dc0-f505-08d653530e72",
     "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
     "3bff263c-1f9b-4d53-f9de-08d658b1c85d",
-    "a747ddef-55ec-4879-b80d-08d658b7315f"
+    "a747ddef-55ec-4879-b80d-08d658b7315f",
+    "32f35174-b3fa-4a30-3614-08d66acde02d",
+    "48f5965b-9178-4bdd-3617-08d66acde02d"
   ],
   "data": [
     {
@@ -44,12 +46,7 @@
       "id": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
-        "83b7d1dc-2582-4ebf-fd58-08d65a54a9f0",
-        "e063c2bb-2d0b-41ea-f651-08d65bfdceb4",
-        "578199bd-1aa7-48fc-ade3-08d65cb67530",
-        "4c802c47-2687-49fa-f225-08d65dade319",
-        "53c7d909-3974-4232-4d07-08d66641eb69"
+        "c7e8d9a5-e7df-464e-df3e-08d63af92e75"
       ],
       "data": [
         {
@@ -79,7 +76,7 @@
               "destinationLocationId": "779a3a47-3048-4528-df3c-08d63af92e75",
               "time": 0,
               "effort": 0,
-              "direction": 0
+              "direction": 5
             },
             {
               "id": "9cfd3718-6af0-4c8a-f4c2-08d658ad5228",
@@ -87,132 +84,6 @@
               "dataItemId": "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
               "name": "A Bright Light",
               "description": "The warm glow encircles your feet",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "83b7d1dc-2582-4ebf-fd58-08d65a54a9f0",
-          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "489cd25b-0b0b-4523-a35f-08d65a54a9f1",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "83b7d1dc-2582-4ebf-fd58-08d65a54a9f0",
-              "temporary": true
-            },
-            {
-              "id": "6768cc79-5943-46af-80ba-08d65a7100f2",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "83b7d1dc-2582-4ebf-fd58-08d65a54a9f0",
-              "name": "Ghost_4HR2",
-              "description": "A brave new player",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "e063c2bb-2d0b-41ea-f651-08d65bfdceb4",
-          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "1d3e0825-8394-49b1-a4c3-08d65bfdceb5",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "e063c2bb-2d0b-41ea-f651-08d65bfdceb4",
-              "temporary": true
-            },
-            {
-              "id": "dd5e545e-cb3d-47bc-2f5a-08d65bfdce89",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "e063c2bb-2d0b-41ea-f651-08d65bfdceb4",
-              "name": "Ghost_ZNLN",
-              "description": "A brave new player",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "578199bd-1aa7-48fc-ade3-08d65cb67530",
-          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "35432d9f-e2fc-4dd7-1d48-08d65cb67533",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "578199bd-1aa7-48fc-ade3-08d65cb67530",
-              "temporary": false
-            },
-            {
-              "id": "302fd70e-9487-4e3d-7512-08d65cb67534",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "578199bd-1aa7-48fc-ade3-08d65cb67530",
-              "name": "The D1sabl3r",
-              "description": "A brave new player",
-              "icon": null
-            },
-            {
-              "name": "Account_EAY6",
-              "id": "0d892903-82cf-40ca-d8a8-08d65cb6739a",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$XrZ1esK40vhaJdGRaB9POe4aD8OYpsBxSEOao3hexUGkCNueYBAuK",
-              "temporary": true,
-              "admin": false,
-              "characters": [
-                {
-                  "accountId": "0d892903-82cf-40ca-d8a8-08d65cb6739a",
-                  "id": "753efa9f-93b5-40e7-9ba7-08d65cb67535",
-                  "characterItemId": "578199bd-1aa7-48fc-ade3-08d65cb67530"
-                }
-              ]
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "4c802c47-2687-49fa-f225-08d65dade319",
-          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "3a99d399-f710-4fd6-a145-08d65dade31a",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "4c802c47-2687-49fa-f225-08d65dade319",
-              "temporary": true
-            },
-            {
-              "id": "6cc7c3cb-f2f2-4741-72fd-08d65dade2ef",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "4c802c47-2687-49fa-f225-08d65dade319",
-              "name": "Ghost_5YT1",
-              "description": "A brave new player",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "53c7d909-3974-4232-4d07-08d66641eb69",
-          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "6ddb8548-b7b6-4c85-154c-08d66641eb6a",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "53c7d909-3974-4232-4d07-08d66641eb69",
-              "temporary": true
-            },
-            {
-              "id": "c45b7b47-bb65-4adb-c426-08d66641eb3d",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "53c7d909-3974-4232-4d07-08d66641eb69",
-              "name": "Ghost_PKNP",
-              "description": "A brave new player",
               "icon": null
             }
           ],
@@ -226,8 +97,7 @@
       "childrenIds": [
         "9fae857c-0fc9-4f29-df3d-08d63af92e75",
         "c85ba6d3-d68f-43fa-df42-08d63af92e75",
-        "4cf67fc0-1bae-445b-df45-08d63af92e75",
-        "a55c8206-17dc-4762-441c-08d64f618c8b"
+        "4cf67fc0-1bae-445b-df45-08d63af92e75"
       ],
       "data": [
         {
@@ -257,7 +127,7 @@
               "destinationLocationId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
               "time": 0,
               "effort": 0,
-              "direction": 0
+              "direction": 6
             },
             {
               "id": "88912494-af13-4283-f4c1-08d658ad5228",
@@ -316,44 +186,6 @@
               "name": "Faint Northern Path",
               "description": "Several felled trees make room for a path to the north",
               "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "a55c8206-17dc-4762-441c-08d64f618c8b",
-          "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "12149cf5-9428-4016-ff21-08d64f618c8b",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "a55c8206-17dc-4762-441c-08d64f618c8b",
-              "temporary": false
-            },
-            {
-              "id": "60269600-6832-4d5c-80b6-08d65a7100f2",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "a55c8206-17dc-4762-441c-08d64f618c8b",
-              "name": "OutWest",
-              "description": "A brave new player",
-              "icon": null
-            },
-            {
-              "name": "Account_OABB",
-              "id": "f651d0b9-db8b-4ffc-2d2a-08d64f617512",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$MqBdZexvZslUC.9Pk6qmx.dz4c.Mzjme0fww8xjxjbtGU5bHSWymi",
-              "temporary": true,
-              "admin": false,
-              "characters": [
-                {
-                  "accountId": "f651d0b9-db8b-4ffc-2d2a-08d64f617512",
-                  "id": "c511c972-2b47-4325-0c3d-08d64f618c8e",
-                  "characterItemId": "a55c8206-17dc-4762-441c-08d64f618c8b"
-                }
-              ]
             }
           ],
           "children": []
@@ -664,8 +496,7 @@
       "id": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "c9ec0148-51cb-475f-3b5c-08d64940b4b3",
-        "fe0bd2d9-3d58-4cd1-441b-08d64f618c8b"
+        "c9ec0148-51cb-475f-3b5c-08d64940b4b3"
       ],
       "data": [
         {
@@ -704,44 +535,6 @@
               "name": "West Quiet Path",
               "description": "Grass has been regularly trampled toward the west, leading to an even larger cross path.",
               "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "fe0bd2d9-3d58-4cd1-441b-08d64f618c8b",
-          "parentId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "489bc7c8-379a-45df-ff20-08d64f618c8b",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "fe0bd2d9-3d58-4cd1-441b-08d64f618c8b",
-              "temporary": true
-            },
-            {
-              "id": "a8b14e11-11ab-4250-80b5-08d65a7100f2",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "fe0bd2d9-3d58-4cd1-441b-08d64f618c8b",
-              "name": "Ghost_5QCU",
-              "description": "A brave new player",
-              "icon": null
-            },
-            {
-              "name": "Account_6DQG",
-              "id": "f8c0df9f-2022-4144-2d29-08d64f617512",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$8ndZMFQQFiq7x1H6zG6A5uRMCGS15Z/.Iyz.KUlxAiGUxJmFrEzza",
-              "temporary": true,
-              "admin": false,
-              "characters": [
-                {
-                  "accountId": "f8c0df9f-2022-4144-2d29-08d64f617512",
-                  "id": "8d0dda8f-1203-420b-0c3c-08d64f618c8e",
-                  "characterItemId": "fe0bd2d9-3d58-4cd1-441b-08d64f618c8b"
-                }
-              ]
             }
           ],
           "children": []
@@ -827,7 +620,6 @@
       "id": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "370031df-3872-4740-441a-08d64f618c8b",
         "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
         "1cc5c873-c24d-4369-4426-08d64f618c8b"
       ],
@@ -847,50 +639,6 @@
         }
       ],
       "children": [
-        {
-          "id": "370031df-3872-4740-441a-08d64f618c8b",
-          "parentId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "fc527159-b823-44d3-ff1f-08d64f618c8b",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
-              "temporary": false
-            },
-            {
-              "id": "00000000-0000-0000-0000-000000000000",
-              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "6d289279-92f3-460e-944f-b6fead4d786e"
-            },
-            {
-              "id": "8d0239a0-9edd-4585-80b4-08d65a7100f2",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
-              "name": "delphian",
-              "description": "A brave new player",
-              "icon": null
-            },
-            {
-              "name": "admin@localhost",
-              "id": "bdf42de8-1504-47e1-2d28-08d64f617512",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$AlI/JiYuonX9Or2VCS5Z7eXjY3D.Fw7LeBNW/K2UpwDU5BHcPcd4i",
-              "temporary": false,
-              "admin": true,
-              "characters": [
-                {
-                  "accountId": "bdf42de8-1504-47e1-2d28-08d64f617512",
-                  "id": "c1e68721-d295-4c67-0c3b-08d64f618c8e",
-                  "characterItemId": "370031df-3872-4740-441a-08d64f618c8b"
-                }
-              ]
-            }
-          ],
-          "children": []
-        },
         {
           "id": "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
           "parentId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
@@ -1172,6 +920,7 @@
       "id": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
+        "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
         "5e314d71-3150-46fc-f4f9-08d653530e72",
         "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
         "d20e7706-5aba-4d42-f500-08d653530e72",
@@ -1193,6 +942,44 @@
         }
       ],
       "children": [
+        {
+          "id": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
+          "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "a5cf6d0c-2d33-4baf-ff22-08d64f618c8b",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
+              "dataItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
+              "temporary": false
+            },
+            {
+              "id": "a93c474a-3d73-4f5e-80b7-08d65a7100f2",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
+              "name": "Egg",
+              "description": "A brave new player",
+              "icon": null
+            },
+            {
+              "name": "Egg",
+              "id": "c823d33b-04a0-497c-2d2b-08d64f617512",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$WollJBKi1.z9aOM1.ZO31uW28lahjayOZxBby/U7spl5Ka4.rmzpS",
+              "temporary": false,
+              "admin": true,
+              "characters": [
+                {
+                  "accountId": "c823d33b-04a0-497c-2d2b-08d64f617512",
+                  "id": "c301687d-0b63-4619-0c3e-08d64f618c8e",
+                  "characterItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b"
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
         {
           "id": "5e314d71-3150-46fc-f4f9-08d653530e72",
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
@@ -1374,8 +1161,8 @@
       "id": "c3e91d08-408f-40b1-f4fe-08d653530e72",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-        "638fb02e-abf7-489e-f4ff-08d653530e72"
+        "638fb02e-abf7-489e-f4ff-08d653530e72",
+        "488b0fdd-3211-4e79-f501-08d653530e72"
       ],
       "data": [
         {
@@ -1393,44 +1180,6 @@
         }
       ],
       "children": [
-        {
-          "id": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-          "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "a5cf6d0c-2d33-4baf-ff22-08d64f618c8b",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-              "temporary": false
-            },
-            {
-              "id": "a93c474a-3d73-4f5e-80b7-08d65a7100f2",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-              "name": "Egg",
-              "description": "A brave new player",
-              "icon": null
-            },
-            {
-              "name": "Egg",
-              "id": "c823d33b-04a0-497c-2d2b-08d64f617512",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$WollJBKi1.z9aOM1.ZO31uW28lahjayOZxBby/U7spl5Ka4.rmzpS",
-              "temporary": false,
-              "admin": true,
-              "characters": [
-                {
-                  "accountId": "c823d33b-04a0-497c-2d2b-08d64f617512",
-                  "id": "c301687d-0b63-4619-0c3e-08d64f618c8e",
-                  "characterItemId": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b"
-                }
-              ]
-            }
-          ],
-          "children": []
-        },
         {
           "id": "638fb02e-abf7-489e-f4ff-08d653530e72",
           "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
@@ -1452,6 +1201,29 @@
               "name": "East Foothills Plateaus",
               "description": "Escape back to the real world",
               "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "488b0fdd-3211-4e79-f501-08d653530e72",
+          "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "9544c4f6-383d-4b99-338a-08d6537d9925",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
+              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
+              "mobile": true,
+              "weight": 0
+            },
+            {
+              "id": "d4182735-8977-48b8-7111-08d6537d9927",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
+              "name": "Warm Stone Pile",
+              "description": "New description",
+              "icon": "7f26701c-3cc1-4c18-9378-7f923c5e9f44"
             }
           ],
           "children": []
@@ -1537,10 +1309,10 @@
       "id": "72ada875-c010-4dc0-f505-08d653530e72",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
+        "370031df-3872-4740-441a-08d64f618c8b",
         "19d0a799-9667-4189-f506-08d653530e72",
-        "dbef7d9f-1bd1-4b71-f4eb-08d658acce12",
         "e3b8561d-9337-4785-b80f-08d658b7315f",
-        "5dfe653b-1fe7-4eb4-f34a-08d658d5db1d"
+        "42b7350a-54d6-46d9-3613-08d66acde02d"
       ],
       "data": [
         {
@@ -1558,6 +1330,50 @@
         }
       ],
       "children": [
+        {
+          "id": "370031df-3872-4740-441a-08d64f618c8b",
+          "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "fc527159-b823-44d3-ff1f-08d64f618c8b",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
+              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
+              "temporary": false
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "terminalId": "0c9278b8-5ef8-4962-9e0d-bdf823111077"
+            },
+            {
+              "id": "8d0239a0-9edd-4585-80b4-08d65a7100f2",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
+              "name": "delphian",
+              "description": "A brave new player",
+              "icon": null
+            },
+            {
+              "name": "admin@localhost",
+              "id": "bdf42de8-1504-47e1-2d28-08d64f617512",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$AlI/JiYuonX9Or2VCS5Z7eXjY3D.Fw7LeBNW/K2UpwDU5BHcPcd4i",
+              "temporary": false,
+              "admin": true,
+              "characters": [
+                {
+                  "accountId": "bdf42de8-1504-47e1-2d28-08d64f617512",
+                  "id": "c1e68721-d295-4c67-0c3b-08d64f618c8e",
+                  "characterItemId": "370031df-3872-4740-441a-08d64f618c8b"
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
         {
           "id": "19d0a799-9667-4189-f506-08d653530e72",
           "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
@@ -1584,28 +1400,6 @@
           "children": []
         },
         {
-          "id": "dbef7d9f-1bd1-4b71-f4eb-08d658acce12",
-          "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "68933c96-d84f-454b-46fc-08d658acce13",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "dbef7d9f-1bd1-4b71-f4eb-08d658acce12",
-              "temporary": true
-            },
-            {
-              "id": "46b9d6ba-5e74-4806-80b8-08d65a7100f2",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "dbef7d9f-1bd1-4b71-f4eb-08d658acce12",
-              "name": "Ghost_S8VH",
-              "description": "A brave new player",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
           "id": "e3b8561d-9337-4785-b80f-08d658b7315f",
           "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
           "childrenIds": [],
@@ -1617,7 +1411,7 @@
               "destinationLocationId": "a747ddef-55ec-4879-b80d-08d658b7315f",
               "time": 0,
               "effort": 0,
-              "direction": 0
+              "direction": 1
             },
             {
               "id": "0435c2f5-4617-45eb-92e7-08d658b73167",
@@ -1631,23 +1425,45 @@
           "children": []
         },
         {
-          "id": "5dfe653b-1fe7-4eb4-f34a-08d658d5db1d",
+          "id": "42b7350a-54d6-46d9-3613-08d66acde02d",
           "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
           "childrenIds": [],
           "data": [
             {
-              "id": "66d2670c-519b-4539-9066-08d658d5db1e",
+              "id": "001b1b03-cada-404b-d766-08d66acde034",
               "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "5dfe653b-1fe7-4eb4-f34a-08d658d5db1d",
-              "temporary": true
+              "dataItemId": "42b7350a-54d6-46d9-3613-08d66acde02d",
+              "temporary": false
             },
             {
-              "id": "e023121d-82a0-410d-80b9-08d65a7100f2",
+              "id": "00000000-0000-0000-0000-000000000000",
+              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "terminalId": "04d9e756-831c-4b86-966d-da52ffb71556"
+            },
+            {
+              "id": "877e5e07-4526-4349-c37f-08d66acde038",
               "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "5dfe653b-1fe7-4eb4-f34a-08d658d5db1d",
-              "name": "Ghost_JERZ",
+              "dataItemId": "42b7350a-54d6-46d9-3613-08d66acde02d",
+              "name": "jewelyn",
               "description": "A brave new player",
               "icon": null
+            },
+            {
+              "name": "jewelyn",
+              "id": "45c0a89b-0754-4130-a184-08d66acddf13",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$qcZoI60I75.4NrpDqpm1o.naLzFFn.BCue45lhXwJphe8Wve7nzJC",
+              "temporary": false,
+              "admin": false,
+              "characters": [
+                {
+                  "accountId": "45c0a89b-0754-4130-a184-08d66acddf13",
+                  "id": "6f50dcfd-8dca-4c9a-a458-08d66acde03a",
+                  "characterItemId": "42b7350a-54d6-46d9-3613-08d66acde02d"
+                }
+              ]
             }
           ],
           "children": []
@@ -1658,8 +1474,8 @@
       "id": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "488b0fdd-3211-4e79-f501-08d653530e72",
-        "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7"
+        "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7",
+        "b7e6b0f0-caae-46f0-3616-08d66acde02d"
       ],
       "data": [
         {
@@ -1677,29 +1493,6 @@
         }
       ],
       "children": [
-        {
-          "id": "488b0fdd-3211-4e79-f501-08d653530e72",
-          "parentId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "9544c4f6-383d-4b99-338a-08d6537d9925",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
-              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
-              "mobile": true,
-              "weight": 0
-            },
-            {
-              "id": "d4182735-8977-48b8-7111-08d6537d9927",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "488b0fdd-3211-4e79-f501-08d653530e72",
-              "name": "Warm Stone Pile",
-              "description": "New description",
-              "icon": "7f26701c-3cc1-4c18-9378-7f923c5e9f44"
-            }
-          ],
-          "children": []
-        },
         {
           "id": "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7",
           "parentId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
@@ -1720,6 +1513,31 @@
               "dataItemId": "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7",
               "name": "West Grassy Plateau",
               "description": "The water feeds well all the grass extending to the west.",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "b7e6b0f0-caae-46f0-3616-08d66acde02d",
+          "parentId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "3a5199a3-2d0f-4727-a8ec-08d66bcfff08",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "b7e6b0f0-caae-46f0-3616-08d66acde02d",
+              "destinationLocationId": "32f35174-b3fa-4a30-3614-08d66acde02d",
+              "time": 0,
+              "effort": 0,
+              "direction": 1
+            },
+            {
+              "id": "99ad3ef1-266d-4359-c382-08d66acde038",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "b7e6b0f0-caae-46f0-3616-08d66acde02d",
+              "name": "Gentle Stream",
+              "description": "To the north the pond is gently fed by a slow, wandering stream",
               "icon": null
             }
           ],
@@ -1780,7 +1598,8 @@
       "id": "a747ddef-55ec-4879-b80d-08d658b7315f",
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "e3fcbe9a-9f2c-439d-b80e-08d658b7315f"
+        "e3fcbe9a-9f2c-439d-b80e-08d658b7315f",
+        "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8"
       ],
       "data": [
         {
@@ -1810,7 +1629,7 @@
               "destinationLocationId": "72ada875-c010-4dc0-f505-08d653530e72",
               "time": 0,
               "effort": 0,
-              "direction": 0
+              "direction": 2
             },
             {
               "id": "3dec20ee-3806-4df6-92e5-08d658b73167",
@@ -1818,6 +1637,168 @@
               "dataItemId": "e3fcbe9a-9f2c-439d-b80e-08d658b7315f",
               "name": "A Return Path",
               "description": "Escape back to the real world",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8",
+          "parentId": "a747ddef-55ec-4879-b80d-08d658b7315f",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "fc4438a2-2ef9-4f1c-b91f-08d66a2ea7fa",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
+              "dataItemId": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8",
+              "temporary": false
+            },
+            {
+              "id": "c1a735b1-3436-4916-a6dd-08d66a2ea7fb",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8",
+              "name": "The D1sabl3r",
+              "description": "A brave new player",
+              "icon": null
+            },
+            {
+              "name": "The D1sabl3r",
+              "id": "7b3b0f23-11f3-4335-e668-08d66a2ea735",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$zYdiQoemf0RPbBEHS/UH3eFG5B.B.3bgJL5KGxFGKF4xHOOHC9g32",
+              "temporary": false,
+              "admin": false,
+              "characters": [
+                {
+                  "accountId": "7b3b0f23-11f3-4335-e668-08d66a2ea735",
+                  "id": "94cd4e72-d184-4601-c29b-08d66a2ea7fc",
+                  "characterItemId": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8"
+                }
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "32f35174-b3fa-4a30-3614-08d66acde02d",
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "9477ce55-13ce-42ec-3615-08d66acde02d",
+        "b7c6112a-cad7-45f1-3619-08d66acde02d"
+      ],
+      "data": [
+        {
+          "id": "95db74c9-8ebb-4929-c9bd-08d66bcfff0d",
+          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "32f35174-b3fa-4a30-3614-08d66acde02d"
+        },
+        {
+          "id": "e90601ad-64b8-4949-c381-08d66acde038",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+          "dataItemId": "32f35174-b3fa-4a30-3614-08d66acde02d",
+          "name": "Gentle Stream",
+          "description": "Crystal clear water bubbles and gurgles over pebbles and rocks as it winds it's way through the course cut for it across the plateau. Time has worn the rocks and stones into smooth rounded orbs with a shiny slick surface made slippery by the constant presence of water, moss, and algae. The stream flows gently to the south, meandering back and forth across the waste high grasses of the plateau. A lure for wildlife, great and small animals come seeking the purest form of natural water available to all living beings; spring water.",
+          "icon": null
+        }
+      ],
+      "children": [
+        {
+          "id": "9477ce55-13ce-42ec-3615-08d66acde02d",
+          "parentId": "32f35174-b3fa-4a30-3614-08d66acde02d",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "0037ed6f-f78a-4eae-a8eb-08d66bcfff08",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "9477ce55-13ce-42ec-3615-08d66acde02d",
+              "destinationLocationId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
+              "time": 0,
+              "effort": 0,
+              "direction": 2
+            },
+            {
+              "id": "07abf750-126f-4c82-c380-08d66acde038",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "9477ce55-13ce-42ec-3615-08d66acde02d",
+              "name": "Small Shallow Pond",
+              "description": "Directly south a small pond has formed in a shallow recess surrounding the stream",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "b7c6112a-cad7-45f1-3619-08d66acde02d",
+          "parentId": "32f35174-b3fa-4a30-3614-08d66acde02d",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "44e40778-f51f-4f38-a8ee-08d66bcfff08",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "b7c6112a-cad7-45f1-3619-08d66acde02d",
+              "destinationLocationId": "48f5965b-9178-4bdd-3617-08d66acde02d",
+              "time": 0,
+              "effort": 0,
+              "direction": 1
+            },
+            {
+              "id": "71c4cd79-74e9-47c0-c385-08d66acde038",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "b7c6112a-cad7-45f1-3619-08d66acde02d",
+              "name": "Stream Source",
+              "description": "The origin of the stream seems to be discoverable to the north",
+              "icon": null
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "48f5965b-9178-4bdd-3617-08d66acde02d",
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "0cf78c0d-c7ce-406e-3618-08d66acde02d"
+      ],
+      "data": [
+        {
+          "id": "a5a87f64-f275-48ab-c9be-08d66bcfff0d",
+          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "48f5965b-9178-4bdd-3617-08d66acde02d"
+        },
+        {
+          "id": "b3476e7e-d8ec-49d9-c384-08d66acde038",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+          "dataItemId": "48f5965b-9178-4bdd-3617-08d66acde02d",
+          "name": "Stream Source",
+          "description": "To the north an enormous rock face rises out of the ground, ending the crawl of the plateau, and climbing up into the sky several hundred feet. Beyond the rock can be seen an increasing number of higher and larger foot hills and mountains. Water cascades and falls over the surface of the rock, landing with a splash into a deep pool cut into the rock floor by a hundred years of persistent assault. Some water, no longer content to remain in the cool shadow of the hillside, escapes into a slow stream forging a path southward.",
+          "icon": null
+        }
+      ],
+      "children": [
+        {
+          "id": "0cf78c0d-c7ce-406e-3618-08d66acde02d",
+          "parentId": "48f5965b-9178-4bdd-3617-08d66acde02d",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "fbc018ba-4254-4427-a8ed-08d66bcfff08",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "0cf78c0d-c7ce-406e-3618-08d66acde02d",
+              "destinationLocationId": "32f35174-b3fa-4a30-3614-08d66acde02d",
+              "time": 0,
+              "effort": 0,
+              "direction": 2
+            },
+            {
+              "id": "e9a767b1-de59-4945-c383-08d66acde038",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "0cf78c0d-c7ce-406e-3618-08d66acde02d",
+              "name": "Gentle Stream",
+              "description": "Much of the overflow condenses itself into a narrow, southernly stream",
               "icon": null
             }
           ],
