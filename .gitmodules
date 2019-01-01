@@ -10,3 +10,6 @@
 	path = before-our-time-business
 	url = git@github.com:delphian/before-our-time-business.git
 	branch = master
+[submodule "gossip-mud-chat-network"]
+	path = gossip-mud-chat-network
+	url = git@github.com:delphian/gossip-mud-chat-network.git
