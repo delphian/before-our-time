@@ -1,5 +1,6 @@
 {
   "id": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+  "typeId": null,
   "parentId": null,
   "childrenIds": [
     "91f4a03f-8cb8-467c-df2c-08d63af92e75",
@@ -44,9 +45,11 @@
   "children": [
     {
       "id": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "c7e8d9a5-e7df-464e-df3e-08d63af92e75"
+        "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
+        "de4e3e89-1630-48af-00af-08d66c518825"
       ],
       "data": [
         {
@@ -66,6 +69,7 @@
       "children": [
         {
           "id": "c7e8d9a5-e7df-464e-df3e-08d63af92e75",
+          "typeId": null,
           "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -88,11 +92,51 @@
             }
           ],
           "children": []
+        },
+        {
+          "id": "de4e3e89-1630-48af-00af-08d66c518825",
+          "typeId": null,
+          "parentId": "91f4a03f-8cb8-467c-df2c-08d63af92e75",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "83026972-c78f-4535-a0b9-08d66c518825",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
+              "dataItemId": "de4e3e89-1630-48af-00af-08d66c518825",
+              "temporary": false
+            },
+            {
+              "id": "5d1312fa-ac06-42f2-c59d-08d66c5187fe",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "de4e3e89-1630-48af-00af-08d66c518825",
+              "name": "Jubelo",
+              "description": "A brave new player",
+              "icon": null
+            },
+            {
+              "name": "phippsb@gmail.com",
+              "id": "70f8218d-094e-4dda-c3ce-08d66c51538b",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$8ex/Qcuwpnry7Io5D0dxCOgkRxDKPTrm5DEJxE.8XJbUaspY3u/NW",
+              "temporary": false,
+              "admin": false,
+              "characters": [
+                {
+                  "accountId": "70f8218d-094e-4dda-c3ce-08d66c51538b",
+                  "id": "fbc7a517-a1fd-4434-6697-08d66c518827",
+                  "characterItemId": "de4e3e89-1630-48af-00af-08d66c518825"
+                }
+              ]
+            }
+          ],
+          "children": []
         }
       ]
     },
     {
       "id": "779a3a47-3048-4528-df3c-08d63af92e75",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "9fae857c-0fc9-4f29-df3d-08d63af92e75",
@@ -117,6 +161,7 @@
       "children": [
         {
           "id": "9fae857c-0fc9-4f29-df3d-08d63af92e75",
+          "typeId": null,
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -142,6 +187,7 @@
         },
         {
           "id": "c85ba6d3-d68f-43fa-df42-08d63af92e75",
+          "typeId": null,
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -167,6 +213,7 @@
         },
         {
           "id": "4cf67fc0-1bae-445b-df45-08d63af92e75",
+          "typeId": null,
           "parentId": "779a3a47-3048-4528-df3c-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -194,6 +241,7 @@
     },
     {
       "id": "d62e0bef-2948-4979-df40-08d63af92e75",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "37da284a-0cbd-4ea5-df41-08d63af92e75"
@@ -216,6 +264,7 @@
       "children": [
         {
           "id": "37da284a-0cbd-4ea5-df41-08d63af92e75",
+          "typeId": null,
           "parentId": "d62e0bef-2948-4979-df40-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -243,10 +292,12 @@
     },
     {
       "id": "47d86b50-480c-497b-df43-08d63af92e75",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "e1ce8640-cfcd-4550-df44-08d63af92e75",
-        "66272989-71f1-4246-df48-08d63af92e75"
+        "66272989-71f1-4246-df48-08d63af92e75",
+        "70e27070-18ce-4f0b-c2d9-08d6801ea9d1"
       ],
       "data": [
         {
@@ -266,6 +317,7 @@
       "children": [
         {
           "id": "e1ce8640-cfcd-4550-df44-08d63af92e75",
+          "typeId": null,
           "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -291,6 +343,7 @@
         },
         {
           "id": "66272989-71f1-4246-df48-08d63af92e75",
+          "typeId": null,
           "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -313,15 +366,48 @@
             }
           ],
           "children": []
+        },
+        {
+          "id": "70e27070-18ce-4f0b-c2d9-08d6801ea9d1",
+          "typeId": null,
+          "parentId": "47d86b50-480c-497b-df43-08d63af92e75",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "572737d7-d905-4b6c-6f9b-08d6801ea9d7",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
+              "dataItemId": "70e27070-18ce-4f0b-c2d9-08d6801ea9d1",
+              "mobile": false,
+              "weight": 0
+            },
+            {
+              "id": "477399f1-86e3-4ddc-7cd9-08d6801ef1d5",
+              "dataType": "BeforeOurTime.Models.Modules.Script.ItemProperties.Javascripts.JavascriptItemData",
+              "dataItemId": "70e27070-18ce-4f0b-c2d9-08d6801ea9d1",
+              "script": "// Opportunity to execute code at regular interval\nvar onTick = function() {\n    var option = Math.floor(Math.random() * 100);\n    if (option >= 98) {\n        var exitIds = _getExitIds(me);\n        var exitIndex = Math.floor(Math.random() * exitIds.length);\n        botMoveItem(me.id, exitIds[exitIndex], me.id);\n    }\n    if (option <= 10) {\n        var emotes = [\"A bunny dashes right past your feet\", \"A bunny absently chews on a blade of grass\", \"A bunny scurries beneath the underbrush\", \"A bunny pauses and listens carefully\", \"A bunny suddenly charges away, then turns to peer at you from a great distance\", \"A bunny repeatedly wipes a paw over its ear and down past its nose\", \"A bunny quietly sniffs the air\"];\n        var emoteIndex = Math.floor(Math.random() * emotes.length);\n        botEmote(400, emotes[emoteIndex]);\n    }\n};\n\nvar _getExitIds = function(me) {\n    var exitIds = [];\n    var parent = botReadItem(me.parentId);\n    JSON.parse(botStringify(parent.childrenIds)).forEach(function(childId) {\n        var child = botReadItem(childId);\n        JSON.parse(botStringify(child.data)).forEach(function(data) {\n            if (data.dataType.indexOf(\"ExitItemData\") != -1) {\n                exitIds.push(data.destinationLocationId);\n            }\n        });\n    });\n    return exitIds;\n}",
+              "dataBag": ""
+            },
+            {
+              "id": "1e6995fa-7acf-46a8-dafb-08d6801ea9d9",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "70e27070-18ce-4f0b-c2d9-08d6801ea9d1",
+              "name": "Small Bunny",
+              "description": "A small white bunny is busy hopping around looking for flowers to eat",
+              "icon": null
+            }
+          ],
+          "children": []
         }
       ]
     },
     {
       "id": "b6cad293-39c7-441f-df46-08d63af92e75",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "4d189c8d-cfed-4cb9-df47-08d63af92e75",
-        "f6c788bc-5ed6-4688-1b7c-08d645e4ab65"
+        "f6c788bc-5ed6-4688-1b7c-08d645e4ab65",
+        "370031df-3872-4740-441a-08d64f618c8b"
       ],
       "data": [
         {
@@ -341,6 +427,7 @@
       "children": [
         {
           "id": "4d189c8d-cfed-4cb9-df47-08d63af92e75",
+          "typeId": null,
           "parentId": "b6cad293-39c7-441f-df46-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -366,6 +453,7 @@
         },
         {
           "id": "f6c788bc-5ed6-4688-1b7c-08d645e4ab65",
+          "typeId": null,
           "parentId": "b6cad293-39c7-441f-df46-08d63af92e75",
           "childrenIds": [],
           "data": [
@@ -388,16 +476,63 @@
             }
           ],
           "children": []
+        },
+        {
+          "id": "370031df-3872-4740-441a-08d64f618c8b",
+          "typeId": null,
+          "parentId": "b6cad293-39c7-441f-df46-08d63af92e75",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "fc527159-b823-44d3-ff1f-08d64f618c8b",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
+              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
+              "temporary": false
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "terminalId": "70f161df-116f-442f-9d90-48daee0fb094"
+            },
+            {
+              "id": "8d0239a0-9edd-4585-80b4-08d65a7100f2",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
+              "name": "delphian",
+              "description": "A brave new player",
+              "icon": null
+            },
+            {
+              "name": "admin@localhost",
+              "id": "bdf42de8-1504-47e1-2d28-08d64f617512",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$AlI/JiYuonX9Or2VCS5Z7eXjY3D.Fw7LeBNW/K2UpwDU5BHcPcd4i",
+              "temporary": false,
+              "admin": true,
+              "characters": [
+                {
+                  "accountId": "bdf42de8-1504-47e1-2d28-08d64f617512",
+                  "id": "c1e68721-d295-4c67-0c3b-08d64f618c8e",
+                  "characterItemId": "370031df-3872-4740-441a-08d64f618c8b"
+                }
+              ]
+            }
+          ],
+          "children": []
         }
       ]
     },
     {
       "id": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "de75c5dd-5698-4194-1b7b-08d645e4ab65",
         "0597a94a-e188-4af5-3b5d-08d64940b4b3",
-        "a2303b98-7396-4325-441f-08d64f618c8b"
+        "a2303b98-7396-4325-441f-08d64f618c8b",
+        "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8"
       ],
       "data": [
         {
@@ -417,6 +552,7 @@
       "children": [
         {
           "id": "de75c5dd-5698-4194-1b7b-08d645e4ab65",
+          "typeId": null,
           "parentId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "childrenIds": [],
           "data": [
@@ -442,6 +578,7 @@
         },
         {
           "id": "0597a94a-e188-4af5-3b5d-08d64940b4b3",
+          "typeId": null,
           "parentId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "childrenIds": [],
           "data": [
@@ -467,6 +604,7 @@
         },
         {
           "id": "a2303b98-7396-4325-441f-08d64f618c8b",
+          "typeId": null,
           "parentId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
           "childrenIds": [],
           "data": [
@@ -489,14 +627,155 @@
             }
           ],
           "children": []
+        },
+        {
+          "id": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8",
+          "typeId": null,
+          "parentId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
+          "childrenIds": [
+            "61950e16-1357-47cf-9453-08d67086b5d5",
+            "8d26ac85-e1f4-495a-9455-08d67086b5d5",
+            "4c00f752-125d-43a3-672c-08d6744adfa1"
+          ],
+          "data": [
+            {
+              "id": "fc4438a2-2ef9-4f1c-b91f-08d66a2ea7fa",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
+              "dataItemId": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8",
+              "temporary": false
+            },
+            {
+              "id": "c1a735b1-3436-4916-a6dd-08d66a2ea7fb",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8",
+              "name": "The D1sabl3r",
+              "description": "A brave new player",
+              "icon": null
+            },
+            {
+              "name": "The D1sabl3r",
+              "id": "7b3b0f23-11f3-4335-e668-08d66a2ea735",
+              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
+              "dataItemId": "00000000-0000-0000-0000-000000000000",
+              "password": "$2a$10$zYdiQoemf0RPbBEHS/UH3eFG5B.B.3bgJL5KGxFGKF4xHOOHC9g32",
+              "temporary": false,
+              "admin": false,
+              "characters": [
+                {
+                  "accountId": "7b3b0f23-11f3-4335-e668-08d66a2ea735",
+                  "id": "94cd4e72-d184-4601-c29b-08d66a2ea7fc",
+                  "characterItemId": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8"
+                }
+              ]
+            }
+          ],
+          "children": [
+            {
+              "id": "61950e16-1357-47cf-9453-08d67086b5d5",
+              "typeId": "bda758bf-053d-4956-9aeb-7d88a915cdf7",
+              "parentId": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8",
+              "childrenIds": [],
+              "data": [
+                {
+                  "id": "93ced691-7236-4554-8b44-08d6708ae71e",
+                  "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
+                  "dataItemId": "61950e16-1357-47cf-9453-08d67086b5d5",
+                  "mobile": true,
+                  "weight": 0
+                },
+                {
+                  "id": "555ad3e1-30b5-40f8-4922-08d6708ae71f",
+                  "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Garbages.GarbageItemData",
+                  "dataItemId": "61950e16-1357-47cf-9453-08d67086b5d5",
+                  "interval": 10,
+                  "intervalTime": null
+                },
+                {
+                  "id": "67c8c86f-aacb-46c1-ddda-08d67086b5d8",
+                  "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+                  "dataItemId": "61950e16-1357-47cf-9453-08d67086b5d5",
+                  "name": "A Smoldering Branch",
+                  "description": "A rare wisp of smoke and glint of light occasionally appears from this short branch",
+                  "icon": null
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "8d26ac85-e1f4-495a-9455-08d67086b5d5",
+              "typeId": "bda758bf-053d-4956-9aeb-7d88a915cdf7",
+              "parentId": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8",
+              "childrenIds": [],
+              "data": [
+                {
+                  "id": "ba5b3877-a33f-41a2-8b46-08d6708ae71e",
+                  "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
+                  "dataItemId": "8d26ac85-e1f4-495a-9455-08d67086b5d5",
+                  "mobile": true,
+                  "weight": 0
+                },
+                {
+                  "id": "e28bb82d-f52e-41c2-4924-08d6708ae71f",
+                  "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Garbages.GarbageItemData",
+                  "dataItemId": "8d26ac85-e1f4-495a-9455-08d67086b5d5",
+                  "interval": 10,
+                  "intervalTime": null
+                },
+                {
+                  "id": "7c9a72d8-ac2b-4222-dddc-08d67086b5d8",
+                  "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+                  "dataItemId": "8d26ac85-e1f4-495a-9455-08d67086b5d5",
+                  "name": "A Smoldering Branch",
+                  "description": "A rare wisp of smoke and glint of light occasionally appears from this short branch",
+                  "icon": null
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "4c00f752-125d-43a3-672c-08d6744adfa1",
+              "typeId": "bda758bf-053d-4956-9aeb-7d88a915cdf7",
+              "parentId": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8",
+              "childrenIds": [],
+              "data": [
+                {
+                  "id": "e78e8d3b-7992-4a6f-34b0-08d6744e8454",
+                  "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
+                  "dataItemId": "4c00f752-125d-43a3-672c-08d6744adfa1",
+                  "mobile": true,
+                  "weight": 0
+                },
+                {
+                  "id": "d6f9d00a-6e00-4797-d569-08d6744e8454",
+                  "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Garbages.GarbageItemData",
+                  "dataItemId": "4c00f752-125d-43a3-672c-08d6744adfa1",
+                  "interval": 10,
+                  "intervalTime": null
+                },
+                {
+                  "id": "97ca1c55-82fd-4a0e-7e2f-08d6744adfa4",
+                  "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+                  "dataItemId": "4c00f752-125d-43a3-672c-08d6744adfa1",
+                  "name": "A Smoldering Branch",
+                  "description": "A rare wisp of smoke and glint of light occasionally appears from this short branch",
+                  "icon": null
+                }
+              ],
+              "children": []
+            }
+          ]
         }
       ]
     },
     {
       "id": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "c9ec0148-51cb-475f-3b5c-08d64940b4b3"
+        "c9ec0148-51cb-475f-3b5c-08d64940b4b3",
+        "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
+        "4e22cd25-f1fc-45de-00a1-08d66c518825",
+        "85c3e50c-025c-492c-c2da-08d6801ea9d1"
       ],
       "data": [
         {
@@ -516,6 +795,7 @@
       "children": [
         {
           "id": "c9ec0148-51cb-475f-3b5c-08d64940b4b3",
+          "typeId": null,
           "parentId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
           "childrenIds": [],
           "data": [
@@ -538,413 +818,11 @@
             }
           ],
           "children": []
-        }
-      ]
-    },
-    {
-      "id": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
-      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
-      "childrenIds": [
-        "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
-        "c194d2d2-5242-442b-4423-08d64f618c8b"
-      ],
-      "data": [
-        {
-          "id": "9dc3ab16-f4c9-4a7a-6516-08d650320b88",
-          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
-          "dataItemId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b"
         },
-        {
-          "id": "73bcff54-2c5a-4176-8172-08d658bba3ba",
-          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-          "dataItemId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
-          "name": "Gently Rising Path",
-          "description": "A dirt path winds north and south through dense trees. The ground slopes gently up northward toward some unknown objective hidden by the dense trees and underbrush. Tiny pebbles litter the shaded forest floor on each side of the path. No leaves can be found on the path itself, many small dried crevasse testify of washing away any debris aggressive enough to block the way. Your skin slightly flushes due to the heat and humidity. A few small forest creatures are causing a disturbance somewhere unseen to the east.",
-          "icon": null
-        }
-      ],
-      "children": [
-        {
-          "id": "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
-          "parentId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "8f2c4589-d7ae-4778-8b4c-08d650320b87",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
-              "destinationLocationId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
-              "time": 0,
-              "effort": 0,
-              "direction": 2
-            },
-            {
-              "id": "081ee1ca-0dbb-44f3-f4cd-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
-              "name": "Southern Path",
-              "description": "The forest is less dense to the south.",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "c194d2d2-5242-442b-4423-08d64f618c8b",
-          "parentId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "3d9452bd-d47d-449d-8b4f-08d650320b87",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "c194d2d2-5242-442b-4423-08d64f618c8b",
-              "destinationLocationId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
-              "time": 0,
-              "effort": 0,
-              "direction": 1
-            },
-            {
-              "id": "3f9a68cc-4d34-4ace-f4d0-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "c194d2d2-5242-442b-4423-08d64f618c8b",
-              "name": "Northern Rise",
-              "description": "To the north the trail begins to rise more aggressively.",
-              "icon": null
-            }
-          ],
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
-      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
-      "childrenIds": [
-        "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
-        "1cc5c873-c24d-4369-4426-08d64f618c8b"
-      ],
-      "data": [
-        {
-          "id": "de0c15e6-0229-4f23-6517-08d650320b88",
-          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
-          "dataItemId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b"
-        },
-        {
-          "id": "082bb655-b81f-4fcc-8173-08d658bba3ba",
-          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-          "dataItemId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
-          "name": "Rising Path",
-          "description": "A broken and weathered path rises to the west and falls more gently south. The rich soil has been rent apart by some recent rain storm, making walking on either side somewhat difficult. The deep shadows from the dark canopy above hides the danger of smaller tears and mounds of heaved dirt directly before you. Large collections of leaves and rotting wood have piled up on the eastern edge of this trail, the smell is bearable but unpleasant.",
-          "icon": null
-        }
-      ],
-      "children": [
-        {
-          "id": "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
-          "parentId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "b45a09f7-73c8-406a-8b4e-08d650320b87",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
-              "destinationLocationId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
-              "time": 0,
-              "effort": 0,
-              "direction": 2
-            },
-            {
-              "id": "8582c8e8-9cf7-41a9-f4cf-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
-              "name": "Southern Decline",
-              "description": "South the decline appears more gentle.",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "1cc5c873-c24d-4369-4426-08d64f618c8b",
-          "parentId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "e6c47caa-39e5-4d84-8b51-08d650320b87",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "1cc5c873-c24d-4369-4426-08d64f618c8b",
-              "destinationLocationId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
-              "time": 0,
-              "effort": 0,
-              "direction": 4
-            },
-            {
-              "id": "4ff15975-981c-48a7-f4d2-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "1cc5c873-c24d-4369-4426-08d64f618c8b",
-              "name": "West Incline",
-              "description": "The path inclines steeply to the west",
-              "icon": null
-            }
-          ],
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
-      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
-      "childrenIds": [
-        "7b9f6a0a-760d-442c-4425-08d64f618c8b",
-        "b46b572e-85b8-426d-d5a4-08d651ecf1f8"
-      ],
-      "data": [
-        {
-          "id": "b5cb6959-e1cb-4075-6518-08d650320b88",
-          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
-          "dataItemId": "5b1752f3-92d7-48d8-4424-08d64f618c8b"
-        },
-        {
-          "id": "64a94bc4-dfae-44b1-8174-08d658bba3ba",
-          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-          "dataItemId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
-          "name": "A Steep Path",
-          "description": "The path bends in a steep curve upward from east to north. The forest is thin here at the base of the foothills. Winds and rain rolling down from above have weathered the northern face of many trees. Small chips of bark are strewn across the path and about all the grounds in the area. A cool and persistent breeze brings the faint smell of smoke from the north above. A nest of beetles have made a home in a fallen trunk hollowed from years of their feasting.",
-          "icon": null
-        }
-      ],
-      "children": [
-        {
-          "id": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
-          "parentId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "b34f53fe-f06f-41e1-8b50-08d650320b87",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
-              "destinationLocationId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
-              "time": 0,
-              "effort": 0,
-              "direction": 3
-            },
-            {
-              "id": "d41a6975-7e2e-4355-f4d1-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
-              "name": "Eastern Decline",
-              "description": "The path declines steeply to the east.",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "b46b572e-85b8-426d-d5a4-08d651ecf1f8",
-          "parentId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "d72eec9c-7645-495d-bb5e-08d652511e81",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "b46b572e-85b8-426d-d5a4-08d651ecf1f8",
-              "destinationLocationId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
-              "time": 0,
-              "effort": 0,
-              "direction": 1
-            },
-            {
-              "id": "560e0200-6867-473d-f4d4-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "b46b572e-85b8-426d-d5a4-08d651ecf1f8",
-              "name": "North Climb",
-              "description": "A difficult, but short, trek is required to climb the path north",
-              "icon": null
-            }
-          ],
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
-      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
-      "childrenIds": [
-        "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
-        "fa0ab044-bc64-4539-d5b7-08d651ecf1f8"
-      ],
-      "data": [
-        {
-          "id": "191ae587-28ef-406a-79d9-08d652511e82",
-          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
-          "dataItemId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8"
-        },
-        {
-          "id": "ac31845b-77b3-4238-8175-08d658bba3ba",
-          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-          "dataItemId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
-          "name": "Steep Curve",
-          "description": "The path is quite difficult here with a steep incline from south to east. To the east of the path is a a small dip in the ground rich with underbrush of dusty green and dry yellows. In the center of the dip stands a twisting blackened dead tree with curling bark and long limbs stretching outward from it's trunk. Behind the dip and the tree is a large cliff that towers over the surrounding trees and plant life casting everything in shadow. A long jagged boulder rests at the bottom of the cliff a couple feet below a divot in the side as if it fell off ages ago.",
-          "icon": null
-        }
-      ],
-      "children": [
-        {
-          "id": "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
-          "parentId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "ca23ddbb-70ec-4a91-bb5d-08d652511e81",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
-              "destinationLocationId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
-              "time": 0,
-              "effort": 0,
-              "direction": 2
-            },
-            {
-              "id": "f24c014b-b647-4ecc-f4d3-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
-              "name": "Southern Decline",
-              "description": "The path continues at a steep decline to the south",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "fa0ab044-bc64-4539-d5b7-08d651ecf1f8",
-          "parentId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "0bb53d89-f516-433c-bb60-08d652511e81",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "fa0ab044-bc64-4539-d5b7-08d651ecf1f8",
-              "destinationLocationId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
-              "time": 0,
-              "effort": 0,
-              "direction": 3
-            },
-            {
-              "id": "dc6ea47f-4f49-435a-f4d6-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "fa0ab044-bc64-4539-d5b7-08d651ecf1f8",
-              "name": "East",
-              "description": "The path becomes more accessible to the east",
-              "icon": null
-            }
-          ],
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
-      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
-      "childrenIds": [
-        "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
-        "2343dd4a-65bd-4c79-f4fa-08d653530e72"
-      ],
-      "data": [
-        {
-          "id": "57a2cea2-f6c3-423a-79da-08d652511e82",
-          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
-          "dataItemId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8"
-        },
-        {
-          "id": "fc386227-3f91-4b4c-8176-08d658bba3ba",
-          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-          "dataItemId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
-          "name": "Gentle Slope",
-          "description": "The path runs clean and smooth from north to west. Further west the slope appears to drop rapidly. A cliff greets you to the south past which you can see a vast Vista of forest and grass. The western path may lead there. The rolling foothills that you stand on continue their gentle rise northward with grass and flowering brush.",
-          "icon": null
-        }
-      ],
-      "children": [
-        {
-          "id": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
-          "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "28c5a178-1978-495a-bb5f-08d652511e81",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
-              "destinationLocationId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
-              "time": 0,
-              "effort": 0,
-              "direction": 4
-            },
-            {
-              "id": "f08282a5-bd91-4226-f4d5-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
-              "name": "Western Drop",
-              "description": "Escape back to the real world",
-              "icon": null
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "2343dd4a-65bd-4c79-f4fa-08d653530e72",
-          "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "df35f69a-4f6d-4ef0-9620-08d65353a7bc",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
-              "dataItemId": "2343dd4a-65bd-4c79-f4fa-08d653530e72",
-              "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
-              "time": 0,
-              "effort": 0,
-              "direction": 1
-            },
-            {
-              "id": "84e5f33e-ff21-4152-f4d8-08d658ad5228",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "2343dd4a-65bd-4c79-f4fa-08d653530e72",
-              "name": "Northern Plateau",
-              "description": "To the north, inset into the foothills, a large plateau has been cut out",
-              "icon": null
-            }
-          ],
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
-      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
-      "childrenIds": [
-        "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-        "5e314d71-3150-46fc-f4f9-08d653530e72",
-        "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
-        "d20e7706-5aba-4d42-f500-08d653530e72",
-        "33596aab-6a25-44e7-f504-08d653530e72"
-      ],
-      "data": [
-        {
-          "id": "242d2943-877a-429c-0f5e-08d65353a7bd",
-          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
-          "dataItemId": "cbc3783a-9595-4fe0-f4f8-08d653530e72"
-        },
-        {
-          "id": "a32928b2-60a1-4e09-8177-08d658bba3ba",
-          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-          "dataItemId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
-          "name": "Foothills Plateaus",
-          "description": "Natural processes have carved out a large plateau half way up the local foothills. To the south falling away into the distance you can see a great forest. The plateau runs east to west, with the terrain continuing it's steady climb northward. Tall yellow grasses cover most of the area, the few bald areas reveal a rich soil fertile for planting and free of large obstacles.",
-          "icon": null
-        }
-      ],
-      "children": [
         {
           "id": "c6e5e55f-5d60-4ebd-4420-08d64f618c8b",
-          "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+          "typeId": null,
+          "parentId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
           "childrenIds": [],
           "data": [
             {
@@ -981,7 +859,497 @@
           "children": []
         },
         {
+          "id": "4e22cd25-f1fc-45de-00a1-08d66c518825",
+          "typeId": null,
+          "parentId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "9731a5ef-f5eb-4033-f5e8-08d66c623656",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
+              "dataItemId": "4e22cd25-f1fc-45de-00a1-08d66c518825",
+              "mobile": false,
+              "weight": 0
+            },
+            {
+              "id": "3872944c-782f-472f-69d6-08d6708ae21b",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Generators.GeneratorItemData",
+              "dataItemId": "4e22cd25-f1fc-45de-00a1-08d66c518825",
+              "interval": 20,
+              "intervalTime": "2019-01-24T06:12:20.3947828",
+              "maximum": 1,
+              "json": "{\r        \"parentId\": \"6904182a-f7ac-4e49-3b5b-08d64940b4b3\",\r        \"typeId\": \"bda758bf-053d-4956-9aeb-7d88a915cdf7\",\r        \"data\": [\r            {\r                \"dataType\": \"BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData\",\r                \"name\": \"A Smoldering Branch\",\r                \"description\": \"A rare wisp of smoke and glint of light occasionally appears from this short branch\",\r                \"icon\": null\r            },\r            {\r                \"dataType\": \"BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData\",\r                \"mobile\": true,\r                \"weight\": 0\r            },\r            {\r                \"dataType\": \"BeforeOurTime.Models.Modules.World.ItemProperties.Garbages.GarbageItemData\",\r                \"interval\": 10\r            }\r        ]\r    }"
+            },
+            {
+              "id": "43549043-289b-4e45-c825-08d680086e7b",
+              "dataType": "BeforeOurTime.Models.Modules.Script.ItemProperties.Javascripts.JavascriptItemData",
+              "dataItemId": "4e22cd25-f1fc-45de-00a1-08d66c518825",
+              "script": "// Opportunity to execute code at regular interval\rvar onTick = function() {\r    var option = Math.floor(Math.random() * 100);\r    if (option == 0) botEmote(400, \"The Ancient Majestic sways gently in the breeze\");\r    if (option == 1) botEmote(400, \"A soft creaking emanates from within the Ancient Majestic\");\r};\rvar _move = function() {}",
+              "dataBag": null
+            },
+            {
+              "id": "ada6af8f-cb9d-4d33-c58f-08d66c5187fe",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "4e22cd25-f1fc-45de-00a1-08d66c518825",
+              "name": "Ancient Majestic",
+              "description": "An ancient husk of a once great tree towers over everything in the vicinity. Large branches from far above occasionally fall, crashing into the forest floor far below ",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "85c3e50c-025c-492c-c2da-08d6801ea9d1",
+          "typeId": "bda758bf-053d-4956-9aeb-7d88a915cdf7",
+          "parentId": "6904182a-f7ac-4e49-3b5b-08d64940b4b3",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "84c463ad-be6b-4512-6f9c-08d6801ea9d7",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Physicals.PhysicalItemData",
+              "dataItemId": "85c3e50c-025c-492c-c2da-08d6801ea9d1",
+              "mobile": true,
+              "weight": 0
+            },
+            {
+              "id": "f89a85dc-3e18-4013-3fcb-08d680e28b15",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Garbages.GarbageItemData",
+              "dataItemId": "85c3e50c-025c-492c-c2da-08d6801ea9d1",
+              "interval": 10,
+              "intervalTime": null
+            },
+            {
+              "id": "68abf3ae-c357-43c0-dafc-08d6801ea9d9",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "85c3e50c-025c-492c-c2da-08d6801ea9d1",
+              "name": "A Smoldering Branch",
+              "description": "A rare wisp of smoke and glint of light occasionally appears from this short branch",
+              "icon": null
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
+      "typeId": null,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
+        "c194d2d2-5242-442b-4423-08d64f618c8b"
+      ],
+      "data": [
+        {
+          "id": "9dc3ab16-f4c9-4a7a-6516-08d650320b88",
+          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b"
+        },
+        {
+          "id": "73bcff54-2c5a-4176-8172-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+          "dataItemId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
+          "name": "Gently Rising Path",
+          "description": "A dirt path winds north and south through dense trees. The ground slopes gently up northward toward some unknown objective hidden by the dense trees and underbrush. Tiny pebbles litter the shaded forest floor on each side of the path. No leaves can be found on the path itself, many small dried crevasse testify of washing away any debris aggressive enough to block the way. Your skin slightly flushes due to the heat and humidity. A few small forest creatures are causing a disturbance somewhere unseen to the east.",
+          "icon": null
+        }
+      ],
+      "children": [
+        {
+          "id": "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
+          "typeId": null,
+          "parentId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "8f2c4589-d7ae-4778-8b4c-08d650320b87",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
+              "destinationLocationId": "f5bfc66b-ed29-4bf9-1b7a-08d645e4ab65",
+              "time": 0,
+              "effort": 0,
+              "direction": 2
+            },
+            {
+              "id": "081ee1ca-0dbb-44f3-f4cd-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "fcebdaa2-d672-4c4b-441e-08d64f618c8b",
+              "name": "Southern Path",
+              "description": "The forest is less dense to the south.",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "c194d2d2-5242-442b-4423-08d64f618c8b",
+          "typeId": null,
+          "parentId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "3d9452bd-d47d-449d-8b4f-08d650320b87",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "c194d2d2-5242-442b-4423-08d64f618c8b",
+              "destinationLocationId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
+              "time": 0,
+              "effort": 0,
+              "direction": 1
+            },
+            {
+              "id": "3f9a68cc-4d34-4ace-f4d0-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "c194d2d2-5242-442b-4423-08d64f618c8b",
+              "name": "Northern Rise",
+              "description": "To the north the trail begins to rise more aggressively.",
+              "icon": null
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
+      "typeId": null,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
+        "1cc5c873-c24d-4369-4426-08d64f618c8b"
+      ],
+      "data": [
+        {
+          "id": "de0c15e6-0229-4f23-6517-08d650320b88",
+          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b"
+        },
+        {
+          "id": "082bb655-b81f-4fcc-8173-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+          "dataItemId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
+          "name": "Rising Path",
+          "description": "A broken and weathered path rises to the west and falls more gently south. The rich soil has been rent apart by some recent rain storm, making walking on either side somewhat difficult. The deep shadows from the dark canopy above hides the danger of smaller tears and mounds of heaved dirt directly before you. Large collections of leaves and rotting wood have piled up on the eastern edge of this trail, the smell is bearable but unpleasant.",
+          "icon": null
+        }
+      ],
+      "children": [
+        {
+          "id": "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
+          "typeId": null,
+          "parentId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "b45a09f7-73c8-406a-8b4e-08d650320b87",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
+              "destinationLocationId": "b73c4a50-2a8f-4c6f-441d-08d64f618c8b",
+              "time": 0,
+              "effort": 0,
+              "direction": 2
+            },
+            {
+              "id": "8582c8e8-9cf7-41a9-f4cf-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "94bb5e3a-065a-4ddc-4422-08d64f618c8b",
+              "name": "Southern Decline",
+              "description": "South the decline appears more gentle.",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "1cc5c873-c24d-4369-4426-08d64f618c8b",
+          "typeId": null,
+          "parentId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "e6c47caa-39e5-4d84-8b51-08d650320b87",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "1cc5c873-c24d-4369-4426-08d64f618c8b",
+              "destinationLocationId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+              "time": 0,
+              "effort": 0,
+              "direction": 4
+            },
+            {
+              "id": "4ff15975-981c-48a7-f4d2-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "1cc5c873-c24d-4369-4426-08d64f618c8b",
+              "name": "West Incline",
+              "description": "The path inclines steeply to the west",
+              "icon": null
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+      "typeId": null,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "7b9f6a0a-760d-442c-4425-08d64f618c8b",
+        "b46b572e-85b8-426d-d5a4-08d651ecf1f8"
+      ],
+      "data": [
+        {
+          "id": "b5cb6959-e1cb-4075-6518-08d650320b88",
+          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "5b1752f3-92d7-48d8-4424-08d64f618c8b"
+        },
+        {
+          "id": "64a94bc4-dfae-44b1-8174-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+          "dataItemId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+          "name": "A Steep Path",
+          "description": "The path bends in a steep curve upward from east to north. The forest is thin here at the base of the foothills. Winds and rain rolling down from above have weathered the northern face of many trees. Small chips of bark are strewn across the path and about all the grounds in the area. A cool and persistent breeze brings the faint smell of smoke from the north above. A nest of beetles have made a home in a fallen trunk hollowed from years of their feasting.",
+          "icon": null
+        }
+      ],
+      "children": [
+        {
+          "id": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
+          "typeId": null,
+          "parentId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "b34f53fe-f06f-41e1-8b50-08d650320b87",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
+              "destinationLocationId": "6e3d80dc-649c-4a3f-4421-08d64f618c8b",
+              "time": 0,
+              "effort": 0,
+              "direction": 3
+            },
+            {
+              "id": "d41a6975-7e2e-4355-f4d1-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "7b9f6a0a-760d-442c-4425-08d64f618c8b",
+              "name": "Eastern Decline",
+              "description": "The path declines steeply to the east.",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "b46b572e-85b8-426d-d5a4-08d651ecf1f8",
+          "typeId": null,
+          "parentId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "d72eec9c-7645-495d-bb5e-08d652511e81",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "b46b572e-85b8-426d-d5a4-08d651ecf1f8",
+              "destinationLocationId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+              "time": 0,
+              "effort": 0,
+              "direction": 1
+            },
+            {
+              "id": "560e0200-6867-473d-f4d4-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "b46b572e-85b8-426d-d5a4-08d651ecf1f8",
+              "name": "North Climb",
+              "description": "A difficult, but short, trek is required to climb the path north",
+              "icon": null
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+      "typeId": null,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
+        "fa0ab044-bc64-4539-d5b7-08d651ecf1f8"
+      ],
+      "data": [
+        {
+          "id": "191ae587-28ef-406a-79d9-08d652511e82",
+          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8"
+        },
+        {
+          "id": "ac31845b-77b3-4238-8175-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+          "dataItemId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+          "name": "Steep Curve",
+          "description": "The path is quite difficult here with a steep incline from south to east. To the east of the path is a a small dip in the ground rich with underbrush of dusty green and dry yellows. In the center of the dip stands a twisting blackened dead tree with curling bark and long limbs stretching outward from it's trunk. Behind the dip and the tree is a large cliff that towers over the surrounding trees and plant life casting everything in shadow. A long jagged boulder rests at the bottom of the cliff a couple feet below a divot in the side as if it fell off ages ago.",
+          "icon": null
+        }
+      ],
+      "children": [
+        {
+          "id": "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
+          "typeId": null,
+          "parentId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "ca23ddbb-70ec-4a91-bb5d-08d652511e81",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
+              "destinationLocationId": "5b1752f3-92d7-48d8-4424-08d64f618c8b",
+              "time": 0,
+              "effort": 0,
+              "direction": 2
+            },
+            {
+              "id": "f24c014b-b647-4ecc-f4d3-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "a7a62276-3648-4a0d-d5a3-08d651ecf1f8",
+              "name": "Southern Decline",
+              "description": "The path continues at a steep decline to the south",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "fa0ab044-bc64-4539-d5b7-08d651ecf1f8",
+          "typeId": null,
+          "parentId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "0bb53d89-f516-433c-bb60-08d652511e81",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "fa0ab044-bc64-4539-d5b7-08d651ecf1f8",
+              "destinationLocationId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+              "time": 0,
+              "effort": 0,
+              "direction": 3
+            },
+            {
+              "id": "dc6ea47f-4f49-435a-f4d6-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "fa0ab044-bc64-4539-d5b7-08d651ecf1f8",
+              "name": "East",
+              "description": "The path becomes more accessible to the east",
+              "icon": null
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+      "typeId": null,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
+        "2343dd4a-65bd-4c79-f4fa-08d653530e72"
+      ],
+      "data": [
+        {
+          "id": "57a2cea2-f6c3-423a-79da-08d652511e82",
+          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8"
+        },
+        {
+          "id": "fc386227-3f91-4b4c-8176-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+          "dataItemId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+          "name": "Gentle Slope",
+          "description": "The path runs clean and smooth from north to west. Further west the slope appears to drop rapidly. A cliff greets you to the south past which you can see a vast Vista of forest and grass. The western path may lead there. The rolling foothills that you stand on continue their gentle rise northward with grass and flowering brush.",
+          "icon": null
+        }
+      ],
+      "children": [
+        {
+          "id": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
+          "typeId": null,
+          "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "28c5a178-1978-495a-bb5f-08d652511e81",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
+              "destinationLocationId": "414eeb6b-0afd-45ea-d5a2-08d651ecf1f8",
+              "time": 0,
+              "effort": 0,
+              "direction": 4
+            },
+            {
+              "id": "f08282a5-bd91-4226-f4d5-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "7557ac1b-3a4e-42ed-d5b6-08d651ecf1f8",
+              "name": "Western Drop",
+              "description": "Escape back to the real world",
+              "icon": null
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "2343dd4a-65bd-4c79-f4fa-08d653530e72",
+          "typeId": null,
+          "parentId": "3c40d48c-f3e4-4960-d5b5-08d651ecf1f8",
+          "childrenIds": [],
+          "data": [
+            {
+              "id": "df35f69a-4f6d-4ef0-9620-08d65353a7bc",
+              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Exits.ExitItemData",
+              "dataItemId": "2343dd4a-65bd-4c79-f4fa-08d653530e72",
+              "destinationLocationId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+              "time": 0,
+              "effort": 0,
+              "direction": 1
+            },
+            {
+              "id": "84e5f33e-ff21-4152-f4d8-08d658ad5228",
+              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+              "dataItemId": "2343dd4a-65bd-4c79-f4fa-08d653530e72",
+              "name": "Northern Plateau",
+              "description": "To the north, inset into the foothills, a large plateau has been cut out",
+              "icon": null
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+      "typeId": null,
+      "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
+      "childrenIds": [
+        "5e314d71-3150-46fc-f4f9-08d653530e72",
+        "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
+        "d20e7706-5aba-4d42-f500-08d653530e72",
+        "33596aab-6a25-44e7-f504-08d653530e72"
+      ],
+      "data": [
+        {
+          "id": "242d2943-877a-429c-0f5e-08d65353a7bd",
+          "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Locations.LocationItemData",
+          "dataItemId": "cbc3783a-9595-4fe0-f4f8-08d653530e72"
+        },
+        {
+          "id": "a32928b2-60a1-4e09-8177-08d658bba3ba",
+          "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
+          "dataItemId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
+          "name": "Foothills Plateaus",
+          "description": "Natural processes have carved out a large plateau half way up the local foothills. To the south falling away into the distance you can see a great forest. The plateau runs east to west, with the terrain continuing it's steady climb northward. Tall yellow grasses cover most of the area, the few bald areas reveal a rich soil fertile for planting and free of large obstacles.",
+          "icon": null
+        }
+      ],
+      "children": [
+        {
           "id": "5e314d71-3150-46fc-f4f9-08d653530e72",
+          "typeId": null,
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1007,6 +1375,7 @@
         },
         {
           "id": "a8733fbe-5eb4-4d49-f4fd-08d653530e72",
+          "typeId": null,
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1032,6 +1401,7 @@
         },
         {
           "id": "d20e7706-5aba-4d42-f500-08d653530e72",
+          "typeId": null,
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1057,6 +1427,7 @@
         },
         {
           "id": "33596aab-6a25-44e7-f504-08d653530e72",
+          "typeId": null,
           "parentId": "cbc3783a-9595-4fe0-f4f8-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1084,6 +1455,7 @@
     },
     {
       "id": "717921f9-0da7-4aef-f4fb-08d653530e72",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "1d637aa3-fec4-4b59-f4fc-08d653530e72",
@@ -1107,6 +1479,7 @@
       "children": [
         {
           "id": "1d637aa3-fec4-4b59-f4fc-08d653530e72",
+          "typeId": null,
           "parentId": "717921f9-0da7-4aef-f4fb-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1132,6 +1505,7 @@
         },
         {
           "id": "32e2b3a7-fd49-4804-e9c8-08d655c5c3e7",
+          "typeId": null,
           "parentId": "717921f9-0da7-4aef-f4fb-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1159,6 +1533,7 @@
     },
     {
       "id": "c3e91d08-408f-40b1-f4fe-08d653530e72",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "638fb02e-abf7-489e-f4ff-08d653530e72",
@@ -1182,6 +1557,7 @@
       "children": [
         {
           "id": "638fb02e-abf7-489e-f4ff-08d653530e72",
+          "typeId": null,
           "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1207,6 +1583,7 @@
         },
         {
           "id": "488b0fdd-3211-4e79-f501-08d653530e72",
+          "typeId": null,
           "parentId": "c3e91d08-408f-40b1-f4fe-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1232,6 +1609,7 @@
     },
     {
       "id": "c59221af-e906-40ed-f502-08d653530e72",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "de8acd55-d52d-4f84-f503-08d653530e72",
@@ -1255,6 +1633,7 @@
       "children": [
         {
           "id": "de8acd55-d52d-4f84-f503-08d653530e72",
+          "typeId": null,
           "parentId": "c59221af-e906-40ed-f502-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1280,6 +1659,7 @@
         },
         {
           "id": "b9749e11-e760-41bb-f507-08d653530e72",
+          "typeId": null,
           "parentId": "c59221af-e906-40ed-f502-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1307,9 +1687,9 @@
     },
     {
       "id": "72ada875-c010-4dc0-f505-08d653530e72",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "370031df-3872-4740-441a-08d64f618c8b",
         "19d0a799-9667-4189-f506-08d653530e72",
         "e3b8561d-9337-4785-b80f-08d658b7315f",
         "42b7350a-54d6-46d9-3613-08d66acde02d"
@@ -1331,51 +1711,8 @@
       ],
       "children": [
         {
-          "id": "370031df-3872-4740-441a-08d64f618c8b",
-          "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "fc527159-b823-44d3-ff1f-08d64f618c8b",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
-              "temporary": false
-            },
-            {
-              "id": "00000000-0000-0000-0000-000000000000",
-              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "0c9278b8-5ef8-4962-9e0d-bdf823111077"
-            },
-            {
-              "id": "8d0239a0-9edd-4585-80b4-08d65a7100f2",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "370031df-3872-4740-441a-08d64f618c8b",
-              "name": "delphian",
-              "description": "A brave new player",
-              "icon": null
-            },
-            {
-              "name": "admin@localhost",
-              "id": "bdf42de8-1504-47e1-2d28-08d64f617512",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$AlI/JiYuonX9Or2VCS5Z7eXjY3D.Fw7LeBNW/K2UpwDU5BHcPcd4i",
-              "temporary": false,
-              "admin": true,
-              "characters": [
-                {
-                  "accountId": "bdf42de8-1504-47e1-2d28-08d64f617512",
-                  "id": "c1e68721-d295-4c67-0c3b-08d64f618c8e",
-                  "characterItemId": "370031df-3872-4740-441a-08d64f618c8b"
-                }
-              ]
-            }
-          ],
-          "children": []
-        },
-        {
           "id": "19d0a799-9667-4189-f506-08d653530e72",
+          "typeId": null,
           "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1401,6 +1738,7 @@
         },
         {
           "id": "e3b8561d-9337-4785-b80f-08d658b7315f",
+          "typeId": null,
           "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1417,7 +1755,7 @@
               "id": "0435c2f5-4617-45eb-92e7-08d658b73167",
               "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
               "dataItemId": "e3b8561d-9337-4785-b80f-08d658b7315f",
-              "name": "A New Exit",
+              "name": "Inside the Cave",
               "description": "The paint is still wet on this sign",
               "icon": null
             }
@@ -1426,6 +1764,7 @@
         },
         {
           "id": "42b7350a-54d6-46d9-3613-08d66acde02d",
+          "typeId": null,
           "parentId": "72ada875-c010-4dc0-f505-08d653530e72",
           "childrenIds": [],
           "data": [
@@ -1434,12 +1773,6 @@
               "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
               "dataItemId": "42b7350a-54d6-46d9-3613-08d66acde02d",
               "temporary": false
-            },
-            {
-              "id": "00000000-0000-0000-0000-000000000000",
-              "dataType": "BeforeOurTime.Models.Modules.Terminal.Models.Data.TerminalData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "terminalId": "04d9e756-831c-4b86-966d-da52ffb71556"
             },
             {
               "id": "877e5e07-4526-4349-c37f-08d66acde038",
@@ -1472,6 +1805,7 @@
     },
     {
       "id": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7",
@@ -1495,6 +1829,7 @@
       "children": [
         {
           "id": "d0c64edb-5476-4fd9-e9c7-08d655c5c3e7",
+          "typeId": null,
           "parentId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
           "childrenIds": [],
           "data": [
@@ -1520,6 +1855,7 @@
         },
         {
           "id": "b7e6b0f0-caae-46f0-3616-08d66acde02d",
+          "typeId": null,
           "parentId": "4eaa843a-aac1-4d6b-e9c6-08d655c5c3e7",
           "childrenIds": [],
           "data": [
@@ -1547,6 +1883,7 @@
     },
     {
       "id": "3bff263c-1f9b-4d53-f9de-08d658b1c85d",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "07c398a0-c26e-42ec-f9df-08d658b1c85d"
@@ -1569,6 +1906,7 @@
       "children": [
         {
           "id": "07c398a0-c26e-42ec-f9df-08d658b1c85d",
+          "typeId": null,
           "parentId": "3bff263c-1f9b-4d53-f9de-08d658b1c85d",
           "childrenIds": [],
           "data": [
@@ -1596,10 +1934,10 @@
     },
     {
       "id": "a747ddef-55ec-4879-b80d-08d658b7315f",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
-        "e3fcbe9a-9f2c-439d-b80e-08d658b7315f",
-        "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8"
+        "e3fcbe9a-9f2c-439d-b80e-08d658b7315f"
       ],
       "data": [
         {
@@ -1611,7 +1949,7 @@
           "id": "09415289-0494-459b-92e6-08d658b73167",
           "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
           "dataItemId": "a747ddef-55ec-4879-b80d-08d658b7315f",
-          "name": "A New Location",
+          "name": "Mouth of the Cave",
           "description": "Someone has barfed C# code and SQL statements all over the place. It's quite disgusting.",
           "icon": null
         }
@@ -1619,6 +1957,7 @@
       "children": [
         {
           "id": "e3fcbe9a-9f2c-439d-b80e-08d658b7315f",
+          "typeId": null,
           "parentId": "a747ddef-55ec-4879-b80d-08d658b7315f",
           "childrenIds": [],
           "data": [
@@ -1641,49 +1980,12 @@
             }
           ],
           "children": []
-        },
-        {
-          "id": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8",
-          "parentId": "a747ddef-55ec-4879-b80d-08d658b7315f",
-          "childrenIds": [],
-          "data": [
-            {
-              "id": "fc4438a2-2ef9-4f1c-b91f-08d66a2ea7fa",
-              "dataType": "BeforeOurTime.Models.Modules.World.ItemProperties.Characters.CharacterItemData",
-              "dataItemId": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8",
-              "temporary": false
-            },
-            {
-              "id": "c1a735b1-3436-4916-a6dd-08d66a2ea7fb",
-              "dataType": "BeforeOurTime.Models.Modules.Core.ItemProperties.Visibles.VisibleItemData",
-              "dataItemId": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8",
-              "name": "The D1sabl3r",
-              "description": "A brave new player",
-              "icon": null
-            },
-            {
-              "name": "The D1sabl3r",
-              "id": "7b3b0f23-11f3-4335-e668-08d66a2ea735",
-              "dataType": "BeforeOurTime.Models.Modules.Account.Models.Data.AccountData",
-              "dataItemId": "00000000-0000-0000-0000-000000000000",
-              "password": "$2a$10$zYdiQoemf0RPbBEHS/UH3eFG5B.B.3bgJL5KGxFGKF4xHOOHC9g32",
-              "temporary": false,
-              "admin": false,
-              "characters": [
-                {
-                  "accountId": "7b3b0f23-11f3-4335-e668-08d66a2ea735",
-                  "id": "94cd4e72-d184-4601-c29b-08d66a2ea7fc",
-                  "characterItemId": "305f6e6a-e2a7-4eb0-95de-08d66a2ea7f8"
-                }
-              ]
-            }
-          ],
-          "children": []
         }
       ]
     },
     {
       "id": "32f35174-b3fa-4a30-3614-08d66acde02d",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "9477ce55-13ce-42ec-3615-08d66acde02d",
@@ -1707,6 +2009,7 @@
       "children": [
         {
           "id": "9477ce55-13ce-42ec-3615-08d66acde02d",
+          "typeId": null,
           "parentId": "32f35174-b3fa-4a30-3614-08d66acde02d",
           "childrenIds": [],
           "data": [
@@ -1732,6 +2035,7 @@
         },
         {
           "id": "b7c6112a-cad7-45f1-3619-08d66acde02d",
+          "typeId": null,
           "parentId": "32f35174-b3fa-4a30-3614-08d66acde02d",
           "childrenIds": [],
           "data": [
@@ -1759,6 +2063,7 @@
     },
     {
       "id": "48f5965b-9178-4bdd-3617-08d66acde02d",
+      "typeId": null,
       "parentId": "f4212bfe-ef65-4632-df2b-08d63af92e75",
       "childrenIds": [
         "0cf78c0d-c7ce-406e-3618-08d66acde02d"
@@ -1781,6 +2086,7 @@
       "children": [
         {
           "id": "0cf78c0d-c7ce-406e-3618-08d66acde02d",
+          "typeId": null,
           "parentId": "48f5965b-9178-4bdd-3617-08d66acde02d",
           "childrenIds": [],
           "data": [
